@@ -1,0 +1,61 @@
+
+StalkerDB = {
+	["profiles"] = {
+		["Default"] = {
+			["alerts"] = {
+				["hostile"] = {
+					["enabled"] = true,
+				},
+			},
+			["monitor"] = {
+				["position"] = {
+					["y"] = -221.7544716193298,
+					["x"] = 779.4146334057576,
+					["w"] = 153.9998874346038,
+				},
+			},
+			["general"] = {
+				["minimapicon"] = {
+					["minimapPos"] = 212.0853064187363,
+				},
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Koffe - Laughing Skull - High-Risk"] = "Default",
+	},
+	["factionrealm"] = {
+		["Alliance - Laughing Skull - High-Risk"] = {
+			["units"] = {
+				["players"] = {
+					["Biglickjay"] = {
+						["type"] = 1,
+						["guild"] = "Perihelion",
+						["guid"] = "1DC5C",
+						["locY"] = 0.45279,
+						["class"] = 1,
+						["locC"] = 1,
+						["name"] = "Biglickjay",
+						["locX"] = 0.3567,
+						["level"] = 188,
+						["locZ"] = 15,
+						["last"] = 1554668306,
+					},
+				},
+				["guilds"] = {
+					["Perihelion"] = {
+						["type"] = 3,
+						["guild"] = "Perihelion",
+						["last"] = 1554668306,
+					},
+					["Wheelchair"] = {
+						["kos"] = 1,
+						["type"] = 3,
+						["guild"] = "Wheelchair",
+						["last"] = 0,
+					},
+				},
+			},
+		},
+	},
+}

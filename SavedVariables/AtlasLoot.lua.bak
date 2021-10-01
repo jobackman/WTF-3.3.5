@@ -1,0 +1,29 @@
+
+AtlasLootOptions = nil
+AtlasLootDB = {
+	["profileKeys"] = {
+		["Lucylucylucy - Wildhammer - Season 6"] = "Lucylucylucy - Wildhammer - Season 6",
+	},
+	["profiles"] = {
+		["Lucylucylucy - Wildhammer - Season 6"] = {
+			["AtlasType"] = "Unknown",
+		},
+	},
+}
+AtlasLootWishList = {
+	["Options"] = {
+		["Lucylucylucy"] = {
+			["AllowShareWishlistInCombat"] = true,
+			["UseDefaultWishlist"] = false,
+			["Mark"] = true,
+			["markInTable"] = "own",
+			["AllowShareWishlist"] = true,
+		},
+	},
+	["Shared"] = {
+	},
+	["Own"] = {
+		["Lucylucylucy"] = {
+		},
+	},
+}

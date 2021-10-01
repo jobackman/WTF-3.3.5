@@ -1,0 +1,78 @@
+
+ThreatPlates3DB = {
+	["char"] = {
+		["Lucyoff - Laughing Skull - High-Risk"] = {
+			["welcome"] = true,
+			["specName"] = {
+				"Fire", -- [1]
+				"Frost", -- [2]
+				"Arcane", -- [3]
+				"Arms", -- [4]
+				"Protection", -- [5]
+				"Fury", -- [6]
+				"Combat", -- [7]
+				"Assassination", -- [8]
+				"Subtley", -- [9]
+				"Discipline", -- [10]
+				"Holy", -- [11]
+				"Shadow", -- [12]
+				"Elemental", -- [13]
+				"Restoration", -- [14]
+				"Enhancement", -- [15]
+				"Feral", -- [16]
+				"Restoration", -- [17]
+				"Balance", -- [18]
+				"Destruction", -- [19]
+				"Afflication", -- [20]
+				"Demonology", -- [21]
+				"Beast Mastery", -- [22]
+				"Survival", -- [23]
+				"Marksmanship", -- [24]
+				"Retribution", -- [25]
+				"Holy", -- [26]
+				"Protection", -- [27]
+			},
+			["spec"] = {
+				["primary"] = false,
+			},
+			["specInfo"] = {
+				{
+					nil, -- [1]
+					nil, -- [2]
+					nil, -- [3]
+					0, -- [4]
+					0, -- [5]
+					0, -- [6]
+					0, -- [7]
+					0, -- [8]
+					0, -- [9]
+					0, -- [10]
+					0, -- [11]
+					0, -- [12]
+					0, -- [13]
+					0, -- [14]
+					0, -- [15]
+					0, -- [16]
+					0, -- [17]
+					0, -- [18]
+					0, -- [19]
+					0, -- [20]
+					0, -- [21]
+					0, -- [22]
+					0, -- [23]
+					0, -- [24]
+					0, -- [25]
+					0, -- [26]
+					0, -- [27]
+				}, -- [1]
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Lucyoff - Laughing Skull - High-Risk"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

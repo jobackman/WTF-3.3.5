@@ -1,0 +1,342 @@
+
+SpyDB = {
+	["kosData"] = {
+		["Darkmoon - Season IV"] = {
+			["Horde"] = {
+				["Lucyo"] = {
+				},
+			},
+		},
+	},
+	["removeKOSData"] = {
+		["Darkmoon - Season IV"] = {
+			["Horde"] = {
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Lucyo - Darkmoon - Season IV"] = "Default",
+	},
+	["profiles"] = {
+		["Lucyo - Darkmoon - Season IV"] = {
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = 587.8364546523189,
+					["x"] = 223.3336325503017,
+					["w"] = 129.9999886477183,
+					["h"] = 44.99996778961022,
+				},
+			},
+			["PurgeData"] = "ThirtyDays",
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["HideSpy"] = true,
+			["EnabledInArenas"] = false,
+		},
+		["Default"] = {
+			["MainWindow"] = {
+				["TextHeight"] = 12,
+				["Buttons"] = {
+					["ClearButton"] = true,
+					["RightButton"] = true,
+					["LeftButton"] = true,
+				},
+				["Position"] = {
+					["y"] = 760,
+					["x"] = 10,
+					["w"] = 130,
+					["h"] = 44,
+				},
+				["RowHeight"] = 20,
+				["BarText"] = {
+					["RankNum"] = true,
+					["NumFormat"] = 1,
+					["Percent"] = true,
+					["PerSec"] = true,
+				},
+				["AutoHide"] = false,
+				["RowSpacing"] = 2,
+			},
+			["DisplayLastSeen"] = true,
+			["PurgeData"] = "NinetyDays",
+			["AlertWindowLocationSize"] = 10,
+			["DisplayKOSReason"] = true,
+			["RemoveUndetected"] = "OneMinute",
+			["DisplayWinLossStatistics"] = true,
+			["MinimapTracking"] = true,
+			["CurrentList"] = 1,
+			["WarnOnKOSGuild"] = true,
+			["Colors"] = {
+				["Warning"] = {
+					["Warning Text"] = {
+						["r"] = 1,
+						["g"] = 1,
+						["b"] = 1,
+					},
+				},
+				["Tooltip"] = {
+					["Title Text"] = {
+						["r"] = 0.8,
+						["g"] = 0.3,
+						["b"] = 0.22,
+					},
+					["Details Text"] = {
+						["r"] = 1,
+						["g"] = 1,
+						["b"] = 1,
+					},
+					["Location Text"] = {
+						["r"] = 1,
+						["g"] = 0.82,
+						["b"] = 0,
+					},
+					["Reason Text"] = {
+						["r"] = 1,
+						["g"] = 0,
+						["b"] = 0,
+					},
+				},
+				["Other Windows"] = {
+					["Background"] = {
+						["a"] = 1,
+						["r"] = 0.09411764705882353,
+						["g"] = 0.09411764705882353,
+						["b"] = 0.09411764705882353,
+					},
+					["Title"] = {
+						["a"] = 1,
+						["r"] = 1,
+						["g"] = 0,
+						["b"] = 0,
+					},
+					["Title Text"] = {
+						["a"] = 1,
+						["r"] = 1,
+						["g"] = 1,
+						["b"] = 1,
+					},
+				},
+				["Window"] = {
+					["Background"] = {
+						["a"] = 1,
+						["r"] = 0.09411764705882353,
+						["g"] = 0.09411764705882353,
+						["b"] = 0.09411764705882353,
+					},
+					["Title"] = {
+						["a"] = 1,
+						["r"] = 1,
+						["g"] = 1,
+						["b"] = 1,
+					},
+					["Title Text"] = {
+						["a"] = 1,
+						["r"] = 1,
+						["g"] = 1,
+						["b"] = 1,
+					},
+				},
+				["Class"] = {
+					["HUNTER"] = {
+						["a"] = 0.6,
+						["r"] = 0.67,
+						["g"] = 0.83,
+						["b"] = 0.45,
+					},
+					["WARRIOR"] = {
+						["a"] = 0.6,
+						["r"] = 0.78,
+						["g"] = 0.61,
+						["b"] = 0.43,
+					},
+					["PALADIN"] = {
+						["a"] = 0.6,
+						["r"] = 0.96,
+						["g"] = 0.55,
+						["b"] = 0.73,
+					},
+					["MAGE"] = {
+						["a"] = 0.6,
+						["r"] = 0.41,
+						["g"] = 0.8,
+						["b"] = 0.94,
+					},
+					["UNGROUPED"] = {
+						["a"] = 0.6,
+						["r"] = 0.63,
+						["g"] = 0.58,
+						["b"] = 0.24,
+					},
+					["ROGUE"] = {
+						["a"] = 0.6,
+						["r"] = 1,
+						["g"] = 0.96,
+						["b"] = 0.41,
+					},
+					["PRIEST"] = {
+						["a"] = 0.6,
+						["r"] = 1,
+						["g"] = 1,
+						["b"] = 1,
+					},
+					["SHAMAN"] = {
+						["a"] = 0.6,
+						["r"] = 0.14,
+						["g"] = 0.35,
+						["b"] = 1,
+					},
+					["DEATHKNIGHT"] = {
+						["a"] = 0.6,
+						["r"] = 0.77,
+						["g"] = 0.12,
+						["b"] = 0.23,
+					},
+					["HOSTILE"] = {
+						["a"] = 0.6,
+						["r"] = 0.7,
+						["g"] = 0.1,
+						["b"] = 0.1,
+					},
+					["PET"] = {
+						["a"] = 0.6,
+						["r"] = 0.09,
+						["g"] = 0.61,
+						["b"] = 0.55,
+					},
+					["MOB"] = {
+						["a"] = 0.6,
+						["r"] = 0.58,
+						["g"] = 0.24,
+						["b"] = 0.63,
+					},
+					["DRUID"] = {
+						["a"] = 0.6,
+						["r"] = 1,
+						["g"] = 0.49,
+						["b"] = 0.04,
+					},
+					["WARLOCK"] = {
+						["a"] = 0.6,
+						["r"] = 0.58,
+						["g"] = 0.51,
+						["b"] = 0.79,
+					},
+					["UNKNOWN"] = {
+						["a"] = 0.6,
+						["r"] = 0.1,
+						["g"] = 0.1,
+						["b"] = 0.1,
+					},
+				},
+				["Alert"] = {
+					["KOS Guild Text"] = {
+						["r"] = 1,
+						["g"] = 0.82,
+						["b"] = 0,
+					},
+					["Stealth Text"] = {
+						["r"] = 0.6,
+						["g"] = 0.2,
+						["b"] = 1,
+					},
+					["KOS Text"] = {
+						["r"] = 1,
+						["g"] = 0,
+						["b"] = 0,
+					},
+					["Icon"] = {
+						["a"] = 0.5,
+						["r"] = 1,
+						["g"] = 1,
+						["b"] = 1,
+					},
+					["KOS Border"] = {
+						["a"] = 0.4,
+						["r"] = 1,
+						["g"] = 0,
+						["b"] = 0,
+					},
+					["Background"] = {
+						["a"] = 0.4,
+						["r"] = 0,
+						["g"] = 0,
+						["b"] = 0,
+					},
+					["KOS Guild Border"] = {
+						["a"] = 0.4,
+						["r"] = 1,
+						["g"] = 0.82,
+						["b"] = 0,
+					},
+					["Stealth Border"] = {
+						["a"] = 0.4,
+						["r"] = 0.6,
+						["g"] = 0.2,
+						["b"] = 1,
+					},
+					["Name Text"] = {
+						["r"] = 1,
+						["g"] = 1,
+						["b"] = 1,
+					},
+					["Location Text"] = {
+						["r"] = 1,
+						["g"] = 0.82,
+						["b"] = 0,
+					},
+					["Away Border"] = {
+						["a"] = 0.4,
+						["r"] = 0,
+						["g"] = 1,
+						["b"] = 0,
+					},
+					["Away Text"] = {
+						["r"] = 0,
+						["g"] = 1,
+						["b"] = 0,
+					},
+				},
+				["Bar"] = {
+					["Bar Text"] = {
+						["r"] = 1,
+						["g"] = 1,
+						["b"] = 1,
+					},
+				},
+			},
+			["MapDisplayLimit"] = "None",
+			["EnabledInWintergrasp"] = true,
+			["Announce"] = "Self",
+			["HideSpy"] = false,
+			["ShareKOSBetweenCharacters"] = true,
+			["DisableWhenPVPUnflagged"] = false,
+			["MinimapDetails"] = true,
+			["WarnOnKOS"] = true,
+			["EnabledInBattlegrounds"] = true,
+			["ShowNearbyList"] = true,
+			["AlertWindowNameSize"] = 14,
+			["Locked"] = false,
+			["Scaling"] = 1,
+			["DisplayWarningsInErrorsFrame"] = false,
+			["MainWindowVis"] = true,
+			["PrioritiseKoS"] = true,
+			["ShareData"] = true,
+			["BarTexture"] = "blend",
+			["UseData"] = true,
+			["DisplayOnMap"] = true,
+			["ResizeSpy"] = true,
+			["EnableSound"] = true,
+			["ShowOnDetection"] = true,
+			["Enabled"] = true,
+			["Font"] = "Friz Quadrata TT",
+			["EnabledInArenas"] = true,
+			["WarnOnStealth"] = true,
+			["OnlyAnnounceKoS"] = false,
+		},
+	},
+}

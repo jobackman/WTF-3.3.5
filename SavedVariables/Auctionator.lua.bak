@@ -1,0 +1,172 @@
+
+AUCTIONATOR_SAVEDVARS = {
+	["_5000000"] = 10000,
+	["_50000"] = 500,
+	["_10000"] = 200,
+	["_1000000"] = 2500,
+	["_200000"] = 1000,
+	["STARTING_DISCOUNT"] = 5,
+	["_500"] = 5,
+	["_2000"] = 100,
+}
+AUCTIONATOR_PRICING_HISTORY = {
+	["Feral Tome: Swipe (Bear) V"] = {
+		["is"] = "1005499:0",
+		["5613067"] = "89500:1",
+	},
+	["Combat Tome: Feint IV"] = {
+		["is"] = "1004204:0",
+		["5613071"] = "75000:1",
+	},
+	["Runecloth"] = {
+		["is"] = "14047:0",
+		["5613067"] = "615:20",
+	},
+	["Righteous Orb"] = {
+		["is"] = "12811:0",
+		["5613068"] = "759000:1",
+	},
+	["Affliction Tome: Drain Life VI"] = {
+		["is"] = "1006414:0",
+		["5613070"] = "79500:1",
+	},
+	["Rainbow Girdle"] = {
+		["is"] = "13384:0",
+		["5613069"] = "100000:1",
+	},
+	["Restoration Tome: Ancestral Spirit V"] = {
+		["is"] = "1005336:0",
+		["5613071"] = "188250:1",
+	},
+	["Grimoire of Shadow Ward IV"] = {
+		["is"] = "22891:0",
+		["5613070"] = "9900:1",
+		["5613071"] = "9900:1",
+	},
+	["Mastersmith's Hammer"] = {
+		["is"] = "18048:0",
+		["5613071"] = "80000:1",
+	},
+	["The Blackrock Slicer"] = {
+		["is"] = "13285:0",
+		["5613066"] = "500000:1",
+		["5613069"] = "1500000:1",
+	},
+	["Arcane Tome: Mana Shield VI"] = {
+		["is"] = "1006368:0",
+		["5613071"] = "30000:1",
+	},
+	["Kang the Decapitator"] = {
+		["is"] = "2291:0",
+		["5613071"] = "389000:1",
+	},
+	["Arms Tome: Heroic Strike VIII"] = {
+		["is"] = "1008005:0",
+		["5613070"] = "349000:1",
+	},
+	["Balance Tome: Moonfire X"] = {
+		["is"] = "1010465:0",
+		["5613065"] = "69500:1",
+	},
+	["Arcane Tome: Arcane Intellect V"] = {
+		["is"] = "1005354:0",
+		["5613067"] = "109500:1",
+	},
+	["Timmy's Galoshes"] = {
+		["is"] = "13402:0",
+		["5613069"] = "155800:1",
+	},
+	["Arms Tome: Thunder Clap VI"] = {
+		["is"] = "1006015:0",
+		["5613071"] = "119000:1",
+	},
+	["Holy Paladin Tome: Holy Wrath II"] = {
+		["is"] = "1002071:0",
+		["5613069"] = "54000:1",
+	},
+	["Orb of Deception"] = {
+		["is"] = "1973:0",
+		["5613065"] = "99500:1",
+	},
+	["Holy Tome: Desperate Prayer VI"] = {
+		["is"] = "1016401:0",
+		["5613071"] = "40000:1",
+	},
+	["Feral Tome: Shred V"] = {
+		["is"] = "1005497:0",
+		["5613067"] = "58500:1",
+	},
+	["Obsidian Edged Blade"] = {
+		["is"] = "18822:0",
+		["5613067"] = "449000:1",
+	},
+	["Feral Tome: Rip VI"] = {
+		["is"] = "1006495:0",
+		["5613067"] = "198500:1",
+	},
+	["Codex: Prayer of Fortitude II"] = {
+		["is"] = "17414:0",
+		["5613065"] = "199800:1",
+	},
+	["Doombringer"] = {
+		["is"] = "13053:0",
+		["5613067"] = "158500:1",
+	},
+	["Chiselbrand Girdle"] = {
+		["is"] = "12634:0",
+		["5613067"] = "303500:1",
+	},
+}
+AUCTIONATOR_SHOPPING_LISTS = {
+	{
+		["items"] = {
+		},
+		["isRecents"] = 1,
+		["name"] = "Recent Searches",
+	}, -- [1]
+	{
+		["items"] = {
+			"Greater Cosmic Essence", -- [1]
+			"Infinite Dust", -- [2]
+			"Dream Shard", -- [3]
+			"Abyss Crystal", -- [4]
+		},
+		["name"] = "Sample Shopping List #1",
+		["isSorted"] = false,
+	}, -- [2]
+}
+AUCTIONATOR_PRICE_DATABASE = {
+	["__dbversion"] = 2,
+	["Laughing Skull - High-Risk_Alliance"] = {
+		["Feral Tome: Swipe (Bear) V"] = 90000,
+		["Combat Tome: Feint IV"] = 75500,
+		["Holy Paladin Tome: Holy Wrath II"] = 54450,
+		["Righteous Orb"] = 760000,
+		["Affliction Tome: Drain Life VI"] = 80000,
+		["Restoration Tome: Ancestral Spirit V"] = 188661,
+		["Grimoire of Shadow Ward IV"] = 9900,
+		["Obsidian Edged Blade"] = 450000,
+		["Kang the Decapitator"] = 390000,
+		["Arms Tome: Heroic Strike VIII"] = 350000,
+		["Balance Tome: Moonfire X"] = 70000,
+		["Arms Tome: Thunder Clap VI"] = 119500,
+		["Orb of Deception"] = 99900,
+		["Feral Tome: Shred V"] = 59000,
+		["Runecloth"] = 620,
+		["Arcane Tome: Arcane Intellect V"] = 110000,
+		["Feral Tome: Rip VI"] = 198800,
+		["Doombringer"] = 158800,
+		["Timmy's Galoshes"] = 45900,
+		["Chiselbrand Girdle"] = 304420,
+	},
+}
+AUCTIONATOR_LAST_SCAN_TIME = nil
+AUCTIONATOR_TOONS = {
+	["Koffe"] = {
+		["firstSeen"] = 1554325501,
+		["firstVersion"] = "2.6.3",
+	},
+}
+AUCTIONATOR_STACKING_PREFS = {
+}
+AUCTIONATOR_SCAN_MINLEVEL = 1

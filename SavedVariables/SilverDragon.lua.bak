@@ -1,0 +1,33 @@
+
+SilverDragon2DB = {
+	["namespaces"] = {
+		["ClickTarget"] = {
+		},
+		["Macro"] = {
+		},
+		["Announce"] = {
+			["profiles"] = {
+				["Lucyjudge - Bleeding Hollow - Season V"] = {
+					["soundfile"] = "Shing!",
+				},
+			},
+		},
+		["LDB"] = {
+			["profiles"] = {
+				["Lucyjudge - Bleeding Hollow - Season V"] = {
+					["minimap"] = {
+						["minimapPos"] = 236.3569148190305,
+						["hide"] = true,
+					},
+				},
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Lucyjudge - Bleeding Hollow - Season V"] = "Lucyjudge - Bleeding Hollow - Season V",
+	},
+	["profiles"] = {
+		["Lucyjudge - Bleeding Hollow - Season V"] = {
+		},
+	},
+}

@@ -1,0 +1,2804 @@
+
+WeakAurasSaved = {
+	["displays"] = {
+	},
+	["registered"] = {
+	},
+	["talent_cache"] = {
+		["HUNTER"] = {
+		},
+		["WARRIOR"] = {
+		},
+		["SHAMAN"] = {
+		},
+		["MAGE"] = {
+		},
+		["PRIEST"] = {
+		},
+		["WARLOCK"] = {
+		},
+		["PALADIN"] = {
+		},
+		["DRUID"] = {
+			[18.1] = {
+				["name"] = "Vengeance",
+				["icon"] = "Interface\\Icons\\Spell_Nature_Purge",
+			},
+			[25.17] = {
+				["name"] = "The Art of War",
+				["icon"] = "Interface\\Icons\\Ability_Paladin_ArtofWar",
+			},
+			[16.24] = {
+				["name"] = "Infected Wounds",
+				["icon"] = "Interface\\Icons\\Ability_Druid_InfectedWound",
+			},
+			[14.07] = {
+				["name"] = "Healing Focus",
+				["icon"] = "Interface\\Icons\\Spell_Nature_HealingWaveLesser",
+			},
+			[13.14] = {
+				["name"] = "Elemental Precision",
+				["icon"] = "Interface\\Icons\\Spell_Nature_ElementalPrecision_1",
+			},
+			[17.11] = {
+				["name"] = "Improved Rejuvenation",
+				["icon"] = "Interface\\Icons\\Spell_Nature_Rejuvenation",
+			},
+			[12.21] = {
+				["name"] = "Improved Shadowform",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_SummonVoidWalker",
+			},
+			[2.07] = {
+				["name"] = "Permafrost",
+				["icon"] = "Interface\\Icons\\Spell_Frost_Wisp",
+			},
+			[5.14] = {
+				["name"] = "Concussion Blow",
+				["icon"] = "Interface\\Icons\\Ability_ThunderBolt",
+			},
+			[15.25] = {
+				["name"] = "Mental Quickness",
+				["icon"] = "Interface\\Icons\\Spell_Nature_MentalQuickness",
+			},
+			[10.04] = {
+				["name"] = "Improved Inner Fire",
+				["icon"] = "Interface\\Icons\\Spell_Holy_InnerFire",
+			},
+			[21.08] = {
+				["name"] = "Improved Succubus",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_SummonSuccubus",
+			},
+			[4.21] = {
+				["name"] = "Mortal Strike",
+				["icon"] = "Interface\\Icons\\Ability_Warrior_SavageBlow",
+			},
+			[19.22] = {
+				["name"] = "Backdraft",
+				["icon"] = "Interface\\Icons\\Ability_Warlock_Backdraft",
+			},
+			[8.18] = {
+				["name"] = "Deadly Brew",
+				["icon"] = "Interface\\Icons\\Ability_Rogue_DeadlyBrew",
+			},
+			[1.14] = {
+				["name"] = "Playing with Fire",
+				["icon"] = "Interface\\Icons\\Spell_Fire_PlayingWithFire",
+			},
+			[3.28] = {
+				["name"] = "Netherwind Presence",
+				["icon"] = "Interface\\Icons\\Ability_Mage_NetherWindPresence",
+			},
+			[7.25] = {
+				["name"] = "Surprise Attacks",
+				["icon"] = "Interface\\Icons\\Ability_Rogue_SurpriseAttack",
+			},
+			[16.12] = {
+				["name"] = "Primal Precision",
+				["icon"] = "Interface\\Icons\\Ability_Druid_PrimalPrecision",
+			},
+			[13.08] = {
+				["name"] = "Elemental Fury",
+				["icon"] = "Interface\\Icons\\Spell_Fire_Volcano",
+			},
+			[20.09] = {
+				["name"] = "Fel Concentration",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_FingerOfDeath",
+			},
+			[12.15] = {
+				["name"] = "Improved Vampiric Embrace",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_ImprovedVampiricEmbrace",
+			},
+			[18.23] = {
+				["name"] = "Eclipse",
+				["icon"] = "Interface\\Icons\\Ability_Druid_Eclipse",
+			},
+			[2.21] = {
+				["name"] = "Arctic Winds",
+				["icon"] = "Interface\\Icons\\Spell_Frost_ArcticWinds",
+			},
+			[5.11] = {
+				["name"] = "Improved Disarm",
+				["icon"] = "Interface\\Icons\\Ability_Warrior_Disarm",
+			},
+			[11.22] = {
+				["name"] = "Serendipity",
+				["icon"] = "Interface\\Icons\\Spell_Holy_Serendipity",
+			},
+			[24.06] = {
+				["name"] = "Mortal Shots",
+				["icon"] = "Interface\\Icons\\Ability_PierceDamage",
+			},
+			[15.13] = {
+				["name"] = "Improved Windfury Totem",
+				["icon"] = "Interface\\Icons\\Spell_Nature_Windfury",
+			},
+			[4.18] = {
+				["name"] = "Improved Hamstring",
+				["icon"] = "Interface\\Icons\\Ability_ShockWave",
+			},
+			[9.050000000000001] = {
+				["name"] = "Dirty Tricks",
+				["icon"] = "Interface\\Icons\\Ability_Sap",
+			},
+			[19.1] = {
+				["name"] = "Destructive Reach",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_CorpseExplode",
+			},
+			[1.28] = {
+				["name"] = "Living Bomb",
+				["icon"] = "Interface\\Icons\\Ability_Mage_LivingBomb",
+			},
+			[8.119999999999999] = {
+				["name"] = "Fleet Footed",
+				["icon"] = "Interface\\Icons\\Ability_Rogue_FleetFooted",
+			},
+			[17.24] = {
+				["name"] = "Improved Tree of Life",
+				["icon"] = "Interface\\Icons\\Ability_Druid_ImprovedTreeForm",
+			},
+			[7.19] = {
+				["name"] = "Vitality",
+				["icon"] = "Interface\\Icons\\Ability_Warrior_Revenge",
+			},
+			[23.07] = {
+				["name"] = "Survival Instincts",
+				["icon"] = "Interface\\Icons\\Ability_Hunter_SurvivalInstincts",
+			},
+			[14.26] = {
+				["name"] = "Riptide",
+				["icon"] = "Interface\\Icons\\spell_nature_riptide",
+			},
+			[21.21] = {
+				["name"] = "Demonic Tactics",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_DemonicTactics",
+			},
+			[6.01] = {
+				["name"] = "Single-Minded Fury",
+				["icon"] = "INTERFACE\\ICONS\\Warrior_talent_icon_singlemindedfury",
+			},
+			[18.11] = {
+				["name"] = "Celestial Focus",
+				["icon"] = "Interface\\Icons\\Spell_Arcane_StarFire",
+			},
+			[27.04] = {
+				["name"] = "Hammer of the Righteous",
+				["icon"] = "Interface\\Icons\\Ability_Paladin_HammeroftheRighteous",
+			},
+			[12.09] = {
+				["name"] = "Mind Flay",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_SiphonMana",
+			},
+			[16.25] = {
+				["name"] = "King of the Jungle",
+				["icon"] = "Interface\\Icons\\Ability_Druid_KingoftheJungle",
+			},
+			[2.04] = {
+				["name"] = "Ice Shards",
+				["icon"] = "Interface\\Icons\\Spell_Frost_IceShard",
+			},
+			[5.08] = {
+				["name"] = "Shield Mastery",
+				["icon"] = "Interface\\Icons\\Ability_Warrior_ShieldMastery",
+			},
+			[15.01] = {
+				["name"] = "Enhancing Totems",
+				["icon"] = "Interface\\Icons\\Spell_Nature_EarthBindTotem",
+			},
+			[10.23] = {
+				["name"] = "Aspiration",
+				["icon"] = "Interface\\Icons\\Spell_Holy_Aspiration",
+			},
+			[4.15] = {
+				["name"] = "Mace Specialization",
+				["icon"] = "Interface\\Icons\\INV_Mace_01",
+			},
+			[26.05] = {
+				["name"] = "Unyielding Faith",
+				["icon"] = "Interface\\Icons\\Spell_Holy_UnyieldingFaith",
+			},
+			[8.060000000000001] = {
+				["name"] = "Puncturing Wounds",
+				["icon"] = "Interface\\Icons\\Ability_BackStab",
+			},
+			[17.12] = {
+				["name"] = "Natural Alacrity",
+				["icon"] = "Interface\\Icons\\Spell_Nature_RavenForm",
+			},
+			[1.11] = {
+				["name"] = "Improved Scorch",
+				["icon"] = "Interface\\Icons\\Spell_Fire_SoulBurn",
+			},
+			[3.22] = {
+				["name"] = "Arcane Power",
+				["icon"] = "Interface\\Icons\\Spell_Nature_Lightning",
+			},
+			[15.26] = {
+				["name"] = "Shamanistic Rage",
+				["icon"] = "Interface\\Icons\\Spell_Nature_ShamanRage",
+			},
+			[14.2] = {
+				["name"] = "Improved Chain Heal",
+				["icon"] = "Interface\\Icons\\Spell_Nature_HealingWaveGreater",
+			},
+			[21.09] = {
+				["name"] = "Soul Link",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_GatherShadows",
+			},
+			[19.23] = {
+				["name"] = "Shadowfury",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_Shadowfury",
+			},
+			[2.18] = {
+				["name"] = "Winter's Chill",
+				["icon"] = "Interface\\Icons\\Spell_Frost_ChillingBlast",
+			},
+			[12.03] = {
+				["name"] = "Darkness",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_Twilight",
+			},
+			[25.06] = {
+				["name"] = "Vindication",
+				["icon"] = "Interface\\Icons\\Spell_Holy_Vindication",
+			},
+			[5.05] = {
+				["name"] = "Anticipation",
+				["icon"] = "Interface\\Icons\\Spell_Nature_MirrorImage",
+			},
+			[11.1] = {
+				["name"] = "Improved Healing",
+				["icon"] = "Interface\\Icons\\Spell_Holy_Heal02",
+			},
+			[23.2] = {
+				["name"] = "Wyvern Sting",
+				["icon"] = "Interface\\Icons\\INV_Spear_02",
+			},
+			[10.17] = {
+				["name"] = "Enlightenment",
+				["icon"] = "Interface\\Icons\\Spell_Arcane_MindMastery",
+			},
+			[4.12] = {
+				["name"] = "Taste for Blood",
+				["icon"] = "Interface\\Icons\\Ability_Rogue_HungerforBlood",
+			},
+			[9.24] = {
+				["name"] = "Honor Among Thieves",
+				["icon"] = "Interface\\Icons\\Ability_Rogue_HonorAmongstThieves",
+			},
+			[20.1] = {
+				["name"] = "Amplify Curse",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_Contagion",
+			},
+			[1.25] = {
+				["name"] = "Dragon's Breath",
+				["icon"] = "Interface\\Icons\\INV_Misc_Head_Dragon_01",
+			},
+			[18.24] = {
+				["name"] = "Typhoon",
+				["icon"] = "Interface\\Icons\\Ability_Druid_Typhoon",
+			},
+			[3.19] = {
+				["name"] = "Arcane Instability",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_Teleport",
+			},
+			[7.07] = {
+				["name"] = "Endurance",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_ShadowWard",
+			},
+			[15.14] = {
+				["name"] = "Spirit Weapons",
+				["icon"] = "Interface\\Icons\\Spell_Frost_FrostBrand",
+			},
+			[14.14] = {
+				["name"] = "Focused Mind",
+				["icon"] = "Interface\\Icons\\Spell_Nature_FocusedMind",
+			},
+			[19.11] = {
+				["name"] = "Improved Searing Pain",
+				["icon"] = "Interface\\Icons\\Spell_Fire_SoulBurn",
+			},
+			[13.21] = {
+				["name"] = "Astral Shift",
+				["icon"] = "Interface\\Icons\\Spell_Shaman_AstralShift",
+			},
+			[17.25] = {
+				["name"] = "Improved Barkskin",
+				["icon"] = "Interface\\Icons\\Spell_Nature_StoneClawTotem",
+			},
+			[5.02] = {
+				["name"] = "Shield Specialization",
+				["icon"] = "Interface\\Icons\\INV_Shield_06",
+			},
+			[11.04] = {
+				["name"] = "Spell Warding",
+				["icon"] = "Interface\\Icons\\Spell_Holy_SpellWarding",
+			},
+			[23.08] = {
+				["name"] = "Survivalist",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_Twilight",
+			},
+			[16.01] = {
+				["name"] = "Ferocity",
+				["icon"] = "Interface\\Icons\\Ability_Hunter_Pet_Hyena",
+			},
+			[10.11] = {
+				["name"] = "Mental Agility",
+				["icon"] = "Interface\\Icons\\Ability_Hibernation",
+			},
+			[21.22] = {
+				["name"] = "Decimation",
+				["icon"] = "Interface\\Icons\\Spell_Fire_Fireball02",
+			},
+			[4.09] = {
+				["name"] = "Impale",
+				["icon"] = "Interface\\Icons\\Ability_SearingArrow",
+			},
+			[9.18] = {
+				["name"] = "Deadliness",
+				["icon"] = "Interface\\Icons\\INV_Weapon_Crossbow_11",
+			},
+			[8.25] = {
+				["name"] = "Turn the Tables",
+				["icon"] = "Interface\\Icons\\Ability_Rogue_TurntheTables",
+			},
+			[18.12] = {
+				["name"] = "Lunar Guidance",
+				["icon"] = "Interface\\Icons\\Ability_Druid_LunarGuidance",
+			},
+			[1.08] = {
+				["name"] = "Impact",
+				["icon"] = "Interface\\Icons\\Spell_Fire_MeteorStorm",
+			},
+			[3.16] = {
+				["name"] = "Presence of Mind",
+				["icon"] = "Interface\\Icons\\Spell_Nature_EnchantArmor",
+			},
+			[16.26] = {
+				["name"] = "Mangle",
+				["icon"] = "Interface\\Icons\\Ability_Druid_Mangle2",
+			},
+			[7.01] = {
+				["name"] = "Improved Gouge",
+				["icon"] = "Interface\\Icons\\Ability_Gouge",
+			},
+			[15.02] = {
+				["name"] = "Earth's Grasp",
+				["icon"] = "Interface\\Icons\\Spell_Nature_StoneClawTotem",
+			},
+			[22.09] = {
+				["name"] = "Unleashed Fury",
+				["icon"] = "Interface\\Icons\\Ability_BullRush",
+			},
+			[13.15] = {
+				["name"] = "Lightning Mastery",
+				["icon"] = "Interface\\Icons\\Spell_Lightning_LightningBolt01",
+			},
+			[20.23] = {
+				["name"] = "Malediction",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_CurseOfAchimonde",
+			},
+			[12.22] = {
+				["name"] = "Misery",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_Misery",
+			},
+			[26.06] = {
+				["name"] = "Aura Mastery",
+				["icon"] = "Interface\\Icons\\Spell_Holy_AuraMastery",
+			},
+			[2.15] = {
+				["name"] = "Improved Cone of Cold",
+				["icon"] = "Interface\\Icons\\Spell_Frost_Glacier",
+			},
+			[17.13] = {
+				["name"] = "Gift of Nature",
+				["icon"] = "Interface\\Icons\\Spell_Nature_ProtectionformNature",
+			},
+			[24.2] = {
+				["name"] = "Improved Barrage",
+				["icon"] = "Interface\\Icons\\Ability_UpgradeMoonGlaive",
+			},
+			[15.27] = {
+				["name"] = "Earthen Power",
+				["icon"] = "Interface\\Icons\\Spell_Nature_EarthElemental_Totem",
+			},
+			[10.05] = {
+				["name"] = "Improved Power Word: Fortitude",
+				["icon"] = "Interface\\Icons\\Spell_Holy_WordFortitude",
+			},
+			[21.1] = {
+				["name"] = "Fel Domination",
+				["icon"] = "Interface\\Icons\\Spell_Nature_RemoveCurse",
+			},
+			[4.06] = {
+				["name"] = "Tactical Mastery",
+				["icon"] = "Interface\\Icons\\Spell_Nature_EnchantArmor",
+			},
+			[9.119999999999999] = {
+				["name"] = "Improved Ambush",
+				["icon"] = "Interface\\Icons\\Ability_Rogue_Ambush",
+			},
+			[19.24] = {
+				["name"] = "Empowered Imp",
+				["icon"] = "Interface\\Icons\\Ability_Warlock_EmpoweredImp",
+			},
+			[1.22] = {
+				["name"] = "Fiery Payback",
+				["icon"] = "Interface\\Icons\\Ability_Mage_FieryPayback",
+			},
+			[8.19] = {
+				["name"] = "Overkill",
+				["icon"] = "Interface\\Icons\\Ability_Hunter_RapidKilling",
+			},
+			[16.14] = {
+				["name"] = "Feral Charge",
+				["icon"] = "Interface\\Icons\\Ability_Hunter_Pet_Bear",
+			},
+			[3.13] = {
+				["name"] = "Arcane Meditation",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_SiphonMana",
+			},
+			[7.26] = {
+				["name"] = "Savage Combat",
+				["icon"] = "Interface\\Icons\\Ability_Creature_Disease_03",
+			},
+			[23.21] = {
+				["name"] = "Thrill of the Hunt",
+				["icon"] = "Interface\\Icons\\Ability_Hunter_ThrilloftheHunt",
+			},
+			[20.11] = {
+				["name"] = "Grim Reach",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_CallofBone",
+			},
+			[13.09] = {
+				["name"] = "Improved Fire Nova",
+				["icon"] = "Interface\\Icons\\Spell_Fire_SealOfFire",
+			},
+			[18.25] = {
+				["name"] = "Force of Nature",
+				["icon"] = "Interface\\Icons\\Ability_Druid_ForceofNature",
+			},
+			[5.27] = {
+				["name"] = "Shockwave",
+				["icon"] = "Interface\\Icons\\Ability_Warrior_Shockwave",
+			},
+			[12.16] = {
+				["name"] = "Focused Mind",
+				["icon"] = "Interface\\Icons\\Spell_Nature_FocusedMind",
+			},
+			[17.01] = {
+				["name"] = "Improved Mark of the Wild",
+				["icon"] = "Interface\\Icons\\Spell_Nature_Regeneration",
+			},
+			[15.15] = {
+				["name"] = "Mental Dexterity",
+				["icon"] = "Interface\\Icons\\Spell_Nature_BloodLust",
+			},
+			[4.03] = {
+				["name"] = "Improved Rend",
+				["icon"] = "Interface\\Icons\\Ability_Gouge",
+			},
+			[9.060000000000001] = {
+				["name"] = "Camouflage",
+				["icon"] = "Interface\\Icons\\Ability_Stealth",
+			},
+			[19.12] = {
+				["name"] = "Backlash",
+				["icon"] = "Interface\\Icons\\Spell_Fire_PlayingWithFire",
+			},
+			[8.130000000000001] = {
+				["name"] = "Cold Blood",
+				["icon"] = "Interface\\Icons\\Spell_Ice_Lament",
+			},
+			[1.05] = {
+				["name"] = "Burning Determination",
+				["icon"] = "Interface\\Icons\\Spell_Fire_TotemOfWrath",
+			},
+			[3.1] = {
+				["name"] = "Focus Magic",
+				["icon"] = "Interface\\Icons\\Spell_Arcane_StudentOfMagic",
+			},
+			[7.2] = {
+				["name"] = "Adrenaline Rush",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_ShadowWordDominate",
+			},
+			[16.02] = {
+				["name"] = "Feral Aggression",
+				["icon"] = "Interface\\Icons\\Ability_Druid_DemoralizingRoar",
+			},
+			[23.09] = {
+				["name"] = "Scatter Shot",
+				["icon"] = "Interface\\Icons\\Ability_GolemStormBolt",
+			},
+			[21.23] = {
+				["name"] = "Improved Demonic Tactics",
+				["icon"] = "Interface\\Icons\\Ability_Warlock_ImprovedDemonicTactics",
+			},
+			[13.03] = {
+				["name"] = "Call of Flame",
+				["icon"] = "Interface\\Icons\\Spell_Fire_Immolation",
+			},
+			[12.1] = {
+				["name"] = "Veiled Shadows",
+				["icon"] = "Interface\\Icons\\Spell_Magic_LesserInvisibilty",
+			},
+			[25.2] = {
+				["name"] = "Fanaticism",
+				["icon"] = "Interface\\Icons\\Spell_Holy_Fanaticism",
+			},
+			[2.12] = {
+				["name"] = "Frost Channeling",
+				["icon"] = "Interface\\Icons\\Spell_Frost_Stun",
+			},
+			[5.24] = {
+				["name"] = "Critical Block",
+				["icon"] = "Interface\\Icons\\Ability_Warrior_CriticalBlock",
+			},
+			[16.27] = {
+				["name"] = "Improved Mangle",
+				["icon"] = "Interface\\Icons\\Ability_Druid_Mangle2",
+			},
+			[15.03] = {
+				["name"] = "Ancestral Knowledge",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_GrimWard",
+			},
+			[10.24] = {
+				["name"] = "Divine Aegis",
+				["icon"] = "Interface\\Icons\\Spell_Holy_DevineAegis",
+			},
+			[22.1] = {
+				["name"] = "Improved Mend Pet",
+				["icon"] = "Interface\\Icons\\Ability_Hunter_MendPet",
+			},
+			[4.31] = {
+				["name"] = "Bladestorm",
+				["icon"] = "Interface\\Icons\\Ability_Warrior_Bladestorm",
+			},
+			[20.24] = {
+				["name"] = "Death's Embrace",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_DeathsEmbrace",
+			},
+			[8.07] = {
+				["name"] = "Vigor",
+				["icon"] = "Interface\\Icons\\Spell_Nature_EarthBindTotem",
+			},
+			[17.14] = {
+				["name"] = "Improved Tranquility",
+				["icon"] = "Interface\\Icons\\Spell_Nature_Tranquility",
+			},
+			[3.07] = {
+				["name"] = "Magic Attunement",
+				["icon"] = "Interface\\Icons\\Spell_Nature_AbolishMagic",
+			},
+			[7.14] = {
+				["name"] = "Mace Specialization",
+				["icon"] = "Interface\\Icons\\INV_Mace_01",
+			},
+			[15.28] = {
+				["name"] = "Maelstrom Weapon",
+				["icon"] = "Interface\\Icons\\Spell_Shaman_MaelstromWeapon",
+			},
+			[21.11] = {
+				["name"] = "Demonic Aegis",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_RagingScream",
+			},
+			[14.21] = {
+				["name"] = "Nature's Blessing",
+				["icon"] = "Interface\\Icons\\Spell_Nature_NatureBlessing",
+			},
+			[2.26] = {
+				["name"] = "Enduring Winter",
+				["icon"] = "Interface\\Icons\\Spell_Frost_SummonWaterElemental_2",
+			},
+			[12.04] = {
+				["name"] = "Shadow Affinity",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_ShadowWard",
+			},
+			[25.08] = {
+				["name"] = "Seal of Command",
+				["icon"] = "Interface\\Icons\\Ability_Warrior_InnerRage",
+			},
+			[18.01] = {
+				["name"] = "Starlight Wrath",
+				["icon"] = "Interface\\Icons\\Spell_Nature_AbolishMagic",
+			},
+			[11.11] = {
+				["name"] = "Searing Light",
+				["icon"] = "Interface\\Icons\\Spell_Holy_SearingLightPriest",
+			},
+			[16.15] = {
+				["name"] = "Nurturing Instinct",
+				["icon"] = "Interface\\Icons\\Ability_Druid_HealingInstincts",
+			},
+			[10.18] = {
+				["name"] = "Focused Will",
+				["icon"] = "Interface\\Icons\\Spell_Arcane_FocusedPower",
+			},
+			[4.28] = {
+				["name"] = "Two-Handed Weapon Mastery",
+				["icon"] = "Interface\\Icons\\Ability_Warrior_EndlessRage",
+			},
+			[9.25] = {
+				["name"] = "Shadowstep",
+				["icon"] = "Interface\\Icons\\Ability_Rogue_Shadowstep",
+			},
+			[20.12] = {
+				["name"] = "Nightfall",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_Twilight",
+			},
+			[1.02] = {
+				["name"] = "Incineration",
+				["icon"] = "Interface\\Icons\\Spell_Fire_FlameShock",
+			},
+			[3.04] = {
+				["name"] = "Arcane Fortitude",
+				["icon"] = "Interface\\Icons\\Spell_Arcane_ArcaneResilience",
+			},
+			[7.08] = {
+				["name"] = "Riposte",
+				["icon"] = "Interface\\Icons\\Ability_Warrior_Challange",
+			},
+			[17.02] = {
+				["name"] = "Nature's Focus",
+				["icon"] = "Interface\\Icons\\Spell_Nature_HealingWaveGreater",
+			},
+			[24.09] = {
+				["name"] = "Aimed Shot",
+				["icon"] = "Interface\\Icons\\INV_Spear_07",
+			},
+			[14.15] = {
+				["name"] = "Purification",
+				["icon"] = "Interface\\Icons\\Spell_Frost_WizardMark",
+			},
+			[22.23] = {
+				["name"] = "The Beast Within",
+				["icon"] = "Interface\\Icons\\Ability_Hunter_BeastWithin",
+			},
+			[13.22] = {
+				["name"] = "Totem of Wrath",
+				["icon"] = "Interface\\Icons\\Spell_Fire_TotemOfWrath",
+			},
+			[19.13] = {
+				["name"] = "Improved Immolate",
+				["icon"] = "Interface\\Icons\\Spell_Fire_Immolation",
+			},
+			[2.09] = {
+				["name"] = "Icy Veins",
+				["icon"] = "Interface\\Icons\\Spell_Frost_ColdHearted",
+			},
+			[5.18] = {
+				["name"] = "Vigilance",
+				["icon"] = "Interface\\Icons\\Ability_Warrior_Vigilance",
+			},
+			[17.27] = {
+				["name"] = "Wild Growth",
+				["icon"] = "Interface\\Icons\\Ability_Druid_Flourish",
+			},
+			[16.03] = {
+				["name"] = "Feral Instinct",
+				["icon"] = "Interface\\Icons\\Ability_Ambush",
+			},
+			[11.05] = {
+				["name"] = "Divine Fury",
+				["icon"] = "Interface\\Icons\\Spell_Holy_SealOfWrath",
+			},
+			[23.1] = {
+				["name"] = "Deflection",
+				["icon"] = "Interface\\Icons\\Ability_Parry",
+			},
+			[10.12] = {
+				["name"] = "Improved Mana Burn",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_ManaBurn",
+			},
+			[21.24] = {
+				["name"] = "Summon Felguard",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_SummonFelGuard",
+			},
+			[9.19] = {
+				["name"] = "Enveloping Shadows",
+				["icon"] = "Interface\\Icons\\Ability_Rogue_EnvelopingShadows",
+			},
+			[18.14] = {
+				["name"] = "Improved Insect Swarm",
+				["icon"] = "Interface\\Icons\\Spell_Nature_InsectSwarm",
+			},
+			[1.16] = {
+				["name"] = "Blast Wave",
+				["icon"] = "Interface\\Icons\\Spell_Holy_Excorcism_02",
+			},
+			[8.26] = {
+				["name"] = "Cut to the Chase",
+				["icon"] = "Interface\\Icons\\Ability_Rogue_CutToTheChase",
+			},
+			[16.28] = {
+				["name"] = "Rend and Tear",
+				["icon"] = "Interface\\Icons\\Ability_Druid_PrimalAgression",
+			},
+			[3.01] = {
+				["name"] = "Arcane Subtlety",
+				["icon"] = "Interface\\Icons\\Spell_Holy_DispelMagic",
+			},
+			[7.02] = {
+				["name"] = "Improved Sinister Strike",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_RitualOfSacrifice",
+			},
+			[15.04] = {
+				["name"] = "Guardian Totems",
+				["icon"] = "Interface\\Icons\\Spell_Nature_StoneSkinTotem",
+			},
+			[14.09] = {
+				["name"] = "Ancestral Healing",
+				["icon"] = "Interface\\Icons\\Spell_Nature_UndyingStrength",
+			},
+			[20.25] = {
+				["name"] = "Unstable Affliction",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_UnstableAffliction_3",
+			},
+			[13.16] = {
+				["name"] = "Elemental Mastery",
+				["icon"] = "Interface\\Icons\\Spell_Nature_WispHeal",
+			},
+			[19.01] = {
+				["name"] = "Improved Shadow Bolt",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_ShadowBolt",
+			},
+			[2.23] = {
+				["name"] = "Fingers of Frost",
+				["icon"] = "Interface\\Icons\\Ability_Mage_WintersGrasp",
+			},
+			[17.15] = {
+				["name"] = "Empowered Touch",
+				["icon"] = "Interface\\Icons\\Ability_Druid_EmpoweredTouch",
+			},
+			[5.15] = {
+				["name"] = "Gag Order",
+				["icon"] = "Interface\\Icons\\Ability_Warrior_ShieldBash",
+			},
+			[15.29] = {
+				["name"] = "Feral Spirit",
+				["icon"] = "Interface\\Icons\\Spell_Shaman_FeralSpirit",
+			},
+			[10.06] = {
+				["name"] = "Martyrdom",
+				["icon"] = "Interface\\Icons\\Spell_Nature_Tranquility",
+			},
+			[21.12] = {
+				["name"] = "Unholy Power",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_ShadowWordDominate",
+			},
+			[4.22] = {
+				["name"] = "Strength of Arms",
+				["icon"] = "Interface\\Icons\\Ability_Warrior_OffensiveStance",
+			},
+			[9.130000000000001] = {
+				["name"] = "Heightened Senses",
+				["icon"] = "Interface\\Icons\\Ability_Ambush",
+			},
+			[19.26] = {
+				["name"] = "Chaos Bolt",
+				["icon"] = "Interface\\Icons\\Ability_Warlock_ChaosBolt",
+			},
+			[3.29] = {
+				["name"] = "Spell Power",
+				["icon"] = "Interface\\Icons\\Spell_Arcane_ArcaneTorrent",
+			},
+			[8.199999999999999] = {
+				["name"] = "Deadened Nerves",
+				["icon"] = "Interface\\Icons\\Ability_Rogue_DeadenedNerves",
+			},
+			[18.02] = {
+				["name"] = "Genesis",
+				["icon"] = "Interface\\Icons\\Spell_Arcane_Arcane03",
+			},
+			[25.09] = {
+				["name"] = "Pursuit of Justice",
+				["icon"] = "Interface\\Icons\\Spell_Holy_PersuitofJustice",
+			},
+			[7.27] = {
+				["name"] = "Prey on the Weak",
+				["icon"] = "Interface\\Icons\\Ability_Rogue_PreyontheWeak",
+			},
+			[23.23] = {
+				["name"] = "Noxious Stings",
+				["icon"] = "Interface\\Icons\\Ability_Hunter_PotentVenom",
+			},
+			[14.03] = {
+				["name"] = "Improved Reincarnation",
+				["icon"] = "Interface\\Icons\\Spell_Nature_Reincarnation",
+			},
+			[13.1] = {
+				["name"] = "Eye of the Storm",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_SoulLeech_2",
+			},
+			[12.17] = {
+				["name"] = "Mind Melt",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_Skull",
+			},
+			[17.03] = {
+				["name"] = "Furor",
+				["icon"] = "Interface\\Icons\\Spell_Holy_BlessingOfStamina",
+			},
+			[2.06] = {
+				["name"] = "Precision",
+				["icon"] = "Interface\\Icons\\Spell_Ice_MagicDamage",
+			},
+			[5.12] = {
+				["name"] = "Puncture",
+				["icon"] = "Interface\\Icons\\Ability_Warrior_Sunder",
+			},
+			[11.24] = {
+				["name"] = "Circle of Healing",
+				["icon"] = "Interface\\Icons\\Spell_Holy_CircleOfRenewal",
+			},
+			[15.17] = {
+				["name"] = "Weapon Mastery",
+				["icon"] = "Interface\\Icons\\Ability_Hunter_SwiftStrike",
+			},
+			[22.24] = {
+				["name"] = "Cobra Strikes",
+				["icon"] = "Interface\\Icons\\Ability_Hunter_CobraStrikes",
+			},
+			[4.19] = {
+				["name"] = "Trauma",
+				["icon"] = "Interface\\Icons\\Ability_Warrior_BloodNova",
+			},
+			[9.07] = {
+				["name"] = "Elusiveness",
+				["icon"] = "Interface\\Icons\\Spell_Magic_LesserInvisibilty",
+			},
+			[19.14] = {
+				["name"] = "Devastation",
+				["icon"] = "Interface\\Icons\\Spell_Fire_FlameShock",
+			},
+			[8.140000000000001] = {
+				["name"] = "Improved Kidney Shot",
+				["icon"] = "Interface\\Icons\\Ability_Rogue_KidneyShot",
+			},
+			[1.13] = {
+				["name"] = "Master of Elements",
+				["icon"] = "Interface\\Icons\\Spell_Fire_MasterOfElements",
+			},
+			[3.26] = {
+				["name"] = "Slow",
+				["icon"] = "Interface\\Icons\\Spell_Nature_Slow",
+			},
+			[7.21] = {
+				["name"] = "Nerves of Steel",
+				["icon"] = "Interface\\Icons\\Ability_Rogue_NervesOfSteel",
+			},
+			[21.25] = {
+				["name"] = "Nemesis",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_DemonicEmpathy",
+			},
+			[13.04] = {
+				["name"] = "Elemental Warding",
+				["icon"] = "Interface\\Icons\\Spell_Nature_SpiritArmor",
+			},
+			[20.01] = {
+				["name"] = "Improved Curse of Agony",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_CurseOfSargeras",
+			},
+			[12.11] = {
+				["name"] = "Shadow Reach",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_ChillTouch",
+			},
+			[18.15] = {
+				["name"] = "Dreamstate",
+				["icon"] = "Interface\\Icons\\Ability_Druid_Dreamstate",
+			},
+			[5.09] = {
+				["name"] = "Toughness",
+				["icon"] = "Interface\\Icons\\Spell_Holy_Devotion",
+			},
+			[11.18] = {
+				["name"] = "Lightwell",
+				["icon"] = "Interface\\Icons\\Spell_Holy_SummonLightwell",
+			},
+			[15.05] = {
+				["name"] = "Thundering Strikes",
+				["icon"] = "Interface\\Icons\\Ability_ThunderBolt",
+			},
+			[10.25] = {
+				["name"] = "Pain Suppression",
+				["icon"] = "Interface\\Icons\\Spell_Holy_PainSupression",
+			},
+			[22.12] = {
+				["name"] = "Spirit Bond",
+				["icon"] = "Interface\\Icons\\Ability_Druid_DemoralizingRoar",
+			},
+			[4.16] = {
+				["name"] = "Sword Specialization",
+				["icon"] = "Interface\\Icons\\INV_Sword_27",
+			},
+			[1.27] = {
+				["name"] = "Burnout",
+				["icon"] = "Interface\\Icons\\Ability_Mage_Burnout",
+			},
+			[9.01] = {
+				["name"] = "Relentless Strikes",
+				["icon"] = "Interface\\Icons\\Ability_Warrior_DecisiveStrike",
+			},
+			[19.02] = {
+				["name"] = "Bane",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_DeathPact",
+			},
+			[26.09] = {
+				["name"] = "Improved Concentration Aura",
+				["icon"] = "Interface\\Icons\\Spell_Holy_MindSooth",
+			},
+			[3.23] = {
+				["name"] = "Incanter's Absorption",
+				["icon"] = "Interface\\Icons\\Ability_Mage_IncantersAbsorbtion",
+			},
+			[24.23] = {
+				["name"] = "Wild Quiver",
+				["icon"] = "Interface\\Icons\\Ability_Hunter_WildQuiver",
+			},
+			[14.22] = {
+				["name"] = "Ancestral Awakening",
+				["icon"] = "Interface\\Icons\\Spell_Shaman_AncestralAwakening",
+			},
+			[21.13] = {
+				["name"] = "Master Summoner",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_ImpPhaseShift",
+			},
+			[18.03] = {
+				["name"] = "Moonglow",
+				["icon"] = "Interface\\Icons\\Spell_Nature_Sentinal",
+			},
+			[12.05] = {
+				["name"] = "Improved Shadow Word: Pain",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_ShadowWordPain",
+			},
+			[16.17] = {
+				["name"] = "Heart of the Wild",
+				["icon"] = "Interface\\Icons\\Spell_Holy_BlessingOfAgility",
+			},
+			[5.06] = {
+				["name"] = "Last Stand",
+				["icon"] = "Interface\\Icons\\Spell_Holy_AshesToAshes",
+			},
+			[11.12] = {
+				["name"] = "Healing Prayers",
+				["icon"] = "Interface\\Icons\\Spell_Holy_PrayerOfHealing02",
+			},
+			[23.24] = {
+				["name"] = "Point of No Escape",
+				["icon"] = "Interface\\Icons\\Ability_Hunter_PointofNoEscape",
+			},
+			[10.19] = {
+				["name"] = "Power Infusion",
+				["icon"] = "Interface\\Icons\\Spell_Holy_PowerInfusion",
+			},
+			[20.14] = {
+				["name"] = "Shadow Embrace",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_ShadowEmbrace",
+			},
+			[4.13] = {
+				["name"] = "Poleaxe Specialization",
+				["icon"] = "Interface\\Icons\\INV_Axe_06",
+			},
+			[9.26] = {
+				["name"] = "Filthy Tricks",
+				["icon"] = "Interface\\Icons\\Ability_Rogue_WrongfullyAccused",
+			},
+			[1.1] = {
+				["name"] = "Burning Soul",
+				["icon"] = "Interface\\Icons\\Spell_Fire_Fire",
+			},
+			[3.2] = {
+				["name"] = "Arcane Potency",
+				["icon"] = "Interface\\Icons\\Spell_Arcane_ArcanePotency",
+			},
+			[8.02] = {
+				["name"] = "Remorseless Attacks",
+				["icon"] = "Interface\\Icons\\Ability_FiegnDead",
+			},
+			[17.04] = {
+				["name"] = "Naturalist",
+				["icon"] = "Interface\\Icons\\Spell_Nature_HealingTouch",
+			},
+			[7.09] = {
+				["name"] = "Close Quarters Combat",
+				["icon"] = "Interface\\Icons\\INV_Weapon_ShortBlade_05",
+			},
+			[15.18] = {
+				["name"] = "Frozen Power",
+				["icon"] = "Interface\\Icons\\Spell_Fire_BlueCano",
+			},
+			[22.25] = {
+				["name"] = "Kindred Spirits",
+				["icon"] = "Interface\\Icons\\Ability_Hunter_SeparationAnxiety",
+			},
+			[14.16] = {
+				["name"] = "Nature's Guardian",
+				["icon"] = "Interface\\Icons\\Spell_Nature_NatureGuardian",
+			},
+			[21.01] = {
+				["name"] = "Improved Healthstone",
+				["icon"] = "Interface\\Icons\\INV_Stone_04",
+			},
+			[13.23] = {
+				["name"] = "Lava Flows",
+				["icon"] = "Interface\\Icons\\Spell_Shaman_LavaFlow",
+			},
+			[2.17] = {
+				["name"] = "Cold as Ice",
+				["icon"] = "Interface\\Icons\\Ability_Mage_ColdAsIce",
+			},
+			[16.05] = {
+				["name"] = "Thick Hide",
+				["icon"] = "Interface\\Icons\\INV_Misc_Pelt_Bear_03",
+			},
+			[5.03] = {
+				["name"] = "Improved Thunder Clap",
+				["icon"] = "Interface\\Icons\\Ability_ThunderClap",
+			},
+			[11.06] = {
+				["name"] = "Desperate Prayer",
+				["icon"] = "Interface\\Icons\\Spell_Holy_Restoration",
+			},
+			[23.12] = {
+				["name"] = "T.N.T.",
+				["icon"] = "Interface\\Icons\\INV_Misc_Bomb_05",
+			},
+			[10.13] = {
+				["name"] = "Reflective Shield",
+				["icon"] = "Interface\\Icons\\Spell_Holy_PowerWordShield",
+			},
+			[21.26] = {
+				["name"] = "Demonic Pact",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_DemonicPact",
+			},
+			[4.1] = {
+				["name"] = "Deep Wounds",
+				["icon"] = "Interface\\Icons\\Ability_BackStab",
+			},
+			[9.199999999999999] = {
+				["name"] = "Premeditation",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_Possession",
+			},
+			[18.16] = {
+				["name"] = "Moonfury",
+				["icon"] = "Interface\\Icons\\Spell_Nature_MoonGlow",
+			},
+			[1.24] = {
+				["name"] = "Firestarter",
+				["icon"] = "Interface\\Icons\\Ability_Mage_FireStarter",
+			},
+			[8.27] = {
+				["name"] = "Hunger For Blood",
+				["icon"] = "Interface\\Icons\\Ability_Rogue_HungerforBlood",
+			},
+			[16.3] = {
+				["name"] = "Berserk",
+				["icon"] = "Interface\\Icons\\Ability_Druid_Berserk",
+			},
+			[25.23] = {
+				["name"] = "Crusader Strike",
+				["icon"] = "Interface\\Icons\\Spell_Holy_CrusaderStrike",
+			},
+			[3.17] = {
+				["name"] = "Arcane Mind",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_Charm",
+			},
+			[7.03] = {
+				["name"] = "Dual Wield Specialization",
+				["icon"] = "Interface\\Icons\\Ability_DualWield",
+			},
+			[15.06] = {
+				["name"] = "Improved Ghost Wolf",
+				["icon"] = "Interface\\Icons\\Spell_Nature_SpiritWolf",
+			},
+			[14.1] = {
+				["name"] = "Restorative Totems",
+				["icon"] = "Interface\\Icons\\Spell_Nature_ManaRegenTotem",
+			},
+			[13.17] = {
+				["name"] = "Storm, Earth and Fire",
+				["icon"] = "Interface\\Icons\\Spell_Shaman_StormEarthFire",
+			},
+			[19.03] = {
+				["name"] = "Aftermath",
+				["icon"] = "Interface\\Icons\\Spell_Fire_Fire",
+			},
+			[12.24] = {
+				["name"] = "Vampiric Touch",
+				["icon"] = "Interface\\Icons\\Spell_Holy_Stoicism",
+			},
+			[17.17] = {
+				["name"] = "Living Spirit",
+				["icon"] = "Interface\\Icons\\Spell_Nature_GiftoftheWaterSpirit",
+			},
+			[24.24] = {
+				["name"] = "Silencing Shot",
+				["icon"] = "Interface\\Icons\\Ability_TheBlackArrow",
+			},
+			[10.07] = {
+				["name"] = "Meditation",
+				["icon"] = "Interface\\Icons\\Spell_Nature_Sleep",
+			},
+			[21.14] = {
+				["name"] = "Mana Feed",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_ManaFeed",
+			},
+			[4.07] = {
+				["name"] = "Improved Overpower",
+				["icon"] = "Interface\\Icons\\INV_Sword_05",
+			},
+			[9.140000000000001] = {
+				["name"] = "Preparation",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_AntiShadow",
+			},
+			[18.04] = {
+				["name"] = "Nature's Majesty",
+				["icon"] = "Interface\\Icons\\INV_Staff_01",
+			},
+			[1.07] = {
+				["name"] = "Flame Throwing",
+				["icon"] = "Interface\\Icons\\Spell_Fire_Flare",
+			},
+			[3.14] = {
+				["name"] = "Torment the Weak",
+				["icon"] = "Interface\\Icons\\Ability_Mage_TormentOfTheWeak",
+			},
+			[16.18] = {
+				["name"] = "Survival of the Fittest",
+				["icon"] = "Interface\\Icons\\Ability_Druid_Enrage",
+			},
+			[23.25] = {
+				["name"] = "Black Arrow",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_PainSpike",
+			},
+			[14.04] = {
+				["name"] = "Healing Grace",
+				["icon"] = "Interface\\Icons\\Spell_Nature_HealingTouch",
+			},
+			[22.01] = {
+				["name"] = "Improved Aspect of the Hawk",
+				["icon"] = "Interface\\Icons\\Spell_Nature_RavenForm",
+			},
+			[13.11] = {
+				["name"] = "Elemental Reach",
+				["icon"] = "Interface\\Icons\\Spell_Nature_StormReach",
+			},
+			[20.15] = {
+				["name"] = "Siphon Life",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_Requiem",
+			},
+			[12.18] = {
+				["name"] = "Improved Devouring Plague",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_DevouringPlague.",
+			},
+			[17.05] = {
+				["name"] = "Subtlety",
+				["icon"] = "Interface\\Icons\\Ability_EyeOfTheOwl",
+			},
+			[2.14] = {
+				["name"] = "Cold Snap",
+				["icon"] = "Interface\\Icons\\Spell_Frost_WizardMark",
+			},
+			[15.19] = {
+				["name"] = "Dual Wield Specialization",
+				["icon"] = "Interface\\Icons\\Ability_DualWieldSpecialization",
+			},
+			[11.25] = {
+				["name"] = "Test of Faith",
+				["icon"] = "Interface\\Icons\\Spell_Holy_TestOfFaith",
+			},
+			[24.12] = {
+				["name"] = "Efficiency",
+				["icon"] = "Interface\\Icons\\Spell_Frost_WizardMark",
+			},
+			[22.26] = {
+				["name"] = "Beast Mastery",
+				["icon"] = "Interface\\Icons\\Ability_Hunter_BeastMastery",
+			},
+			[4.04] = {
+				["name"] = "Improved Charge",
+				["icon"] = "Interface\\Icons\\Ability_Warrior_Charge",
+			},
+			[9.08] = {
+				["name"] = "Ghostly Strike",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_Curse",
+			},
+			[19.16] = {
+				["name"] = "Emberstorm",
+				["icon"] = "Interface\\Icons\\Spell_Fire_SelfDestruct",
+			},
+			[8.15] = {
+				["name"] = "Quick Recovery",
+				["icon"] = "Interface\\Icons\\Ability_Rogue_QuickRecovery",
+			},
+			[3.11] = {
+				["name"] = "Arcane Shielding",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_DetectLesserInvisibility",
+			},
+			[7.22] = {
+				["name"] = "Throwing Specialization",
+				["icon"] = "Interface\\Icons\\Ability_Rogue_ThrowingSpecialization",
+			},
+			[16.06] = {
+				["name"] = "Feral Swiftness",
+				["icon"] = "Interface\\Icons\\Spell_Nature_SpiritWolf",
+			},
+			[23.13] = {
+				["name"] = "Lock and Load",
+				["icon"] = "Interface\\Icons\\Ability_Hunter_LockAndLoad",
+			},
+			[21.27] = {
+				["name"] = "Metamorphosis",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_DemonForm",
+			},
+			[20.03] = {
+				["name"] = "Improved Corruption",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_AbominationExplosion",
+			},
+			[13.05] = {
+				["name"] = "Elemental Devastation",
+				["icon"] = "Interface\\Icons\\Spell_Fire_ElementalDevastation",
+			},
+			[2.28] = {
+				["name"] = "Deep Freeze",
+				["icon"] = "Interface\\Icons\\Ability_Mage_DeepFreeze",
+			},
+			[12.12] = {
+				["name"] = "Shadow Weaving",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_BlackPlague",
+			},
+			[25.24] = {
+				["name"] = "Sheath of Light",
+				["icon"] = "Interface\\Icons\\Ability_Paladin_SheathofLight",
+			},
+			[11.19] = {
+				["name"] = "Blessed Resilience",
+				["icon"] = "Interface\\Icons\\Spell_Holy_BlessedResillience",
+			},
+			[15.07] = {
+				["name"] = "Improved Shields",
+				["icon"] = "Interface\\Icons\\Spell_Nature_LightningShield",
+			},
+			[22.14] = {
+				["name"] = "Bestial Discipline",
+				["icon"] = "Interface\\Icons\\Spell_Nature_AbolishMagic",
+			},
+			[10.26] = {
+				["name"] = "Grace",
+				["icon"] = "Interface\\Icons\\Spell_Holy_HopeAndGrace",
+			},
+			[20.28] = {
+				["name"] = "Haunt",
+				["icon"] = "Interface\\Icons\\Ability_Warlock_Haunt",
+			},
+			[4.01] = {
+				["name"] = "Improved Heroic Strike",
+				["icon"] = "Interface\\Icons\\Ability_Rogue_Ambush",
+			},
+			[9.02] = {
+				["name"] = "Master of Deception",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_Charm",
+			},
+			[19.04] = {
+				["name"] = "Molten Skin",
+				["icon"] = "Interface\\Icons\\Ability_Mage_MoltenArmor",
+			},
+			[8.09] = {
+				["name"] = "Lethality",
+				["icon"] = "Interface\\Icons\\Ability_CriticalStrike",
+			},
+			[17.18] = {
+				["name"] = "Swiftmend",
+				["icon"] = "Interface\\Icons\\INV_Relics_IdolofRejuvenation",
+			},
+			[1.04] = {
+				["name"] = "Ignite",
+				["icon"] = "Interface\\Icons\\Spell_Fire_Incinerate",
+			},
+			[3.08] = {
+				["name"] = "Spell Impact",
+				["icon"] = "Interface\\Icons\\Spell_Nature_WispSplode",
+			},
+			[7.16] = {
+				["name"] = "Hack and Slash",
+				["icon"] = "Interface\\Icons\\INV_Sword_27",
+			},
+			[23.01] = {
+				["name"] = "Improved Tracking",
+				["icon"] = "Interface\\Icons\\Ability_Hunter_ImprovedTracking",
+			},
+			[14.23] = {
+				["name"] = "Earth Shield",
+				["icon"] = "Interface\\Icons\\Spell_Nature_SkinofEarth",
+			},
+			[18.05] = {
+				["name"] = "Improved Moonfire",
+				["icon"] = "Interface\\Icons\\Spell_Nature_StarFall",
+			},
+			[12.06] = {
+				["name"] = "Shadow Focus",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_BurningSpirit",
+			},
+			[2.11] = {
+				["name"] = "Arctic Reach",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_DarkRitual",
+			},
+			[5.22] = {
+				["name"] = "Warbringer",
+				["icon"] = "Interface\\Icons\\Ability_Warrior_Warbringer",
+			},
+			[11.13] = {
+				["name"] = "Spirit of Redemption",
+				["icon"] = "Interface\\Icons\\INV_Enchant_EssenceEternalLarge",
+			},
+			[23.26] = {
+				["name"] = "Sniper Training",
+				["icon"] = "Interface\\Icons\\Ability_Hunter_LongShots",
+			},
+			[4.29] = {
+				["name"] = "Blood Frenzy",
+				["icon"] = "Interface\\Icons\\Ability_Warrior_BloodFrenzy",
+			},
+			[10.2] = {
+				["name"] = "Improved Flash Heal",
+				["icon"] = "Interface\\Icons\\Spell_Holy_Chastise",
+			},
+			[20.16] = {
+				["name"] = "Curse of Exhaustion",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_GrimWard",
+			},
+			[9.27] = {
+				["name"] = "Slaughter from the Shadows",
+				["icon"] = "Interface\\Icons\\Ability_Rogue_SlaughterfromtheShadows",
+			},
+			[1.18] = {
+				["name"] = "Fire Power",
+				["icon"] = "Interface\\Icons\\Spell_Fire_Immolation",
+			},
+			[8.029999999999999] = {
+				["name"] = "Malice",
+				["icon"] = "Interface\\Icons\\Ability_Racial_BloodRage",
+			},
+			[17.06] = {
+				["name"] = "Natural Shapeshifter",
+				["icon"] = "Interface\\Icons\\Spell_Nature_WispSplode",
+			},
+			[3.05] = {
+				["name"] = "Magic Absorption",
+				["icon"] = "Interface\\Icons\\Spell_Nature_AstralRecalGroup",
+			},
+			[7.1] = {
+				["name"] = "Improved Kick",
+				["icon"] = "Interface\\Icons\\Ability_Kick",
+			},
+			[15.2] = {
+				["name"] = "Empowered Stormstrike",
+				["icon"] = "Interface\\Icons\\Spell_Nature_ElementalPrecision_2",
+			},
+			[14.17] = {
+				["name"] = "Mana Tide Totem",
+				["icon"] = "Interface\\Icons\\Spell_Frost_SummonWaterElemental",
+			},
+			[21.03] = {
+				["name"] = "Demonic Embrace",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_Metamorphosis",
+			},
+			[13.24] = {
+				["name"] = "Shamanism",
+				["icon"] = "Interface\\Icons\\Spell_unused2",
+			},
+			[19.17] = {
+				["name"] = "Conflagrate",
+				["icon"] = "Interface\\Icons\\Spell_Fire_Fireball",
+			},
+			[2.25] = {
+				["name"] = "Summon Water Elemental",
+				["icon"] = "Interface\\Icons\\Spell_Frost_SummonWaterElemental_2",
+			},
+			[26.24] = {
+				["name"] = "Infusion of Light",
+				["icon"] = "Interface\\Icons\\Ability_Paladin_InfusionofLight",
+			},
+			[5.19] = {
+				["name"] = "Focused Rage",
+				["icon"] = "Interface\\Icons\\Ability_Warrior_FocusedRage",
+			},
+			[11.07] = {
+				["name"] = "Blessed Recovery",
+				["icon"] = "Interface\\Icons\\Spell_Holy_BlessedRecovery",
+			},
+			[23.14] = {
+				["name"] = "Hunter vs. Wild",
+				["icon"] = "Interface\\Icons\\Ability_Hunter_HunterVsWild",
+			},
+			[10.14] = {
+				["name"] = "Mental Strength",
+				["icon"] = "Interface\\Icons\\Spell_Nature_EnchantArmor",
+			},
+			[4.26] = {
+				["name"] = "Unrelenting Assault",
+				["icon"] = "Interface\\Icons\\Ability_Warrior_UnrelentingAssault",
+			},
+			[9.210000000000001] = {
+				["name"] = "Cheat Death",
+				["icon"] = "Interface\\Icons\\Ability_Rogue_CheatDeath",
+			},
+			[1.01] = {
+				["name"] = "Improved Fire Blast",
+				["icon"] = "Interface\\Icons\\Spell_Fire_Fireball",
+			},
+			[3.02] = {
+				["name"] = "Arcane Focus",
+				["icon"] = "Interface\\Icons\\Spell_Holy_Devotion",
+			},
+			[7.04] = {
+				["name"] = "Improved Slice and Dice",
+				["icon"] = "Interface\\Icons\\Ability_Rogue_SliceDice",
+			},
+			[15.08] = {
+				["name"] = "Elemental Weapons",
+				["icon"] = "Interface\\Icons\\Spell_Fire_FlameTounge",
+			},
+			[24.01] = {
+				["name"] = "Improved Concussive Shot",
+				["icon"] = "Interface\\Icons\\Spell_Frost_Stun",
+			},
+			[14.11] = {
+				["name"] = "Tidal Mastery",
+				["icon"] = "Interface\\Icons\\Spell_Nature_Tranquility",
+			},
+			[22.15] = {
+				["name"] = "Animal Handler",
+				["icon"] = "Interface\\Icons\\Ability_Hunter_AnimalHandler",
+			},
+			[13.18] = {
+				["name"] = "Booming Echoes",
+				["icon"] = "Interface\\Icons\\Spell_Fire_BlueFlameRing",
+			},
+			[19.05] = {
+				["name"] = "Cataclysm",
+				["icon"] = "Interface\\Icons\\Spell_Fire_WindsofWoe",
+			},
+			[12.25] = {
+				["name"] = "Pain and Suffering",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_PainAndSuffering",
+			},
+			[26.12] = {
+				["name"] = "Pure of Heart",
+				["icon"] = "Interface\\Icons\\Spell_Holy_PureOfHeart",
+			},
+			[2.08] = {
+				["name"] = "Piercing Ice",
+				["icon"] = "Interface\\Icons\\Spell_Frost_Frostbolt",
+			},
+			[5.16] = {
+				["name"] = "One-Handed Weapon Specialization",
+				["icon"] = "Interface\\Icons\\INV_Sword_20",
+			},
+			[24.26] = {
+				["name"] = "Marked for Death",
+				["icon"] = "Interface\\Icons\\Ability_Hunter_Assassinate",
+			},
+			[11.01] = {
+				["name"] = "Healing Focus",
+				["icon"] = "Interface\\Icons\\Spell_Holy_HealingFocus",
+			},
+			[21.16] = {
+				["name"] = "Master Demonologist",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_ShadowPact",
+			},
+			[4.23] = {
+				["name"] = "Improved Slam",
+				["icon"] = "Interface\\Icons\\Ability_Warrior_DecisiveStrike",
+			},
+			[8.220000000000001] = {
+				["name"] = "Find Weakness",
+				["icon"] = "Interface\\Icons\\Ability_Rogue_FindWeakness",
+			},
+			[18.06] = {
+				["name"] = "Brambles",
+				["icon"] = "Interface\\Icons\\Spell_Nature_Thorns",
+			},
+			[1.15] = {
+				["name"] = "Critical Mass",
+				["icon"] = "Interface\\Icons\\Spell_Nature_WispHeal",
+			},
+			[3.3] = {
+				["name"] = "Arcane Barrage",
+				["icon"] = "Interface\\Icons\\Ability_Mage_ArcaneBarrage",
+			},
+			[16.2] = {
+				["name"] = "Improved Leader of the Pack",
+				["icon"] = "Interface\\Icons\\Spell_Nature_UnyeildingStamina",
+			},
+			[23.27] = {
+				["name"] = "Hunting Party",
+				["icon"] = "Interface\\Icons\\Ability_Hunter_HuntingParty",
+			},
+			[22.03] = {
+				["name"] = "Focused Fire",
+				["icon"] = "Interface\\Icons\\Ability_Hunter_SilentHunter",
+			},
+			[14.05] = {
+				["name"] = "Tidal Focus",
+				["icon"] = "Interface\\Icons\\Spell_Frost_ManaRecharge",
+			},
+			[20.17] = {
+				["name"] = "Improved Felhunter",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_SummonFelHunter",
+			},
+			[13.12] = {
+				["name"] = "Call of Thunder",
+				["icon"] = "Interface\\Icons\\Spell_Nature_CallStorm",
+			},
+			[2.22] = {
+				["name"] = "Empowered Frostbolt",
+				["icon"] = "Interface\\Icons\\Spell_Frost_FrostBolt02",
+			},
+			[12.19] = {
+				["name"] = "Shadowform",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_Shadowform",
+			},
+			[17.07] = {
+				["name"] = "Intensity",
+				["icon"] = "Interface\\Icons\\Spell_Frost_WindWalkOn",
+			},
+			[24.14] = {
+				["name"] = "Readiness",
+				["icon"] = "Interface\\Icons\\Ability_Hunter_Readiness",
+			},
+			[5.13] = {
+				["name"] = "Improved Disciplines",
+				["icon"] = "Interface\\Icons\\Ability_Warrior_ShieldWall",
+			},
+			[11.26] = {
+				["name"] = "Divine Providence",
+				["icon"] = "Interface\\Icons\\Spell_Holy_DivineProvidence",
+			},
+			[15.21] = {
+				["name"] = "Stormstrike",
+				["icon"] = "Interface\\Icons\\Ability_Shaman_Stormstrike",
+			},
+			[4.2] = {
+				["name"] = "Second Wind",
+				["icon"] = "Interface\\Icons\\Ability_Hunter_Harass",
+			},
+			[10.02] = {
+				["name"] = "Twin Disciplines",
+				["icon"] = "Interface\\Icons\\Spell_Holy_SealOfVengeance",
+			},
+			[21.04] = {
+				["name"] = "Fel Synergy",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_FelMending",
+			},
+			[9.09] = {
+				["name"] = "Serrated Blades",
+				["icon"] = "Interface\\Icons\\INV_Sword_17",
+			},
+			[19.18] = {
+				["name"] = "Soul Leech",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_SoulLeech_3",
+			},
+			[3.27] = {
+				["name"] = "Missile Barrage",
+				["icon"] = "Interface\\Icons\\Ability_Mage_MissileBarrage",
+			},
+			[16.08] = {
+				["name"] = "Sharpened Claws",
+				["icon"] = "Interface\\Icons\\INV_Misc_MonsterClaw_04",
+			},
+			[12.08] = {
+				["name"] = "Improved Mind Blast",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_UnholyFrenzy",
+			},
+			[25.01] = {
+				["name"] = "Deflection",
+				["icon"] = "Interface\\Icons\\Ability_Parry",
+			},
+			[27.02] = {
+				["name"] = "Shield of the Templar",
+				["icon"] = "Interface\\Icons\\Ability_Paladin_ShieldoftheTemplar",
+			},
+			[7.23] = {
+				["name"] = "Combat Potency",
+				["icon"] = "Interface\\Icons\\INV_Weapon_Shortblade_38",
+			},
+			[23.15] = {
+				["name"] = "Killer Instinct",
+				["icon"] = "Interface\\Icons\\Spell_Holy_BlessingOfStamina",
+			},
+			[27.01] = {
+				["name"] = "Guarded by the Light",
+				["icon"] = "Interface\\Icons\\Ability_Paladin_GaurdedbytheLight",
+			},
+			[26.26] = {
+				["name"] = "Beacon of Light",
+				["icon"] = "Interface\\Icons\\Ability_Paladin_BeaconofLight",
+			},
+			[26.25] = {
+				["name"] = "Enlightened Judgements",
+				["icon"] = "Interface\\Icons\\Ability_Paladin_EnlightenedJudgements",
+			},
+			[20.05] = {
+				["name"] = "Improved Drain Soul",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_Haunting",
+			},
+			[26.23] = {
+				["name"] = "Judgements of the Pure",
+				["icon"] = "Interface\\Icons\\Ability_Paladin_JudgementofthePure",
+			},
+			[26.22] = {
+				["name"] = "Divine Illumination",
+				["icon"] = "Interface\\Icons\\Spell_Holy_DivineIllumination",
+			},
+			[26.21] = {
+				["name"] = "Holy Guidance",
+				["icon"] = "Interface\\Icons\\Spell_Holy_HolyGuidance",
+			},
+			[18.19] = {
+				["name"] = "Improved Moonkin Form",
+				["icon"] = "Interface\\Icons\\Ability_Druid_ImprovedMoonkinForm",
+			},
+			[26.2] = {
+				["name"] = "Sacred Cleansing",
+				["icon"] = "Interface\\Icons\\Ability_Paladin_SacredCleansing",
+			},
+			[26.19] = {
+				["name"] = "Blessed Life",
+				["icon"] = "Interface\\Icons\\Spell_Holy_BlessedLife",
+			},
+			[26.18] = {
+				["name"] = "Holy Shock",
+				["icon"] = "Interface\\Icons\\Spell_Holy_SearingLight",
+			},
+			[12.13] = {
+				["name"] = "Silence",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_ImpPhaseShift",
+			},
+			[2.05] = {
+				["name"] = "Frost Warding",
+				["icon"] = "Interface\\Icons\\Spell_Frost_FrostWard",
+			},
+			[5.1] = {
+				["name"] = "Improved Spell Reflection",
+				["icon"] = "Interface\\Icons\\Ability_Warrior_ShieldReflection",
+			},
+			[11.2] = {
+				["name"] = "Body and Soul",
+				["icon"] = "Interface\\Icons\\Spell_Holy_SymbolOfHope",
+			},
+			[15.09] = {
+				["name"] = "Shamanistic Focus",
+				["icon"] = "Interface\\Icons\\Spell_Nature_ElementalAbsorption",
+			},
+			[26.17] = {
+				["name"] = "Light's Grace",
+				["icon"] = "Interface\\Icons\\Spell_Holy_LightsGrace",
+			},
+			[26.16] = {
+				["name"] = "Holy Power",
+				["icon"] = "Interface\\Icons\\Spell_Holy_Power",
+			},
+			[10.27] = {
+				["name"] = "Borrowed Time",
+				["icon"] = "Interface\\Icons\\Spell_Holy_BorrowedTime",
+			},
+			[20.04] = {
+				["name"] = "Improved Curse of Weakness",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_CurseOfMannoroth",
+			},
+			[24.02] = {
+				["name"] = "Focused Aim",
+				["icon"] = "Interface\\Icons\\Ability_Hunter_FocusedAim",
+			},
+			[4.17] = {
+				["name"] = "Weapon Mastery",
+				["icon"] = "Interface\\Icons\\Ability_Warrior_WeaponMastery",
+			},
+			[9.029999999999999] = {
+				["name"] = "Opportunity",
+				["icon"] = "Interface\\Icons\\Ability_Warrior_WarCry",
+			},
+			[19.06] = {
+				["name"] = "Demonic Power",
+				["icon"] = "Interface\\Icons\\Spell_Fire_FireBolt",
+			},
+			[26.13] = {
+				["name"] = "Divine Favor",
+				["icon"] = "Interface\\Icons\\Spell_Holy_Heal",
+			},
+			[26.11] = {
+				["name"] = "Blessed Hands",
+				["icon"] = "Interface\\Icons\\Ability_Paladin_BlessedHands",
+			},
+			[8.1] = {
+				["name"] = "Vile Poisons",
+				["icon"] = "Interface\\Icons\\Ability_Rogue_FeignDeath",
+			},
+			[17.2] = {
+				["name"] = "Empowered Rejuvenation",
+				["icon"] = "Interface\\Icons\\Ability_Druid_EmpoweredRejuvination",
+			},
+			[1.12] = {
+				["name"] = "Molten Shields",
+				["icon"] = "Interface\\Icons\\Spell_Fire_FireArmor",
+			},
+			[3.24] = {
+				["name"] = "Arcane Flows",
+				["icon"] = "Interface\\Icons\\Ability_Mage_PotentSpirit",
+			},
+			[7.17] = {
+				["name"] = "Weapon Expertise",
+				["icon"] = "Interface\\Icons\\Spell_Holy_BlessingOfStrength",
+			},
+			[24.27] = {
+				["name"] = "Chimera Shot",
+				["icon"] = "Interface\\Icons\\Ability_Hunter_ChimeraShot2",
+			},
+			[23.03] = {
+				["name"] = "Savage Strikes",
+				["icon"] = "Interface\\Icons\\Ability_Racial_BloodRage",
+			},
+			[26.1] = {
+				["name"] = "Improved Blessing of Wisdom",
+				["icon"] = "Interface\\Icons\\Spell_Holy_SealOfWisdom",
+			},
+			[26.08] = {
+				["name"] = "Improved Lay on Hands",
+				["icon"] = "Interface\\Icons\\Spell_Holy_LayOnHands",
+			},
+			[14.24] = {
+				["name"] = "Improved Earth Shield",
+				["icon"] = "Interface\\Icons\\Spell_Nature_SkinofEarth",
+			},
+			[21.17] = {
+				["name"] = "Molten Core",
+				["icon"] = "Interface\\Icons\\Ability_Warlock_MoltenCore",
+			},
+			[26.07] = {
+				["name"] = "Illumination",
+				["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			},
+			[26.04] = {
+				["name"] = "Divine Intellect",
+				["icon"] = "Interface\\Icons\\Spell_Nature_Sleep",
+			},
+			[3.09] = {
+				["name"] = "Student of the Mind",
+				["icon"] = "Interface\\Icons\\Ability_Mage_StudentOfTheMind",
+			},
+			[26.02] = {
+				["name"] = "Seals of the Pure",
+				["icon"] = "Interface\\Icons\\Ability_ThunderBolt",
+			},
+			[16.07] = {
+				["name"] = "Survival Instincts",
+				["icon"] = "Interface\\Icons\\Ability_Druid_TigersRoar",
+			},
+			[25.26] = {
+				["name"] = "Divine Storm",
+				["icon"] = "Interface\\Icons\\Ability_Paladin_DivineStorm",
+			},
+			[12.07] = {
+				["name"] = "Improved Psychic Scream",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_PsychicScream",
+			},
+			[2.19] = {
+				["name"] = "Shattered Barrier",
+				["icon"] = "Interface\\Icons\\Ability_Mage_ShatterShield",
+			},
+			[25.25] = {
+				["name"] = "Righteous Vengeance",
+				["icon"] = "Interface\\Icons\\Ability_Paladin_RighteousVengeance",
+			},
+			[5.07] = {
+				["name"] = "Improved Revenge",
+				["icon"] = "Interface\\Icons\\Ability_Warrior_Revenge",
+			},
+			[11.14] = {
+				["name"] = "Spiritual Guidance",
+				["icon"] = "Interface\\Icons\\Spell_Holy_SpiritualGuidence",
+			},
+			[23.28] = {
+				["name"] = "Explosive Shot",
+				["icon"] = "Interface\\Icons\\Ability_Hunter_ExplosiveShot",
+			},
+			[25.22] = {
+				["name"] = "Swift Retribution",
+				["icon"] = "Interface\\Icons\\Ability_Paladin_SwiftRetribution",
+			},
+			[25.21] = {
+				["name"] = "Sanctified Wrath",
+				["icon"] = "Interface\\Icons\\Ability_Paladin_SanctifiedWrath",
+			},
+			[10.21] = {
+				["name"] = "Renewed Hope",
+				["icon"] = "Interface\\Icons\\Spell_Holy_HolyProtection",
+			},
+			[25.19] = {
+				["name"] = "Judgements of the Wise",
+				["icon"] = "Interface\\Icons\\Ability_Paladin_JudgementoftheWise",
+			},
+			[4.14] = {
+				["name"] = "Sweeping Strikes",
+				["icon"] = "Interface\\Icons\\Ability_Rogue_SliceDice",
+			},
+			[9.279999999999999] = {
+				["name"] = "Shadow Dance",
+				["icon"] = "Interface\\Icons\\Ability_Rogue_ShadowDance",
+			},
+			[1.26] = {
+				["name"] = "Hot Streak",
+				["icon"] = "Interface\\Icons\\Ability_Mage_HotStreak",
+			},
+			[25.18] = {
+				["name"] = "Repentance",
+				["icon"] = "Interface\\Icons\\Spell_Holy_PrayerOfHealing",
+			},
+			[8.039999999999999] = {
+				["name"] = "Ruthlessness",
+				["icon"] = "Interface\\Icons\\Ability_Druid_Disembowel",
+			},
+			[17.08] = {
+				["name"] = "Omen of Clarity",
+				["icon"] = "Interface\\Icons\\Spell_Nature_CrystalBall",
+			},
+			[25.16] = {
+				["name"] = "Divine Purpose",
+				["icon"] = "Interface\\Icons\\Spell_Holy_DivinePurpose",
+			},
+			[26.01] = {
+				["name"] = "Spiritual Focus",
+				["icon"] = "Interface\\Icons\\Spell_Arcane_Blink",
+			},
+			[3.21] = {
+				["name"] = "Arcane Empowerment",
+				["icon"] = "Interface\\Icons\\Spell_Nature_StarFall",
+			},
+			[15.22] = {
+				["name"] = "Static Shock",
+				["icon"] = "Interface\\Icons\\Spell_Shaman_StaticShock",
+			},
+			[24.15] = {
+				["name"] = "Barrage",
+				["icon"] = "Interface\\Icons\\Ability_UpgradeMoonGlaive",
+			},
+			[25.14] = {
+				["name"] = "Sanctified Retribution",
+				["icon"] = "Interface\\Icons\\Spell_Holy_MindVision",
+			},
+			[25.13] = {
+				["name"] = "Two-Handed Weapon Specialization",
+				["icon"] = "Interface\\Icons\\INV_Hammer_04",
+			},
+			[14.18] = {
+				["name"] = "Cleanse Spirit",
+				["icon"] = "Interface\\Icons\\Ability_Shaman_CleanseSpirit",
+			},
+			[21.05] = {
+				["name"] = "Improved Health Funnel",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_LifeDrain",
+			},
+			[25.12] = {
+				["name"] = "Crusade",
+				["icon"] = "Interface\\Icons\\Spell_Holy_Crusade",
+			},
+			[25.11] = {
+				["name"] = "Sanctity of Battle",
+				["icon"] = "Interface\\Icons\\Spell_Holy_HolySmite",
+			},
+			[25.1] = {
+				["name"] = "Eye for an Eye",
+				["icon"] = "Interface\\Icons\\Spell_Holy_EyeforanEye",
+			},
+			[19.19] = {
+				["name"] = "Pyroclasm",
+				["icon"] = "Interface\\Icons\\Spell_Fire_Volcano",
+			},
+			[25.07] = {
+				["name"] = "Conviction",
+				["icon"] = "Interface\\Icons\\Spell_Holy_RetributionAura",
+			},
+			[25.05] = {
+				["name"] = "Improved Blessing of Might",
+				["icon"] = "Interface\\Icons\\Spell_Holy_FistOfJustice",
+			},
+			[18.18] = {
+				["name"] = "Moonkin Form",
+				["icon"] = "Interface\\Icons\\Spell_Nature_ForceOfNature",
+			},
+			[25.03] = {
+				["name"] = "Improved Judgements",
+				["icon"] = "Interface\\Icons\\Spell_Holy_RighteousFury",
+			},
+			[2.02] = {
+				["name"] = "Improved Frostbolt",
+				["icon"] = "Interface\\Icons\\Spell_Frost_FrostBolt02",
+			},
+			[5.04] = {
+				["name"] = "Incite",
+				["icon"] = "Interface\\Icons\\Ability_Warrior_Incite",
+			},
+			[11.08] = {
+				["name"] = "Inspiration",
+				["icon"] = "Interface\\Icons\\Spell_Holy_LayOnHands",
+			},
+			[16.09] = {
+				["name"] = "Shredding Attacks",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_VampiricAura",
+			},
+			[25.02] = {
+				["name"] = "Benediction",
+				["icon"] = "Interface\\Icons\\Spell_Frost_WindWalkOn",
+			},
+			[24.25] = {
+				["name"] = "Improved Steady Shot",
+				["icon"] = "Interface\\Icons\\Ability_Hunter_ImprovedSteadyShot",
+			},
+			[10.15] = {
+				["name"] = "Soul Warding",
+				["icon"] = "Interface\\Icons\\Spell_Holy_PureOfHeart",
+			},
+			[24.22] = {
+				["name"] = "Rapid Recuperation",
+				["icon"] = "Interface\\Icons\\Ability_Hunter_RapidRegeneration",
+			},
+			[24.21] = {
+				["name"] = "Master Marksman",
+				["icon"] = "Interface\\Icons\\Ability_Hunter_MasterMarksman",
+			},
+			[4.11] = {
+				["name"] = "Two-Handed Weapon Specialization",
+				["icon"] = "Interface\\Icons\\INV_Axe_09",
+			},
+			[9.220000000000001] = {
+				["name"] = "Sinister Calling",
+				["icon"] = "Interface\\Icons\\Ability_Rogue_SinisterCalling",
+			},
+			[20.06] = {
+				["name"] = "Improved Life Tap",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_BurningSpirit",
+			},
+			[24.19] = {
+				["name"] = "Trueshot Aura",
+				["icon"] = "Interface\\Icons\\Ability_TrueShot",
+			},
+			[24.18] = {
+				["name"] = "Piercing Shots",
+				["icon"] = "Interface\\Icons\\Ability_Hunter_PiercingShots",
+			},
+			[24.17] = {
+				["name"] = "Ranged Weapon Specialization",
+				["icon"] = "Interface\\Icons\\INV_Weapon_Rifle_06",
+			},
+			[1.09] = {
+				["name"] = "Pyroblast",
+				["icon"] = "Interface\\Icons\\Spell_Fire_Fireball02",
+			},
+			[3.18] = {
+				["name"] = "Prismatic Cloak",
+				["icon"] = "Interface\\Icons\\Spell_Arcane_PrismaticCloak",
+			},
+			[24.16] = {
+				["name"] = "Combat Experience",
+				["icon"] = "Interface\\Icons\\Ability_Hunter_CombatExperience",
+			},
+			[24.13] = {
+				["name"] = "Concussive Barrage",
+				["icon"] = "Interface\\Icons\\Spell_Arcane_StarFire",
+			},
+			[24.11] = {
+				["name"] = "Improved Stings",
+				["icon"] = "Interface\\Icons\\Ability_Hunter_Quickshot",
+			},
+			[24.03] = {
+				["name"] = "Lethal Shots",
+				["icon"] = "Interface\\Icons\\Ability_SearingArrow",
+			},
+			[24.1] = {
+				["name"] = "Rapid Killing",
+				["icon"] = "Interface\\Icons\\Ability_Hunter_RapidKilling",
+			},
+			[7.05] = {
+				["name"] = "Deflection",
+				["icon"] = "Interface\\Icons\\Ability_Parry",
+			},
+			[15.1] = {
+				["name"] = "Anticipation",
+				["icon"] = "Interface\\Icons\\Spell_Nature_MirrorImage",
+			},
+			[22.17] = {
+				["name"] = "Ferocious Inspiration",
+				["icon"] = "Interface\\Icons\\Ability_Hunter_FerociousInspiration",
+			},
+			[24.08] = {
+				["name"] = "Improved Arcane Shot",
+				["icon"] = "Interface\\Icons\\Ability_ImpalingBolt",
+			},
+			[14.12] = {
+				["name"] = "Healing Way",
+				["icon"] = "Interface\\Icons\\Spell_Nature_HealingWay",
+			},
+			[24.07] = {
+				["name"] = "Go for the Throat",
+				["icon"] = "Interface\\Icons\\Ability_Hunter_GoForTheThroat",
+			},
+			[16.21] = {
+				["name"] = "Primal Tenacity",
+				["icon"] = "Interface\\Icons\\Ability_Druid_PrimalTenacity",
+			},
+			[24.04] = {
+				["name"] = "Careful Aim",
+				["icon"] = "Interface\\Icons\\Ability_Hunter_ZenArchery",
+			},
+			[13.19] = {
+				["name"] = "Elemental Oath",
+				["icon"] = "Interface\\Icons\\Spell_Shaman_ElementalOath",
+			},
+			[19.07] = {
+				["name"] = "Shadowburn",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_ScourgeBuild",
+			},
+			[26.14] = {
+				["name"] = "Sanctified Light",
+				["icon"] = "Interface\\Icons\\Spell_Holy_HealingAura",
+			},
+			[2.16] = {
+				["name"] = "Frozen Core",
+				["icon"] = "Interface\\Icons\\Spell_Frost_FrozenCore",
+			},
+			[12.26] = {
+				["name"] = "Twisted Faith",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_MindTwisting",
+			},
+			[17.21] = {
+				["name"] = "Living Seed",
+				["icon"] = "Interface\\Icons\\Ability_Druid_GiftoftheEarthmother",
+			},
+			[23.22] = {
+				["name"] = "Master Tactician",
+				["icon"] = "Interface\\Icons\\Ability_Hunter_MasterTactitian",
+			},
+			[5.01] = {
+				["name"] = "Improved Bloodrage",
+				["icon"] = "Interface\\Icons\\Ability_Racial_BloodRage",
+			},
+			[11.02] = {
+				["name"] = "Improved Renew",
+				["icon"] = "Interface\\Icons\\Spell_Holy_Renew",
+			},
+			[23.04] = {
+				["name"] = "Surefooted",
+				["icon"] = "Interface\\Icons\\Ability_Kick",
+			},
+			[23.19] = {
+				["name"] = "Expose Weakness",
+				["icon"] = "Interface\\Icons\\Ability_Rogue_FindWeakness",
+			},
+			[5.25] = {
+				["name"] = "Sword and Board",
+				["icon"] = "Interface\\Icons\\Ability_Warrior_SwordandBoard",
+			},
+			[10.09] = {
+				["name"] = "Improved Power Word: Shield",
+				["icon"] = "Interface\\Icons\\Spell_Holy_PowerWordShield",
+			},
+			[21.18] = {
+				["name"] = "Demonic Resilience",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_DemonicFortitude",
+			},
+			[14.02] = {
+				["name"] = "Totemic Focus",
+				["icon"] = "Interface\\Icons\\Spell_Nature_MoonGlow",
+			},
+			[4.08] = {
+				["name"] = "Anger Management",
+				["icon"] = "Interface\\Icons\\Spell_Holy_BlessingOfStamina",
+			},
+			[9.16] = {
+				["name"] = "Hemorrhage",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_LifeDrain",
+			},
+			[23.16] = {
+				["name"] = "Counterattack",
+				["icon"] = "Interface\\Icons\\Ability_Warrior_Challange",
+			},
+			[1.23] = {
+				["name"] = "Empowered Fire",
+				["icon"] = "Interface\\Icons\\Spell_Fire_FlameBolt",
+			},
+			[23.11] = {
+				["name"] = "Survival Tactics",
+				["icon"] = "Interface\\Icons\\Ability_Rogue_FeignDeath",
+			},
+			[16.22] = {
+				["name"] = "Protector of the Pack",
+				["icon"] = "Interface\\Icons\\Ability_Druid_ChallangingRoar",
+			},
+			[25.15] = {
+				["name"] = "Vengeance",
+				["icon"] = "Interface\\Icons\\Ability_Racial_Avatar",
+			},
+			[7.13] = {
+				["name"] = "Aggression",
+				["icon"] = "Interface\\Icons\\Ability_Racial_Avatar",
+			},
+			[3.15] = {
+				["name"] = "Improved Blink",
+				["icon"] = "Interface\\Icons\\Spell_Arcane_Blink",
+			},
+			[23.02] = {
+				["name"] = "Hawk Eye",
+				["icon"] = "Interface\\Icons\\Ability_TownWatch",
+			},
+			[22.05] = {
+				["name"] = "Thick Hide",
+				["icon"] = "Interface\\Icons\\INV_Misc_Pelt_Bear_03",
+			},
+			[22.22] = {
+				["name"] = "Longevity",
+				["icon"] = "Interface\\Icons\\Ability_Hunter_Longevity",
+			},
+			[22.21] = {
+				["name"] = "Serpent's Swiftness",
+				["icon"] = "Interface\\Icons\\Ability_Hunter_SerpentSwiftness",
+			},
+			[22.2] = {
+				["name"] = "Invigoration",
+				["icon"] = "Interface\\Icons\\Ability_Hunter_Invigeration",
+			},
+			[14.06] = {
+				["name"] = "Improved Water Shield",
+				["icon"] = "Interface\\Icons\\Ability_Shaman_WaterShield",
+			},
+			[2.01] = {
+				["name"] = "Frostbite",
+				["icon"] = "Interface\\Icons\\Spell_Frost_FrostArmor",
+			},
+			[20.08] = {
+				["name"] = "Improved Fear",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_Possession",
+			},
+			[22.16] = {
+				["name"] = "Frenzy",
+				["icon"] = "Interface\\Icons\\INV_Misc_MonsterClaw_03",
+			},
+			[13.13] = {
+				["name"] = "Unrelenting Storm",
+				["icon"] = "Interface\\Icons\\Spell_Nature_UnrelentingStorm",
+			},
+			[22.13] = {
+				["name"] = "Intimidation",
+				["icon"] = "Interface\\Icons\\Ability_Devour",
+			},
+			[22.11] = {
+				["name"] = "Ferocity",
+				["icon"] = "Interface\\Icons\\INV_Misc_MonsterClaw_04",
+			},
+			[12.2] = {
+				["name"] = "Shadow Power",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_ShadowPower",
+			},
+			[17.09] = {
+				["name"] = "Master Shapeshifter",
+				["icon"] = "Interface\\Icons\\Ability_Druid_MasterShapeshifter",
+			},
+			[22.08] = {
+				["name"] = "Aspect Mastery",
+				["icon"] = "Interface\\Icons\\Ability_Hunter_AspectMastery",
+			},
+			[22.07] = {
+				["name"] = "Pathfinding",
+				["icon"] = "Interface\\Icons\\Ability_Mount_JungleTiger",
+			},
+			[11.27] = {
+				["name"] = "Guardian Spirit",
+				["icon"] = "Interface\\Icons\\Spell_Holy_GuardianSpirit",
+			},
+			[15.23] = {
+				["name"] = "Lava Lash",
+				["icon"] = "Interface\\Icons\\Ability_Shaman_Lavalash",
+			},
+			[17.26] = {
+				["name"] = "Gift of the Earthmother",
+				["icon"] = "Interface\\Icons\\Ability_Druid_ManaTree",
+			},
+			[22.04] = {
+				["name"] = "Improved Aspect of the Monkey",
+				["icon"] = "Interface\\Icons\\Ability_Hunter_AspectOfTheMonkey",
+			},
+			[10.03] = {
+				["name"] = "Silent Resolve",
+				["icon"] = "Interface\\Icons\\Spell_Nature_ManaRegenTotem",
+			},
+			[21.06] = {
+				["name"] = "Demonic Brutality",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_SummonVoidWalker",
+			},
+			[22.02] = {
+				["name"] = "Endurance Training",
+				["icon"] = "Interface\\Icons\\Spell_Nature_Reincarnation",
+			},
+			[4.05] = {
+				["name"] = "Iron Will",
+				["icon"] = "Interface\\Icons\\Spell_Magic_MageArmor",
+			},
+			[9.1] = {
+				["name"] = "Setup",
+				["icon"] = "Interface\\Icons\\Spell_Nature_MirrorImage",
+			},
+			[19.2] = {
+				["name"] = "Shadow and Flame",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_ShadowandFlame",
+			},
+			[13.02] = {
+				["name"] = "Concussion",
+				["icon"] = "Interface\\Icons\\Spell_Fire_Fireball",
+			},
+			[21.19] = {
+				["name"] = "Demonic Empowerment",
+				["icon"] = "Interface\\Icons\\Ability_Warlock_DemonicEmpowerment",
+			},
+			[8.17] = {
+				["name"] = "Murder",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_DeathScream",
+			},
+			[21.15] = {
+				["name"] = "Master Conjuror",
+				["icon"] = "Interface\\Icons\\INV_Ammo_FireTar",
+			},
+			[1.06] = {
+				["name"] = "World in Flames",
+				["icon"] = "Interface\\Icons\\Ability_Mage_WorldInFlames",
+			},
+			[3.12] = {
+				["name"] = "Improved Counterspell",
+				["icon"] = "Interface\\Icons\\Spell_Frost_IceShock",
+			},
+			[7.24] = {
+				["name"] = "Unfair Advantage",
+				["icon"] = "Interface\\Icons\\Ability_Rogue_UnfairAdvantage",
+			},
+			[16.1] = {
+				["name"] = "Predatory Strikes",
+				["icon"] = "Interface\\Icons\\Ability_Hunter_Pet_Cat",
+			},
+			[23.17] = {
+				["name"] = "Lightning Reflexes",
+				["icon"] = "Interface\\Icons\\Spell_Nature_Invisibilty",
+			},
+			[21.02] = {
+				["name"] = "Improved Imp",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_SummonImp",
+			},
+			[20.27] = {
+				["name"] = "Everlasting Affliction",
+				["icon"] = "Interface\\Icons\\Ability_Warlock_EverlastingAffliction",
+			},
+			[20.26] = {
+				["name"] = "Pandemic",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_UnstableAffliction_2",
+			},
+			[20.22] = {
+				["name"] = "Improved Howl of Terror",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_DeathScream",
+			},
+			[20.21] = {
+				["name"] = "Dark Pact",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_DarkRitual",
+			},
+			[4.25] = {
+				["name"] = "Improved Mortal Strike",
+				["icon"] = "Interface\\Icons\\Ability_Warrior_SavageBlow",
+			},
+			[13.07] = {
+				["name"] = "Elemental Focus",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_ManaBurn",
+			},
+			[20.19] = {
+				["name"] = "Eradication",
+				["icon"] = "Interface\\Icons\\Ability_Warlock_Eradication",
+			},
+			[20.18] = {
+				["name"] = "Shadow Mastery",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_ShadeTrueSight",
+			},
+			[20.13] = {
+				["name"] = "Empowered Corruption",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_AbominationExplosion",
+			},
+			[12.14] = {
+				["name"] = "Vampiric Embrace",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_UnsummonBuilding",
+			},
+			[2.13] = {
+				["name"] = "Shatter",
+				["icon"] = "Interface\\Icons\\Spell_Frost_FrostShock",
+			},
+			[5.26] = {
+				["name"] = "Damage Shield",
+				["icon"] = "Interface\\Icons\\INV_Shield_31",
+			},
+			[15.11] = {
+				["name"] = "Flurry",
+				["icon"] = "Interface\\Icons\\Ability_GhoulFrenzy",
+			},
+			[11.21] = {
+				["name"] = "Empowered Healing",
+				["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			},
+			[8.23] = {
+				["name"] = "Master Poisoner",
+				["icon"] = "Interface\\Icons\\Ability_Creature_Poison_06",
+			},
+			[12.23] = {
+				["name"] = "Psychic Horror",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_PsychicHorrors",
+			},
+			[10.28] = {
+				["name"] = "Penance",
+				["icon"] = "Interface\\Icons\\Spell_Holy_Penance",
+			},
+			[22.18] = {
+				["name"] = "Bestial Wrath",
+				["icon"] = "Interface\\Icons\\Ability_Druid_FerociousBite",
+			},
+			[4.02] = {
+				["name"] = "Deflection",
+				["icon"] = "Interface\\Icons\\Ability_Parry",
+			},
+			[9.039999999999999] = {
+				["name"] = "Sleight of Hand",
+				["icon"] = "Interface\\Icons\\Ability_Rogue_Feint",
+			},
+			[19.08] = {
+				["name"] = "Ruin",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_ShadowWordPain",
+			},
+			[20.07] = {
+				["name"] = "Soul Siphon",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_LifeDrain02",
+			},
+			[1.21] = {
+				["name"] = "Molten Fury",
+				["icon"] = "Interface\\Icons\\Spell_Fire_MoltenBlood",
+			},
+			[8.109999999999999] = {
+				["name"] = "Improved Poisons",
+				["icon"] = "Interface\\Icons\\Ability_Poisons",
+			},
+			[17.22] = {
+				["name"] = "Revitalize",
+				["icon"] = "Interface\\Icons\\Ability_Druid_Replenish",
+			},
+			[26.15] = {
+				["name"] = "Purifying Power",
+				["icon"] = "Interface\\Icons\\Spell_Holy_PurifyingPower",
+			},
+			[1.2] = {
+				["name"] = "Combustion",
+				["icon"] = "Interface\\Icons\\Spell_Fire_SealOfFire",
+			},
+			[7.18] = {
+				["name"] = "Blade Twisting",
+				["icon"] = "Interface\\Icons\\Ability_Rogue_BladeTwisting",
+			},
+			[16.16] = {
+				["name"] = "Natural Reaction",
+				["icon"] = "Interface\\Icons\\Ability_BullRush",
+			},
+			[23.05] = {
+				["name"] = "Entrapment",
+				["icon"] = "Interface\\Icons\\Spell_Nature_StrangleVines",
+			},
+			[17.19] = {
+				["name"] = "Natural Perfection",
+				["icon"] = "Interface\\Icons\\Ability_Druid_NaturalPerfection",
+			},
+			[8.16] = {
+				["name"] = "Seal Fate",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_ChillTouch",
+			},
+			[14.08] = {
+				["name"] = "Tidal Force",
+				["icon"] = "Interface\\Icons\\Spell_Frost_Frostbolt",
+			},
+			[14.25] = {
+				["name"] = "Tidal Waves",
+				["icon"] = "Interface\\Icons\\Spell_Shaman_TidalWaves",
+			},
+			[16.13] = {
+				["name"] = "Brutal Impact",
+				["icon"] = "Interface\\Icons\\Ability_Druid_Bash",
+			},
+			[19.25] = {
+				["name"] = "Fire and Brimstone",
+				["icon"] = "Interface\\Icons\\Ability_Warlock_FireandBrimstone",
+			},
+			[16.29] = {
+				["name"] = "Primal Gore",
+				["icon"] = "Interface\\Icons\\Ability_Druid_Rake",
+			},
+			[11.17] = {
+				["name"] = "Holy Concentration",
+				["icon"] = "Interface\\Icons\\Spell_Holy_Fanaticism",
+			},
+			[2.27] = {
+				["name"] = "Chilled to the Bone",
+				["icon"] = "Interface\\Icons\\Ability_Mage_ChilledToTheBone",
+			},
+			[13.25] = {
+				["name"] = "Thunderstorm",
+				["icon"] = "Interface\\Icons\\Spell_Shaman_ThunderStorm",
+			},
+			[13.01] = {
+				["name"] = "Convection",
+				["icon"] = "Interface\\Icons\\Spell_Nature_WispSplode",
+			},
+			[18.09] = {
+				["name"] = "Nature's Reach",
+				["icon"] = "Interface\\Icons\\Spell_Nature_NatureTouchGrow",
+			},
+			[13.06] = {
+				["name"] = "Reverberation",
+				["icon"] = "Interface\\Icons\\Spell_Frost_FrostWard",
+			},
+			[19.15] = {
+				["name"] = "Nether Protection",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_NetherProtection",
+			},
+			[5.23] = {
+				["name"] = "Devastate",
+				["icon"] = "Interface\\Icons\\INV_Sword_11",
+			},
+			[16.23] = {
+				["name"] = "Predatory Instincts",
+				["icon"] = "Interface\\Icons\\Ability_Druid_PredatoryInstincts",
+			},
+			[11.23] = {
+				["name"] = "Empowered Renew",
+				["icon"] = "Interface\\Icons\\Ability_Paladin_InfusionofLight",
+			},
+			[15.16] = {
+				["name"] = "Unleashed Rage",
+				["icon"] = "Interface\\Icons\\Spell_Nature_UnleashedRage",
+			},
+			[10.22] = {
+				["name"] = "Rapture",
+				["icon"] = "Interface\\Icons\\Spell_Holy_Rapture",
+			},
+			[22.06] = {
+				["name"] = "Improved Revive Pet",
+				["icon"] = "Interface\\Icons\\Ability_Hunter_BeastSoothe",
+			},
+			[20.02] = {
+				["name"] = "Suppression",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_UnsummonBuilding",
+			},
+			[4.3] = {
+				["name"] = "Wrecking Crew",
+				["icon"] = "Interface\\Icons\\Ability_Warrior_Trauma",
+			},
+			[2.2] = {
+				["name"] = "Ice Barrier",
+				["icon"] = "Interface\\Icons\\Spell_Ice_Lament",
+			},
+			[20.2] = {
+				["name"] = "Contagion",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_PainfulAfflictions",
+			},
+			[2.03] = {
+				["name"] = "Ice Floes",
+				["icon"] = "Interface\\Icons\\Spell_Frost_IceFloes",
+			},
+			[18.28] = {
+				["name"] = "Starfall",
+				["icon"] = "Interface\\Icons\\Ability_Druid_Starfall",
+			},
+			[7.28] = {
+				["name"] = "Killing Spree",
+				["icon"] = "Interface\\Icons\\Ability_Rogue_MurderSpree",
+			},
+			[18.27] = {
+				["name"] = "Earth and Moon",
+				["icon"] = "Interface\\Icons\\Ability_Druid_EarthandSky",
+			},
+			[26.03] = {
+				["name"] = "Healing Light",
+				["icon"] = "Interface\\Icons\\Spell_Holy_HolyBolt",
+			},
+			[18.26] = {
+				["name"] = "Gale Winds",
+				["icon"] = "Interface\\Icons\\Ability_Druid_GaleWinds",
+			},
+			[8.050000000000001] = {
+				["name"] = "Blood Spatter",
+				["icon"] = "Interface\\Icons\\Ability_Rogue_BloodSplatter",
+			},
+			[17.1] = {
+				["name"] = "Tranquil Spirit",
+				["icon"] = "Interface\\Icons\\Spell_Holy_ElunesGrace",
+			},
+			[1.03] = {
+				["name"] = "Improved Fireball",
+				["icon"] = "Interface\\Icons\\Spell_Fire_FlameBolt",
+			},
+			[3.06] = {
+				["name"] = "Arcane Concentration",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_ManaBurn",
+			},
+			[7.12] = {
+				["name"] = "Lightning Reflexes",
+				["icon"] = "Interface\\Icons\\Spell_Nature_Invisibilty",
+			},
+			[15.24] = {
+				["name"] = "Improved Stormstrike",
+				["icon"] = "Interface\\Icons\\Spell_Shaman_ImprovedStormstrike",
+			},
+			[18.22] = {
+				["name"] = "Wrath of Cenarius",
+				["icon"] = "Interface\\Icons\\Ability_Druid_TwilightsWrath",
+			},
+			[12.02] = {
+				["name"] = "Improved Spirit Tap",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_Requiem",
+			},
+			[14.19] = {
+				["name"] = "Blessing of the Eternals",
+				["icon"] = "Interface\\Icons\\Spell_Shaman_BlessingOfEternals",
+			},
+			[21.07] = {
+				["name"] = "Fel Vitality",
+				["icon"] = "Interface\\Icons\\Spell_Holy_MagicalSentry",
+			},
+			[18.21] = {
+				["name"] = "Owlkin Frenzy",
+				["icon"] = "Interface\\Icons\\Ability_Druid_OwlkinFrenzy",
+			},
+			[18.2] = {
+				["name"] = "Improved Faerie Fire",
+				["icon"] = "Interface\\Icons\\Spell_Nature_FaerieFire",
+			},
+			[18.13] = {
+				["name"] = "Insect Swarm",
+				["icon"] = "Interface\\Icons\\Spell_Nature_InsectSwarm",
+			},
+			[19.21] = {
+				["name"] = "Improved Soul Leech",
+				["icon"] = "Interface\\Icons\\Ability_Warlock_ImprovedSoulLeech",
+			},
+			[2.1] = {
+				["name"] = "Improved Blizzard",
+				["icon"] = "Interface\\Icons\\Spell_Frost_IceStorm",
+			},
+			[5.2] = {
+				["name"] = "Vitality",
+				["icon"] = "Interface\\Icons\\INV_Helmet_21",
+			},
+			[16.11] = {
+				["name"] = "Primal Fury",
+				["icon"] = "Interface\\Icons\\Ability_Racial_Cannibalize",
+			},
+			[25.04] = {
+				["name"] = "Heart of the Crusader",
+				["icon"] = "Interface\\Icons\\Spell_Holy_HolySmite",
+			},
+			[3.25] = {
+				["name"] = "Mind Mastery",
+				["icon"] = "Interface\\Icons\\Spell_Arcane_MindMastery",
+			},
+			[8.08] = {
+				["name"] = "Improved Expose Armor",
+				["icon"] = "Interface\\Icons\\Ability_Warrior_Riposte",
+			},
+			[11.09] = {
+				["name"] = "Holy Reach",
+				["icon"] = "Interface\\Icons\\Spell_Holy_Purify",
+			},
+			[23.18] = {
+				["name"] = "Resourcefulness",
+				["icon"] = "Interface\\Icons\\Ability_Hunter_Resourcefulness",
+			},
+			[4.27] = {
+				["name"] = "Sudden Death",
+				["icon"] = "Interface\\Icons\\Ability_Warrior_ImprovedDisciplines",
+			},
+			[1.19] = {
+				["name"] = "Pyromaniac",
+				["icon"] = "Interface\\Icons\\Spell_Fire_Burnout",
+			},
+			[10.16] = {
+				["name"] = "Focused Power",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_FocusedPower",
+			},
+			[8.210000000000001] = {
+				["name"] = "Focused Attacks",
+				["icon"] = "Interface\\Icons\\Ability_Rogue_FocusedAttacks",
+			},
+			[16.19] = {
+				["name"] = "Leader of the Pack",
+				["icon"] = "Interface\\Icons\\Spell_Nature_UnyeildingStamina",
+			},
+			[18.08] = {
+				["name"] = "Nature's Splendor",
+				["icon"] = "Interface\\Icons\\Spell_Nature_NatureGuardian",
+			},
+			[9.23] = {
+				["name"] = "Waylay",
+				["icon"] = "Interface\\Icons\\Ability_Rogue_Waylay",
+			},
+			[1.17] = {
+				["name"] = "Blazing Speed",
+				["icon"] = "Interface\\Icons\\Spell_Fire_BurningSpeed",
+			},
+			[7.11] = {
+				["name"] = "Improved Sprint",
+				["icon"] = "Interface\\Icons\\Ability_Rogue_Sprint",
+			},
+			[9.109999999999999] = {
+				["name"] = "Initiative",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_Fumble",
+			},
+			[18.07] = {
+				["name"] = "Nature's Grace",
+				["icon"] = "Interface\\Icons\\Spell_Nature_NaturesBlessing",
+			},
+			[24.05] = {
+				["name"] = "Improved Hunter's Mark",
+				["icon"] = "Interface\\Icons\\Ability_Hunter_SniperShot",
+			},
+			[3.03] = {
+				["name"] = "Arcane Stability",
+				["icon"] = "Interface\\Icons\\Spell_Nature_StarFall",
+			},
+			[7.06] = {
+				["name"] = "Precision",
+				["icon"] = "Interface\\Icons\\Ability_Marksmanship",
+			},
+			[15.12] = {
+				["name"] = "Toughness",
+				["icon"] = "Interface\\Icons\\Spell_Holy_Devotion",
+			},
+			[22.19] = {
+				["name"] = "Catlike Reflexes",
+				["icon"] = "Interface\\Icons\\Ability_Hunter_CatlikeReflexes",
+			},
+			[8.01] = {
+				["name"] = "Improved Eviscerate",
+				["icon"] = "Interface\\Icons\\Ability_Rogue_Eviscerate",
+			},
+			[10.01] = {
+				["name"] = "Unbreakable Will",
+				["icon"] = "Interface\\Icons\\Spell_Magic_MageArmor",
+			},
+			[12.01] = {
+				["name"] = "Spirit Tap",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_Requiem",
+			},
+			[14.13] = {
+				["name"] = "Nature's Swiftness",
+				["icon"] = "Interface\\Icons\\Spell_Nature_RavenForm",
+			},
+			[14.01] = {
+				["name"] = "Improved Healing Wave",
+				["icon"] = "Interface\\Icons\\Spell_Nature_MagicImmunity",
+			},
+			[17.16] = {
+				["name"] = "Nature's Bounty",
+				["icon"] = "Interface\\Icons\\Spell_Nature_ResistNature",
+			},
+			[13.2] = {
+				["name"] = "Lightning Overload",
+				["icon"] = "Interface\\Icons\\Spell_Nature_LightningOverload",
+			},
+			[19.09] = {
+				["name"] = "Intensity",
+				["icon"] = "Interface\\Icons\\Spell_Fire_LavaSpawn",
+			},
+			[18.17] = {
+				["name"] = "Balance of Power",
+				["icon"] = "Interface\\Icons\\Ability_Druid_BalanceofPower",
+			},
+			[2.24] = {
+				["name"] = "Brain Freeze",
+				["icon"] = "Interface\\Icons\\Ability_Mage_BrainFreeze",
+			},
+			[12.27] = {
+				["name"] = "Dispersion",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_Dispersion",
+			},
+			[17.23] = {
+				["name"] = "Tree of Life",
+				["icon"] = "Interface\\Icons\\Ability_Druid_TreeofLife",
+			},
+			[5.21] = {
+				["name"] = "Safeguard",
+				["icon"] = "Interface\\Icons\\Ability_Warrior_Safeguard",
+			},
+			[5.17] = {
+				["name"] = "Improved Defensive Stance",
+				["icon"] = "Interface\\Icons\\Ability_Warrior_DefensiveStance",
+			},
+			[11.03] = {
+				["name"] = "Holy Specialization",
+				["icon"] = "Interface\\Icons\\Spell_Holy_SealOfSalvation",
+			},
+			[23.06] = {
+				["name"] = "Trap Mastery",
+				["icon"] = "Interface\\Icons\\Ability_Ensnare",
+			},
+			[11.16] = {
+				["name"] = "Spiritual Healing",
+				["icon"] = "Interface\\Icons\\Spell_Nature_MoonGlow",
+			},
+			[16.04] = {
+				["name"] = "Savage Fury",
+				["icon"] = "Interface\\Icons\\Ability_Druid_Ravage",
+			},
+			[10.1] = {
+				["name"] = "Absolution",
+				["icon"] = "Interface\\Icons\\Spell_Holy_Absolution",
+			},
+			[21.2] = {
+				["name"] = "Demonic Knowledge",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_ImprovedVampiricEmbrace",
+			},
+			[7.15] = {
+				["name"] = "Blade Flurry",
+				["icon"] = "Interface\\Icons\\Ability_Warrior_PunishingBlow",
+			},
+			[4.24] = {
+				["name"] = "Juggernaut",
+				["icon"] = "Interface\\Icons\\Ability_Warrior_BullRush",
+			},
+			[9.17] = {
+				["name"] = "Master of Subtlety",
+				["icon"] = "Interface\\Icons\\Ability_Rogue_MasterOfSubtlety",
+			},
+			[10.08] = {
+				["name"] = "Inner Focus",
+				["icon"] = "Interface\\Icons\\Spell_Frost_WindWalkOn",
+			},
+			[27.03] = {
+				["name"] = "Judgements of the Just",
+				["icon"] = "Interface\\Icons\\Ability_Paladin_JudgementsoftheJust",
+			},
+			[11.15] = {
+				["name"] = "Surge of Light",
+				["icon"] = "Interface\\Icons\\Spell_Holy_SurgeOfLight",
+			},
+			[8.24] = {
+				["name"] = "Mutilate",
+				["icon"] = "Interface\\Icons\\Ability_Rogue_ShadowStrikes",
+			},
+			[9.15] = {
+				["name"] = "Dirty Deeds",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_SummonSuccubus",
+			},
+		},
+		["ROGUE"] = {
+		},
+		["DEATHKNIGHT"] = {
+		},
+	},
+	["tempIconCache"] = {
+	},
+	["login_squelch_time"] = 10,
+}
