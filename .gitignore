@@ -1,0 +1,5 @@
+*
+!.gitignore
+!/SavedVariables
+!/SavedVariables/*.lua
+!/SavedVariables/*.lua.bak
