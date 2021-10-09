@@ -1,0 +1,327 @@
+
+ElvDB = {
+	["profileKeys"] = {
+		["Lucyon - Al'ar - Season 7"] = "Default",
+	},
+	["gold"] = {
+		["Al'ar - Season 7"] = {
+			["Lucyon"] = 10913200,
+		},
+	},
+	["namespaces"] = {
+		["LibDualSpec-1.0"] = {
+		},
+	},
+	["class"] = {
+		["Al'ar - Season 7"] = {
+			["Lucyon"] = "DRUID",
+		},
+	},
+	["global"] = {
+		["general"] = {
+			["locale"] = "enUS",
+		},
+		["nameplates"] = {
+			["filters"] = {
+				["ElvUI_Boss"] = {
+				},
+				["ElvUI_Totem"] = {
+				},
+			},
+		},
+	},
+	["profiles"] = {
+		["Lucyon - Al'ar - Season 7"] = {
+			["chat"] = {
+				["tabFont"] = "Arial Narrow",
+				["font"] = "Arial Narrow",
+				["tapFontSize"] = 12,
+				["fontSize"] = 12,
+				["panelColorConverted"] = true,
+			},
+			["movers"] = {
+				["ElvUF_Raid40Mover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,432",
+				["ShiftAB"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,1076",
+				["ElvUF_PartyMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,195",
+				["ElvUF_RaidMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,427",
+				["ElvUF_RaidpetMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,736",
+			},
+			["bags"] = {
+				["countFontSize"] = 12,
+				["itemLevelFontSize"] = 12,
+				["countFont"] = "Arial Narrow",
+				["itemLevelFont"] = "Arial Narrow",
+			},
+			["auras"] = {
+				["debuffs"] = {
+					["durationFontSize"] = 12,
+					["countFontSize"] = 12,
+				},
+				["font"] = "Arial Narrow",
+				["buffs"] = {
+					["durationFontSize"] = 12,
+					["countFontSize"] = 12,
+				},
+			},
+			["general"] = {
+				["minimap"] = {
+					["locationFont"] = "Arial Narrow",
+				},
+				["reminder"] = {
+					["font"] = "Arial Narrow",
+				},
+				["font"] = "Arial Narrow",
+			},
+			["unitframe"] = {
+				["units"] = {
+					["pet"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["targettargettarget"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["pettarget"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["arena"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["focustarget"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["targettarget"] = {
+						["enable"] = false,
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["target"] = {
+						["enable"] = false,
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["focus"] = {
+						["enable"] = false,
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["boss"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["raid40"] = {
+						["rdebuffs"] = {
+							["font"] = "Arial Narrow",
+						},
+					},
+					["raid"] = {
+						["rdebuffs"] = {
+							["font"] = "Arial Narrow",
+						},
+					},
+					["player"] = {
+						["enable"] = false,
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["party"] = {
+						["rdebuffs"] = {
+							["font"] = "Arial Narrow",
+						},
+					},
+				},
+				["font"] = "Arial Narrow",
+			},
+			["datatexts"] = {
+				["font"] = "Arial Narrow",
+			},
+			["actionbar"] = {
+				["font"] = "Arial Narrow",
+			},
+			["nameplates"] = {
+				["font"] = "Arial Narrow",
+			},
+			["tooltip"] = {
+				["fontSize"] = 12,
+				["healthBar"] = {
+					["font"] = "Arial Narrow",
+				},
+				["font"] = "Arial Narrow",
+			},
+		},
+		["Default"] = {
+			["bags"] = {
+				["countFontSize"] = 12,
+				["itemLevelFontSize"] = 12,
+				["countFont"] = "Arial Narrow",
+				["itemLevelFont"] = "Arial Narrow",
+			},
+			["general"] = {
+				["minimap"] = {
+					["locationFont"] = "Arial Narrow",
+				},
+				["reminder"] = {
+					["font"] = "Arial Narrow",
+				},
+				["font"] = "Arial Narrow",
+			},
+			["movers"] = {
+				["ElvUF_Raid40Mover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,432",
+				["ShiftAB"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,1076",
+				["ElvUF_PartyMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,195",
+				["ElvUF_RaidMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,427",
+				["ElvUF_RaidpetMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,736",
+			},
+			["tooltip"] = {
+				["fontSize"] = 12,
+				["healthBar"] = {
+					["font"] = "Arial Narrow",
+				},
+				["font"] = "Arial Narrow",
+			},
+			["auras"] = {
+				["debuffs"] = {
+					["durationFontSize"] = 12,
+					["countFontSize"] = 12,
+				},
+				["fontOutline"] = "NONE",
+				["font"] = "Arial Narrow",
+				["buffs"] = {
+					["durationFontSize"] = 12,
+					["countFontSize"] = 12,
+				},
+			},
+			["chat"] = {
+				["tabFont"] = "Arial Narrow",
+				["font"] = "Arial Narrow",
+				["tapFontSize"] = 12,
+				["fontSize"] = 12,
+				["panelColorConverted"] = true,
+				["maxLines"] = 256,
+				["panelBackdrop"] = "HIDEBOTH",
+			},
+			["unitframe"] = {
+				["units"] = {
+					["pet"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["targettargettarget"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["pettarget"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["arena"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["focustarget"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["targettarget"] = {
+						["enable"] = false,
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["target"] = {
+						["enable"] = false,
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["focus"] = {
+						["enable"] = false,
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["boss"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["raid40"] = {
+						["rdebuffs"] = {
+							["font"] = "Arial Narrow",
+						},
+					},
+					["raid"] = {
+						["rdebuffs"] = {
+							["font"] = "Arial Narrow",
+						},
+					},
+					["player"] = {
+						["enable"] = false,
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["party"] = {
+						["rdebuffs"] = {
+							["font"] = "Arial Narrow",
+						},
+					},
+				},
+				["font"] = "Arial Narrow",
+			},
+			["datatexts"] = {
+				["font"] = "Arial Narrow",
+			},
+			["actionbar"] = {
+				["font"] = "Arial Narrow",
+			},
+			["nameplates"] = {
+				["font"] = "Arial Narrow",
+			},
+		},
+	},
+}
+ElvPrivateDB = {
+	["profileKeys"] = {
+		["Lucyon - Al'ar - Season 7"] = "Lucyon - Al'ar - Season 7",
+	},
+	["profiles"] = {
+		["Lucyon - Al'ar - Season 7"] = {
+			["general"] = {
+				["dmgfont"] = "Arial Narrow",
+			},
+			["bags"] = {
+				["enable"] = false,
+			},
+			["unitframe"] = {
+				["disabledBlizzardFrames"] = {
+					["player"] = false,
+					["focus"] = false,
+					["target"] = false,
+				},
+			},
+			["actionbar"] = {
+				["enable"] = false,
+			},
+		},
+	},
+}

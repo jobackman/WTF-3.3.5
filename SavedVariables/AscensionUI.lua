@@ -1,0 +1,5 @@
+
+AscensionUI_DB = {
+	["MysticEnchant"] = {
+	},
+}
