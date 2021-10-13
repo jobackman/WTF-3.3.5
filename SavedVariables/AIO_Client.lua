@@ -36,6 +36,10 @@ AIO_sv = {
 		},
 	},
 	["HotbarBD"] = {
+		["Area 52 - Free-Pick"] = {
+			["Lucyshock"] = {
+			},
+		},
 		["Gul'dan - League 2"] = {
 			["Kvinnakall"] = {
 				["I"] = {
@@ -255,8 +259,198 @@ AIO_sv = {
 				},
 			},
 		},
-		["Area 52 - Free-Pick"] = {
-			["Lucyshock"] = {
+		["Al'ar - Season 7"] = {
+			["Lucyon"] = {
+				["II"] = {
+					"macro|1||charge|Interface\\Icons\\Ability_Warrior_Charge|#showtooltip/n/cast charge/n/cast heroic strike/n/startattack/n/cast rend/n/cast judgement of wisdom/n/cast [nostance] berserker stance/n/cast [nostance] battle stance", -- [1]
+					"macro|2||hor|Interface\\Icons\\Ability_Paladin_HammeroftheRighteous|#showtooltip/n/cast hammer of the righteous/n/cast crusader strike/n#/cast heroic strike/n/startattack", -- [2]
+					"macro|3||jdg|Interface\\Icons\\Ability_Paladin_JudgementBlue|#showtooltip/n/cast judgement of wisdom/n/startattack/n/cast heroic strike", -- [3]
+					"spell|139||Holy Wrath|Rank 2|10318", -- [4]
+					"spell|165||Holy Nova (Holy Retribution)|Rank 6|84394", -- [5]
+					"spell|110||Divine Shield||642", -- [6]
+					"spell|195||Curse of the Elements|Rank 3|11722", -- [7]
+					"spell|191||Water Shield|Rank 6|52138", -- [8]
+					"macro|9||3|Interface\\Icons\\Spell_Holy_Excorcism_02|#showtooltip/n/cast exorcism/n#/cast heroic strike/n/startattack", -- [9]
+					"spell|109||Consecration|Rank 5|20924", -- [10]
+					"spell|192||Wind Shear||57994", -- [11]
+					"macro|12||f|Interface\\Icons\\Ability_ThunderClap|#showtooltip/n/cast hammer of wrath/n/cast heroic strike/n/startattack", -- [12]
+					"macro|13||qcomplete|Interface\\Icons\\ability_argus_soulbombdebufflarge|/run SelectGossipActiveQuest(1); CompleteQuest(); GetQuestReward()", -- [13]
+					"macro|14||qaccept|Interface\\Icons\\ability_argus_soulbombdebufflarge|/script SelectGossipAvailableQuest(1) /n/script AcceptQuest()", -- [14]
+					"spell|8||Enchanting|Artisan|13920", -- [15]
+					nil, -- [16]
+					"macro|17||enchant|Interface\\Icons\\Trade_Engraving|#showtooltip/n/cast enchanting/n/cast enchanting/n/script DoTradeSkill(GetTradeSkillSelectionIndex());/n/run GetMouseFocus():Click()/n/script ReplaceEnchant()/n/click StaticPopup1Button1", -- [17]
+					"macro|18||disenchant|Interface\\Icons\\INV_Enchant_Disenchant|#showtooltip disenchant/n/run local f=DeM or CreateFrame(\"Button\",\"DeM\",nil,\"SecureActionButtonTemplate\") f:SetAttribute(\"type\",\"click\") f:SetAttribute(\"clickbutton\",GetMouseFocus())/n/cast Disenchant/n/click DeM/n/script CloseLoot();", -- [18]
+					"macro|19||abadon|Interface\\Icons\\ability_arakkoa_spinning_blade|/run QuestLogFrameAbandonButton:Click()/n/run StaticPopup1Button1:Click()", -- [19]
+					"spell|36||Stone of Retreat: Stormwind||777003", -- [20]
+					"item|6948||Hearthstone", -- [21]
+					"macro|22||delete|Interface\\Icons\\ability_deepwinddunk_dunk|#showtooltip Delete/n/run local f=DeM or CreateFrame(\"Button\",\"DeM\",nil,\"SecureActionButtonTemplate\") f:SetAttribute(\"type\",\"click\") f:SetAttribute(\"clickbutton\",GetMouseFocus())/n/click DeM/n/run DeleteCursorItem();", -- [22]
+					"macro|23||FixDMGMeter|Interface\\Icons\\Ability_Creature_Cursed_02|/run local f = CreateFrame(\"frame\",nil, UIParent); f:SetScript(\"OnUpdate\", CombatLogClearEntries);", -- [23]
+					"macro|24||ok|Interface\\Icons\\ability_argus_soulbombdebufflarge|/run VideoOptionsFrameOkay:Click()", -- [24]
+					nil, -- [25]
+					nil, -- [26]
+					"spell|124||Greater Blessing of Might|Rank 2|25916", -- [27]
+					"spell|180||Ancestral Spirit|Rank 5|20777", -- [28]
+					nil, -- [29]
+					"spell|166||Levitate||1706", -- [30]
+					"spell|181||Astral Recall||556", -- [31]
+					"spell|45||Teleport: Moonglade||18960", -- [32]
+					"macro|33||Khadgar|Interface\\Icons\\quest_khadgar|#showtooltip/n/use Wondrous Wisdomball", -- [33]
+					nil, -- [34]
+					nil, -- [35]
+					nil, -- [36]
+					nil, -- [37]
+					nil, -- [38]
+					nil, -- [39]
+					nil, -- [40]
+					nil, -- [41]
+					nil, -- [42]
+					nil, -- [43]
+					nil, -- [44]
+					nil, -- [45]
+					nil, -- [46]
+					nil, -- [47]
+					nil, -- [48]
+					"spell|141||Seal of Command||20375", -- [49]
+					"spell|185||Rockbiter Weapon|Rank 4|10399", -- [50]
+					"spell|104||Blessing of Might|Rank 7|25291", -- [51]
+					nil, -- [52]
+					nil, -- [53]
+					nil, -- [54]
+					"macro|55||13|Interface\\Icons\\INV_Misc_Bomb_04|#showtooltip/n/use 13", -- [55]
+					"macro|56||self|Interface\\Icons\\Ability_Ambush|/target player", -- [56]
+					"macro|57||book|Interface\\Icons\\ability_monk_effuse|/cast book of ascension", -- [57]
+					"spell|23||Rest||818011", -- [58]
+					"macro|59||water|Interface\\Icons\\INV_Misc_QuestionMark|/use Conjured Glacier Water/n/use Conjured Crystal Water/n/use Conjured mountain spring water/n/use Conjured Sparkling Water/n/use Conjured Mineral Water/n/use Conjured Spring Water/n/use Conjured Purified Water/n/use Conjured Fresh Water/n/use Conjured Water", -- [59]
+					"macro|60||mount|Interface\\Icons\\inv_mount_spectralhorse|#showtooltip spectral steed/n/cast !Aspect of the Viper/n/cast Prestigious War Horse/n/cast Coaldust Alpaca/n/cast spectral steed/n/cast Striped Dawnsaber", -- [60]
+					"spell|198||Heroic Strike|Rank 9|25286", -- [61]
+					"spell|26||Shadowmeld|Racial|58984", -- [62]
+					"spell|44||Soothe Animal|Rank 3|9901", -- [63]
+					"spell|153||Greater Heal|Rank 12|25314", -- [64]
+					"spell|96||Blink||1953", -- [65]
+					"spell|174||Smite|Rank 8|10934", -- [66]
+					"spell|41||Rebirth|Rank 5|20748", -- [67]
+					nil, -- [68]
+					"spell|137||Holy Light|Rank 9|25292", -- [69]
+					"spell|97||Dispel Curse||475", -- [70]
+					nil, -- [71]
+					"spell|122||Flash of Light|Rank 6|19943", -- [72]
+				},
+				["IV"] = {
+					[14] = "macro|14||qaccept|Interface\\Icons\\ability_argus_soulbombdebufflarge|/script SelectGossipAvailableQuest(1) /n/script AcceptQuest()",
+					[58] = "spell|23||Rest||818011",
+					[59] = "macro|59||water|Interface\\Icons\\INV_Misc_QuestionMark|/use Conjured Glacier Water/n/use Conjured Crystal Water/n/use Conjured mountain spring water/n/use Conjured Sparkling Water/n/use Conjured Mineral Water/n/use Conjured Spring Water/n/use Conjured Purified Water/n/use Conjured Fresh Water/n/use Conjured Water",
+					[60] = "macro|60||mount|Interface\\Icons\\inv_mount_spectralhorse|#showtooltip spectral steed/n/cast !Aspect of the Viper/n/cast Prestigious War Horse/n/cast Coaldust Alpaca/n/cast spectral steed/n/cast Striped Dawnsaber",
+					[15] = "spell|8||Enchanting|Artisan|13920",
+					[62] = "spell|26||Shadowmeld|Racial|58984",
+					[33] = "macro|33||Khadgar|Interface\\Icons\\quest_khadgar|#showtooltip/n/use Wondrous Wisdomball",
+					[17] = "macro|17||enchant|Interface\\Icons\\Trade_Engraving|#showtooltip/n/cast enchanting/n/cast enchanting/n/script DoTradeSkill(GetTradeSkillSelectionIndex());/n/run GetMouseFocus():Click()/n/script ReplaceEnchant()/n/click StaticPopup1Button1",
+					[18] = "macro|18||disenchant|Interface\\Icons\\INV_Enchant_Disenchant|#showtooltip disenchant/n/run local f=DeM or CreateFrame(\"Button\",\"DeM\",nil,\"SecureActionButtonTemplate\") f:SetAttribute(\"type\",\"click\") f:SetAttribute(\"clickbutton\",GetMouseFocus())/n/cast Disenchant/n/click DeM/n/script CloseLoot();",
+					[19] = "macro|19||abadon|Interface\\Icons\\ability_arakkoa_spinning_blade|/run QuestLogFrameAbandonButton:Click()/n/run StaticPopup1Button1:Click()",
+					[20] = "spell|36||Stone of Retreat: Stormwind||777003",
+					[10] = "spell|194||Lesser Healing Wave|Rank 6|10468",
+					[21] = "item|6948||Hearthstone",
+					[22] = "macro|22||delete|Interface\\Icons\\ability_deepwinddunk_dunk|#showtooltip Delete/n/run local f=DeM or CreateFrame(\"Button\",\"DeM\",nil,\"SecureActionButtonTemplate\") f:SetAttribute(\"type\",\"click\") f:SetAttribute(\"clickbutton\",GetMouseFocus())/n/click DeM/n/run DeleteCursorItem();",
+					[23] = "macro|23||FixDMGMeter|Interface\\Icons\\Ability_Creature_Cursed_02|/run local f = CreateFrame(\"frame\",nil, UIParent); f:SetScript(\"OnUpdate\", CombatLogClearEntries);",
+					[24] = "macro|24||ok|Interface\\Icons\\ability_argus_soulbombdebufflarge|/run VideoOptionsFrameOkay:Click()",
+					[13] = "macro|13||qcomplete|Interface\\Icons\\ability_argus_soulbombdebufflarge|/run SelectGossipActiveQuest(1); CompleteQuest(); GetQuestReward()",
+					[5] = "spell|70||Raptor Strike|Rank 1|2973",
+					[55] = "macro|55||13|Interface\\Icons\\INV_Misc_Bomb_04|#showtooltip/n/use 13",
+					[56] = "macro|56||self|Interface\\Icons\\Ability_Ambush|/target player",
+					[57] = "macro|57||book|Interface\\Icons\\ability_monk_effuse|/cast book of ascension",
+				},
+				["I"] = {
+					[14] = "macro|14||qaccept|Interface\\Icons\\ability_argus_soulbombdebufflarge|/script SelectGossipAvailableQuest(1) /n/script AcceptQuest()",
+					[58] = "spell|23||Rest||818011",
+					[59] = "macro|59||water|Interface\\Icons\\INV_Misc_QuestionMark|/use Conjured Glacier Water/n/use Conjured Crystal Water/n/use Conjured mountain spring water/n/use Conjured Sparkling Water/n/use Conjured Mineral Water/n/use Conjured Spring Water/n/use Conjured Purified Water/n/use Conjured Fresh Water/n/use Conjured Water",
+					[60] = "macro|60||mount|Interface\\Icons\\inv_mount_spectralhorse|#showtooltip spectral steed/n/cast !Aspect of the Viper/n/cast Prestigious War Horse/n/cast Coaldust Alpaca/n/cast spectral steed/n/cast Striped Dawnsaber",
+					[15] = "spell|8||Enchanting|Artisan|13920",
+					[62] = "spell|26||Shadowmeld|Racial|58984",
+					[33] = "macro|33||Khadgar|Interface\\Icons\\quest_khadgar|#showtooltip/n/use Wondrous Wisdomball",
+					[17] = "macro|17||enchant|Interface\\Icons\\Trade_Engraving|#showtooltip/n/cast enchanting/n/cast enchanting/n/script DoTradeSkill(GetTradeSkillSelectionIndex());/n/run GetMouseFocus():Click()/n/script ReplaceEnchant()/n/click StaticPopup1Button1",
+					[18] = "macro|18||disenchant|Interface\\Icons\\INV_Enchant_Disenchant|#showtooltip disenchant/n/run local f=DeM or CreateFrame(\"Button\",\"DeM\",nil,\"SecureActionButtonTemplate\") f:SetAttribute(\"type\",\"click\") f:SetAttribute(\"clickbutton\",GetMouseFocus())/n/cast Disenchant/n/click DeM/n/script CloseLoot();",
+					[19] = "macro|19||abadon|Interface\\Icons\\ability_arakkoa_spinning_blade|/run QuestLogFrameAbandonButton:Click()/n/run StaticPopup1Button1:Click()",
+					[20] = "spell|36||Stone of Retreat: Stormwind||777003",
+					[21] = "item|6948||Hearthstone",
+					[136] = "spell|172||Windfury Totem||8512",
+					[22] = "macro|22||delete|Interface\\Icons\\ability_deepwinddunk_dunk|#showtooltip Delete/n/run local f=DeM or CreateFrame(\"Button\",\"DeM\",nil,\"SecureActionButtonTemplate\") f:SetAttribute(\"type\",\"click\") f:SetAttribute(\"clickbutton\",GetMouseFocus())/n/click DeM/n/run DeleteCursorItem();",
+					[144] = "spell|172||Windfury Totem||8512",
+					[23] = "macro|23||FixDMGMeter|Interface\\Icons\\Ability_Creature_Cursed_02|/run local f = CreateFrame(\"frame\",nil, UIParent); f:SetScript(\"OnUpdate\", CombatLogClearEntries);",
+					[24] = "macro|24||ok|Interface\\Icons\\ability_argus_soulbombdebufflarge|/run VideoOptionsFrameOkay:Click()",
+					[13] = "macro|13||qcomplete|Interface\\Icons\\ability_argus_soulbombdebufflarge|/run SelectGossipActiveQuest(1); CompleteQuest(); GetQuestReward()",
+					[140] = "spell|172||Windfury Totem||8512",
+					[55] = "macro|55||13|Interface\\Icons\\INV_Misc_Bomb_04|#showtooltip/n/use 13",
+					[56] = "macro|56||self|Interface\\Icons\\Ability_Ambush|/target player",
+					[57] = "macro|57||book|Interface\\Icons\\ability_monk_effuse|/cast book of ascension",
+				},
+				["III"] = {
+					"spell|221||Detect Invisibility||132", -- [1]
+					"spell|96||Arcane Explosion|Rank 1|1449", -- [2]
+					"spell|143||Flash Heal|Rank 1|2061", -- [3]
+					"spell|192||Smite|Rank 1|585", -- [4]
+					"spell|110||Evocation||12051", -- [5]
+					"spell|176||Holy Nova (Holy Retribution)|Rank 1|84389", -- [6]
+					"spell|170||Holy Nova|Rank 1|15237", -- [7]
+					"spell|203||Flame Shock|Rank 1|8050", -- [8]
+					"spell|222||Drain Soul|Rank 1|1120", -- [9]
+					"spell|45||Track Humanoids||19883", -- [10]
+					"spell|141||Holy Wrath|Rank 1|2812", -- [11]
+					"spell|121||Frost Nova|Rank 4|10230", -- [12]
+					"macro|13||qcomplete|Interface\\Icons\\ability_argus_soulbombdebufflarge|/run SelectGossipActiveQuest(1); CompleteQuest(); GetQuestReward()", -- [13]
+					"macro|14||qaccept|Interface\\Icons\\ability_argus_soulbombdebufflarge|/script SelectGossipAvailableQuest(1) /n/script AcceptQuest()", -- [14]
+					"spell|8||Enchanting|Artisan|13920", -- [15]
+					[23] = "macro|23||FixDMGMeter|Interface\\Icons\\Ability_Creature_Cursed_02|/run local f = CreateFrame(\"frame\",nil, UIParent); f:SetScript(\"OnUpdate\", CombatLogClearEntries);",
+					[24] = "macro|24||ok|Interface\\Icons\\ability_argus_soulbombdebufflarge|/run VideoOptionsFrameOkay:Click()",
+					[62] = "spell|26||Shadowmeld|Racial|58984",
+					[58] = "spell|23||Rest||818011",
+					[56] = "macro|56||self|Interface\\Icons\\Ability_Ambush|/target player",
+					[55] = "macro|55||13|Interface\\Icons\\INV_Misc_Bomb_04|#showtooltip/n/use 13",
+					[57] = "macro|57||book|Interface\\Icons\\ability_monk_effuse|/cast book of ascension",
+					[59] = "macro|59||water|Interface\\Icons\\INV_Misc_QuestionMark|/use Conjured Glacier Water/n/use Conjured Crystal Water/n/use Conjured mountain spring water/n/use Conjured Sparkling Water/n/use Conjured Mineral Water/n/use Conjured Spring Water/n/use Conjured Purified Water/n/use Conjured Fresh Water/n/use Conjured Water",
+					[33] = "macro|33||Khadgar|Interface\\Icons\\quest_khadgar|#showtooltip/n/use Wondrous Wisdomball",
+					[17] = "macro|17||enchant|Interface\\Icons\\Trade_Engraving|#showtooltip/n/cast enchanting/n/cast enchanting/n/script DoTradeSkill(GetTradeSkillSelectionIndex());/n/run GetMouseFocus():Click()/n/script ReplaceEnchant()/n/click StaticPopup1Button1",
+					[18] = "macro|18||disenchant|Interface\\Icons\\INV_Enchant_Disenchant|#showtooltip disenchant/n/run local f=DeM or CreateFrame(\"Button\",\"DeM\",nil,\"SecureActionButtonTemplate\") f:SetAttribute(\"type\",\"click\") f:SetAttribute(\"clickbutton\",GetMouseFocus())/n/cast Disenchant/n/click DeM/n/script CloseLoot();",
+					[19] = "macro|19||abadon|Interface\\Icons\\ability_arakkoa_spinning_blade|/run QuestLogFrameAbandonButton:Click()/n/run StaticPopup1Button1:Click()",
+					[20] = "spell|36||Stone of Retreat: Stormwind||777003",
+					[21] = "item|6948||Hearthstone",
+					[22] = "macro|22||delete|Interface\\Icons\\ability_deepwinddunk_dunk|#showtooltip Delete/n/run local f=DeM or CreateFrame(\"Button\",\"DeM\",nil,\"SecureActionButtonTemplate\") f:SetAttribute(\"type\",\"click\") f:SetAttribute(\"clickbutton\",GetMouseFocus())/n/click DeM/n/run DeleteCursorItem();",
+					[60] = "macro|60||mount|Interface\\Icons\\inv_mount_spectralhorse|#showtooltip spectral steed/n/cast !Aspect of the Viper/n/cast Prestigious War Horse/n/cast Coaldust Alpaca/n/cast spectral steed/n/cast Striped Dawnsaber",
+				},
+				["V"] = {
+					"spell|160||Flash Heal|Rank 1|2061", -- [1]
+					"spell|111||Arcane Power||12042", -- [2]
+					"spell|211||Summon Imp|Summon|688", -- [3]
+					"spell|120||Conjure Food|Rank 1|587", -- [4]
+					nil, -- [5]
+					"spell|113||Blizzard|Rank 1|10", -- [6]
+					"spell|187||Smite|Rank 1|585", -- [7]
+					"spell|127||Evocation||12051", -- [8]
+					"spell|181||Holy Nova (Holy Retribution)|Rank 1|84389", -- [9]
+					nil, -- [10]
+					"spell|175||Holy Nova|Rank 1|15237", -- [11]
+					"spell|139||Fireball|Rank 12|25306", -- [12]
+					"macro|13||qcomplete|Interface\\Icons\\ability_argus_soulbombdebufflarge|/run SelectGossipActiveQuest(1); CompleteQuest(); GetQuestReward()", -- [13]
+					"macro|14||qaccept|Interface\\Icons\\ability_argus_soulbombdebufflarge|/script SelectGossipAvailableQuest(1) /n/script AcceptQuest()", -- [14]
+					"spell|8||Enchanting|Artisan|13920", -- [15]
+					[57] = "macro|57||book|Interface\\Icons\\ability_monk_effuse|/cast book of ascension",
+					[58] = "spell|23||Rest||818011",
+					[59] = "macro|59||water|Interface\\Icons\\INV_Misc_QuestionMark|/use Conjured Glacier Water/n/use Conjured Crystal Water/n/use Conjured mountain spring water/n/use Conjured Sparkling Water/n/use Conjured Mineral Water/n/use Conjured Spring Water/n/use Conjured Purified Water/n/use Conjured Fresh Water/n/use Conjured Water",
+					[60] = "macro|60||mount|Interface\\Icons\\inv_mount_spectralhorse|#showtooltip spectral steed/n/cast !Aspect of the Viper/n/cast Prestigious War Horse/n/cast Coaldust Alpaca/n/cast spectral steed/n/cast Striped Dawnsaber",
+					[62] = "spell|26||Shadowmeld|Racial|58984",
+					[33] = "macro|33||Khadgar|Interface\\Icons\\quest_khadgar|#showtooltip/n/use Wondrous Wisdomball",
+					[17] = "macro|17||enchant|Interface\\Icons\\Trade_Engraving|#showtooltip/n/cast enchanting/n/cast enchanting/n/script DoTradeSkill(GetTradeSkillSelectionIndex());/n/run GetMouseFocus():Click()/n/script ReplaceEnchant()/n/click StaticPopup1Button1",
+					[18] = "macro|18||disenchant|Interface\\Icons\\INV_Enchant_Disenchant|#showtooltip disenchant/n/run local f=DeM or CreateFrame(\"Button\",\"DeM\",nil,\"SecureActionButtonTemplate\") f:SetAttribute(\"type\",\"click\") f:SetAttribute(\"clickbutton\",GetMouseFocus())/n/cast Disenchant/n/click DeM/n/script CloseLoot();",
+					[19] = "macro|19||abadon|Interface\\Icons\\ability_arakkoa_spinning_blade|/run QuestLogFrameAbandonButton:Click()/n/run StaticPopup1Button1:Click()",
+					[20] = "spell|36||Stone of Retreat: Stormwind||777003",
+					[21] = "item|6948||Hearthstone",
+					[22] = "macro|22||delete|Interface\\Icons\\ability_deepwinddunk_dunk|#showtooltip Delete/n/run local f=DeM or CreateFrame(\"Button\",\"DeM\",nil,\"SecureActionButtonTemplate\") f:SetAttribute(\"type\",\"click\") f:SetAttribute(\"clickbutton\",GetMouseFocus())/n/click DeM/n/run DeleteCursorItem();",
+					[23] = "macro|23||FixDMGMeter|Interface\\Icons\\Ability_Creature_Cursed_02|/run local f = CreateFrame(\"frame\",nil, UIParent); f:SetScript(\"OnUpdate\", CombatLogClearEntries);",
+					[24] = "macro|24||ok|Interface\\Icons\\ability_argus_soulbombdebufflarge|/run VideoOptionsFrameOkay:Click()",
+					[133] = "spell|203||Totem of Wrath|Rank 2|57720",
+					[137] = "spell|203||Totem of Wrath|Rank 2|57720",
+					[141] = "spell|203||Totem of Wrath|Rank 2|57720",
+					[55] = "macro|55||13|Interface\\Icons\\INV_Misc_Bomb_04|#showtooltip/n/use 13",
+					[56] = "macro|56||self|Interface\\Icons\\Ability_Ambush|/target player",
+				},
 			},
 		},
 	},

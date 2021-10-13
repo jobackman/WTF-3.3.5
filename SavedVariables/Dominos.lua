@@ -298,9 +298,9 @@ DominosDB = {
 					["point"] = "CENTER",
 				},
 				["roll"] = {
+					["columns"] = 1,
 					["numButtons"] = 4,
 					["point"] = "LEFT",
-					["columns"] = 1,
 					["spacing"] = 2,
 				},
 				["menu"] = {
@@ -544,7 +544,7 @@ DominosDB = {
 					["spacing"] = 4,
 					["anchor"] = "1TL",
 					["y"] = 100.8190813528446,
-					["numButtons"] = 1,
+					["numButtons"] = 0,
 					["padH"] = 4,
 				},
 				["roll"] = {

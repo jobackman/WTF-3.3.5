@@ -5,7 +5,7 @@ ElvDB = {
 	},
 	["gold"] = {
 		["Al'ar - Season 7"] = {
-			["Lucyon"] = 17119518,
+			["Lucyon"] = 13702896,
 		},
 	},
 	["namespaces"] = {
@@ -34,6 +34,7 @@ ElvDB = {
 				},
 			},
 		},
+		["afkEnabled"] = true,
 	},
 	["profiles"] = {
 		["Lucyon - Al'ar - Season 7"] = {
@@ -74,8 +75,7 @@ ElvDB = {
 							["frequentUpdates"] = true,
 						},
 					},
-					["player"] = {
-						["enable"] = false,
+					["boss"] = {
 						["health"] = {
 							["frequentUpdates"] = true,
 						},
@@ -90,9 +90,9 @@ ElvDB = {
 							["frequentUpdates"] = true,
 						},
 					},
-					["boss"] = {
-						["health"] = {
-							["frequentUpdates"] = true,
+					["party"] = {
+						["rdebuffs"] = {
+							["font"] = "Arial Narrow",
 						},
 					},
 					["raid"] = {
@@ -100,9 +100,10 @@ ElvDB = {
 							["font"] = "Arial Narrow",
 						},
 					},
-					["party"] = {
-						["rdebuffs"] = {
-							["font"] = "Arial Narrow",
+					["player"] = {
+						["enable"] = false,
+						["health"] = {
+							["frequentUpdates"] = true,
 						},
 					},
 					["raid40"] = {
@@ -196,13 +197,15 @@ ElvDB = {
 				["font"] = "Arial Narrow",
 			},
 			["movers"] = {
-				["ElvUF_Raid40Mover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,481,610",
 				["ElvUF_RaidpetMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,736",
 				["ShiftAB"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,1076",
-				["ElvUF_PartyMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,261,329",
 				["ElvUF_RaidMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,20,541",
 				["LeftChatMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,88",
+				["BossHeaderMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-40,-337",
 				["WatchFrameMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-4,-184",
+				["ElvUF_PartyMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,261,329",
+				["ArenaHeaderMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-11,-337",
+				["ElvUF_Raid40Mover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,481,610",
 			},
 			["bags"] = {
 				["countFontSize"] = 12,
@@ -216,6 +219,7 @@ ElvDB = {
 				["tapFontSize"] = 12,
 				["panelWidth"] = 440,
 				["fontSize"] = 12,
+				["emotionIcons"] = false,
 				["panelColorConverted"] = true,
 				["panelHeight"] = 220,
 				["editBoxPosition"] = "ABOVE_CHAT",
@@ -238,20 +242,15 @@ ElvDB = {
 							["frequentUpdates"] = true,
 						},
 					},
-					["player"] = {
+					["boss"] = {
 						["debuffs"] = {
-							["attachTo"] = "BUFFS",
-						},
-						["enable"] = false,
-						["aurabar"] = {
 							["enable"] = false,
 						},
 						["health"] = {
 							["frequentUpdates"] = true,
 						},
-						["buffs"] = {
-							["attachTo"] = "FRAME",
-							["enable"] = true,
+						["power"] = {
+							["height"] = 5,
 						},
 					},
 					["focustarget"] = {
@@ -264,16 +263,26 @@ ElvDB = {
 							["frequentUpdates"] = true,
 						},
 					},
-					["boss"] = {
+					["party"] = {
+						["healPrediction"] = {
+							["enable"] = true,
+						},
+						["height"] = 46,
+						["buffs"] = {
+							["enable"] = true,
+						},
+						["rdebuffs"] = {
+							["font"] = "Arial Narrow",
+						},
+						["power"] = {
+							["text_format"] = "",
+							["height"] = 4,
+						},
 						["health"] = {
-							["frequentUpdates"] = true,
+							["text_format"] = "",
 						},
 					},
 					["raid"] = {
-						["name"] = {
-							["position"] = "TOP",
-							["yOffset"] = -5,
-						},
 						["height"] = 40,
 						["rdebuffs"] = {
 							["fontSize"] = 8,
@@ -290,20 +299,20 @@ ElvDB = {
 							["text_format"] = "",
 						},
 					},
-					["party"] = {
-						["healPrediction"] = {
-							["enable"] = true,
+					["player"] = {
+						["debuffs"] = {
+							["attachTo"] = "BUFFS",
 						},
-						["height"] = 46,
-						["rdebuffs"] = {
-							["font"] = "Arial Narrow",
-						},
-						["power"] = {
-							["text_format"] = "",
-							["height"] = 4,
+						["enable"] = false,
+						["aurabar"] = {
+							["enable"] = false,
 						},
 						["health"] = {
-							["text_format"] = "",
+							["frequentUpdates"] = true,
+						},
+						["buffs"] = {
+							["attachTo"] = "FRAME",
+							["enable"] = true,
 						},
 					},
 					["raid40"] = {
@@ -397,7 +406,7 @@ ElvDB = {
 							["hideTime"] = true,
 							["width"] = 90,
 							["font"] = "Arial Narrow",
-							["height"] = 7,
+							["height"] = 5,
 						},
 						["health"] = {
 							["height"] = 7,
@@ -475,9 +484,10 @@ ElvDB = {
 						},
 						["castbar"] = {
 							["fontSize"] = 8,
+							["hideTime"] = true,
 							["width"] = 90,
 							["font"] = "Arial Narrow",
-							["height"] = 7,
+							["height"] = 5,
 						},
 						["health"] = {
 							["height"] = 7,

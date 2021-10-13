@@ -2,7 +2,6 @@
 ACP_Data = {
 	["sorter"] = "Default",
 	["NoRecurse"] = false,
-	["NoChildren"] = true,
 	["AddonSet"] = {
 		{
 			"ActionBarSaver", -- [1]
@@ -49,6 +48,7 @@ ACP_Data = {
 			["name"] = "Empty",
 		},
 	},
+	["NoChildren"] = true,
 	["collapsed"] = {
 	},
 	["ProtectedAddons"] = {
