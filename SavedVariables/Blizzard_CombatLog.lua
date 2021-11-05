@@ -1,6 +1,6 @@
 
 Blizzard_CombatLog_Filters = {
-	["currentFilter"] = 1,
+	["currentFilter"] = 3,
 	["filters"] = {
 		{
 			["quickButtonName"] = "Self",

@@ -2,10 +2,12 @@
 ElvDB = {
 	["profileKeys"] = {
 		["Lucyon - Al'ar - Season 7"] = "Default",
+		["Lucybank - Al'ar - Season 7"] = "Default",
 	},
 	["gold"] = {
 		["Al'ar - Season 7"] = {
-			["Lucyon"] = 13702896,
+			["Lucyon"] = 33279882,
+			["Lucybank"] = 97870,
 		},
 	},
 	["namespaces"] = {
@@ -15,6 +17,7 @@ ElvDB = {
 	["class"] = {
 		["Al'ar - Season 7"] = {
 			["Lucyon"] = "DRUID",
+			["Lucybank"] = "DRUID",
 		},
 	},
 	["global"] = {
@@ -34,7 +37,6 @@ ElvDB = {
 				},
 			},
 		},
-		["afkEnabled"] = true,
 	},
 	["profiles"] = {
 		["Lucyon - Al'ar - Season 7"] = {
@@ -169,6 +171,72 @@ ElvDB = {
 				["font"] = "Arial Narrow",
 			},
 		},
+		["Lucybank - Al'ar - Season 7"] = {
+			["unitframe"] = {
+				["units"] = {
+					["targettargettarget"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["focustarget"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["pet"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["player"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["pettarget"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["focus"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["target"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["arena"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["targettarget"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["boss"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+				},
+			},
+			["chat"] = {
+				["panelColorConverted"] = true,
+			},
+			["movers"] = {
+				["ElvUF_Raid40Mover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,433",
+				["ShiftAB"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,1078",
+				["ElvUF_PartyMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,195",
+				["ElvUF_RaidMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,427",
+				["ElvUF_RaidpetMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,736",
+			},
+		},
 		["Default"] = {
 			["databars"] = {
 				["experience"] = {
@@ -204,8 +272,8 @@ ElvDB = {
 				["BossHeaderMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-40,-337",
 				["WatchFrameMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-4,-184",
 				["ElvUF_PartyMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,261,329",
-				["ArenaHeaderMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-11,-337",
-				["ElvUF_Raid40Mover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,481,610",
+				["ArenaHeaderMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-142,373",
+				["ElvUF_Raid40Mover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,567",
 			},
 			["bags"] = {
 				["countFontSize"] = 12,
@@ -214,6 +282,18 @@ ElvDB = {
 				["itemLevelFont"] = "Arial Narrow",
 			},
 			["hideTutorial"] = 1,
+			["auras"] = {
+				["fontOutline"] = "OUTLINE",
+				["font"] = "Arial Narrow",
+				["debuffs"] = {
+					["countFontSize"] = 12,
+					["durationFontSize"] = 12,
+				},
+				["buffs"] = {
+					["countFontSize"] = 12,
+					["durationFontSize"] = 12,
+				},
+			},
 			["chat"] = {
 				["font"] = "Arial Narrow",
 				["tapFontSize"] = 12,
@@ -227,13 +307,6 @@ ElvDB = {
 				["maxLines"] = 256,
 				["fadeTabsNoBackdrop"] = false,
 				["tabFont"] = "Arial Narrow",
-			},
-			["tooltip"] = {
-				["fontSize"] = 12,
-				["healthBar"] = {
-					["font"] = "Arial Narrow",
-				},
-				["font"] = "Arial Narrow",
 			},
 			["unitframe"] = {
 				["units"] = {
@@ -259,6 +332,7 @@ ElvDB = {
 						},
 					},
 					["pet"] = {
+						["enable"] = false,
 						["health"] = {
 							["frequentUpdates"] = true,
 						},
@@ -319,6 +393,9 @@ ElvDB = {
 						["rdebuffs"] = {
 							["font"] = "Arial Narrow",
 						},
+						["health"] = {
+							["text_format"] = "",
+						},
 					},
 					["focus"] = {
 						["enable"] = false,
@@ -377,20 +454,19 @@ ElvDB = {
 				["font"] = "Arial Narrow",
 			},
 			["nameplates"] = {
+				["alwaysShowTargetHealth"] = false,
+				["lowHealthThreshold"] = 0,
+				["smoothbars"] = true,
+				["threat"] = {
+					["badScale"] = 1,
+					["goodScale"] = 1,
+				},
 				["plateSize"] = {
 					["friendlyHeight"] = 20,
 					["friendlyWidth"] = 120,
 					["enemyWidth"] = 120,
 					["enemyHeight"] = 20,
 				},
-				["lowHealthThreshold"] = 0,
-				["smoothbars"] = true,
-				["threat"] = {
-					["badScale"] = 1,
-					["goodScale"] = 1,
-					["useThreatColor"] = false,
-				},
-				["alwaysShowTargetHealth"] = false,
 				["units"] = {
 					["ENEMY_NPC"] = {
 						["debuffs"] = {
@@ -412,11 +488,6 @@ ElvDB = {
 							["height"] = 7,
 							["width"] = 90,
 						},
-						["name"] = {
-							["abbrev"] = true,
-							["font"] = "Arial Narrow",
-							["fontSize"] = 7,
-						},
 						["buffs"] = {
 							["countFontSize"] = 7,
 							["durationFontSize"] = 7,
@@ -426,8 +497,13 @@ ElvDB = {
 							["durationFont"] = "Arial Narrow",
 						},
 						["level"] = {
-							["font"] = "Arial Narrow",
 							["fontSize"] = 7,
+							["font"] = "Arial Narrow",
+						},
+						["name"] = {
+							["abbrev"] = true,
+							["fontSize"] = 7,
+							["font"] = "Arial Narrow",
 						},
 					},
 					["TARGET"] = {
@@ -436,14 +512,14 @@ ElvDB = {
 					["FRIENDLY_NPC"] = {
 						["debuffs"] = {
 							["durationFontSize"] = 7,
-							["size"] = 18,
+							["filters"] = {
+								["priority"] = "Blacklist,blockNoDuration,Personal,CCDebuffs",
+							},
 							["numrows"] = 2,
 							["countFont"] = "Arial Narrow",
 							["countFontSize"] = 7,
 							["durationFont"] = "Arial Narrow",
-							["filters"] = {
-								["priority"] = "Blacklist,blockNoDuration,Personal,CCDebuffs",
-							},
+							["size"] = 18,
 						},
 						["castbar"] = {
 							["fontSize"] = 8,
@@ -459,28 +535,28 @@ ElvDB = {
 							["height"] = 6,
 							["width"] = 50,
 						},
-						["level"] = {
-							["enable"] = false,
+						["buffs"] = {
+							["size"] = 18,
 						},
 						["name"] = {
 							["fontSize"] = 8,
 							["font"] = "Arial Narrow",
 						},
-						["buffs"] = {
-							["size"] = 18,
+						["level"] = {
+							["enable"] = false,
 						},
 					},
 					["ENEMY_PLAYER"] = {
 						["debuffs"] = {
 							["durationFontSize"] = 7,
-							["size"] = 16,
+							["filters"] = {
+								["priority"] = "Blacklist,Personal,CCDebuffs",
+							},
 							["numrows"] = 2,
 							["countFont"] = "Arial Narrow",
 							["countFontSize"] = 7,
 							["durationFont"] = "Arial Narrow",
-							["filters"] = {
-								["priority"] = "Blacklist,Personal,CCDebuffs",
-							},
+							["size"] = 16,
 						},
 						["castbar"] = {
 							["fontSize"] = 8,
@@ -489,31 +565,31 @@ ElvDB = {
 							["font"] = "Arial Narrow",
 							["height"] = 5,
 						},
+						["name"] = {
+							["abbrev"] = true,
+							["fontSize"] = 7,
+							["useClassColor"] = false,
+							["font"] = "Arial Narrow",
+						},
 						["health"] = {
 							["height"] = 7,
 							["width"] = 90,
-						},
-						["name"] = {
-							["abbrev"] = true,
-							["font"] = "Arial Narrow",
-							["useClassColor"] = false,
-							["fontSize"] = 7,
-						},
-						["level"] = {
-							["font"] = "Arial Narrow",
-							["fontSize"] = 7,
 						},
 						["buffs"] = {
 							["countFontSize"] = 7,
 							["durationFontSize"] = 7,
 							["yOffset"] = 12,
-							["size"] = 16,
-							["countFont"] = "Arial Narrow",
-							["durationFont"] = "Arial Narrow",
 							["filters"] = {
 								["maxDuration"] = 0,
 								["priority"] = "Blacklist,blockNoDuration,PlayerBuffs,TurtleBuffs",
 							},
+							["countFont"] = "Arial Narrow",
+							["durationFont"] = "Arial Narrow",
+							["size"] = 16,
+						},
+						["level"] = {
+							["fontSize"] = 7,
+							["font"] = "Arial Narrow",
 						},
 					},
 					["FRIENDLY_PLAYER"] = {
@@ -540,25 +616,20 @@ ElvDB = {
 							["size"] = 18,
 						},
 						["name"] = {
-							["font"] = "Arial Narrow",
-							["useClassColor"] = false,
 							["fontSize"] = 7,
+							["useClassColor"] = false,
+							["font"] = "Arial Narrow",
 						},
 					},
 				},
 				["font"] = "Arial Narrow",
 			},
-			["auras"] = {
-				["fontOutline"] = "OUTLINE",
+			["tooltip"] = {
+				["fontSize"] = 12,
+				["healthBar"] = {
+					["font"] = "Arial Narrow",
+				},
 				["font"] = "Arial Narrow",
-				["debuffs"] = {
-					["countFontSize"] = 12,
-					["durationFontSize"] = 12,
-				},
-				["buffs"] = {
-					["countFontSize"] = 12,
-					["durationFontSize"] = 12,
-				},
 			},
 		},
 	},
@@ -566,6 +637,7 @@ ElvDB = {
 ElvPrivateDB = {
 	["profileKeys"] = {
 		["Lucyon - Al'ar - Season 7"] = "Lucyon - Al'ar - Season 7",
+		["Lucybank - Al'ar - Season 7"] = "Lucybank - Al'ar - Season 7",
 	},
 	["profiles"] = {
 		["Lucyon - Al'ar - Season 7"] = {
@@ -588,6 +660,22 @@ ElvPrivateDB = {
 				["enable"] = false,
 			},
 			["install_complete"] = "6.08",
+		},
+		["Lucybank - Al'ar - Season 7"] = {
+			["install_complete"] = "6.08",
+			["bags"] = {
+				["enable"] = false,
+			},
+			["unitframe"] = {
+				["disabledBlizzardFrames"] = {
+					["target"] = false,
+					["player"] = false,
+					["focus"] = false,
+				},
+			},
+			["actionbar"] = {
+				["enable"] = false,
+			},
 		},
 	},
 }
