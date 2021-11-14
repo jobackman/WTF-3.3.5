@@ -6,8 +6,8 @@ ElvDB = {
 	},
 	["gold"] = {
 		["Al'ar - Season 7"] = {
-			["Lucyon"] = 33279882,
-			["Lucybank"] = 97870,
+			["Lucyon"] = 38144508,
+			["Lucybank"] = 97330,
 		},
 	},
 	["namespaces"] = {
@@ -31,9 +31,9 @@ ElvDB = {
 		},
 		["nameplates"] = {
 			["filters"] = {
-				["ElvUI_Totem"] = {
-				},
 				["ElvUI_Boss"] = {
+				},
+				["ElvUI_Totem"] = {
 				},
 			},
 		},
@@ -65,24 +65,13 @@ ElvDB = {
 			["chat"] = {
 				["font"] = "Arial Narrow",
 				["tabFont"] = "Arial Narrow",
-				["panelColorConverted"] = true,
-				["tapFontSize"] = 12,
 				["fontSize"] = 12,
+				["tapFontSize"] = 12,
+				["panelColorConverted"] = true,
 			},
 			["unitframe"] = {
-				["font"] = "Arial Narrow",
 				["units"] = {
 					["targettargettarget"] = {
-						["health"] = {
-							["frequentUpdates"] = true,
-						},
-					},
-					["boss"] = {
-						["health"] = {
-							["frequentUpdates"] = true,
-						},
-					},
-					["focustarget"] = {
 						["health"] = {
 							["frequentUpdates"] = true,
 						},
@@ -92,18 +81,28 @@ ElvDB = {
 							["frequentUpdates"] = true,
 						},
 					},
-					["party"] = {
-						["rdebuffs"] = {
-							["font"] = "Arial Narrow",
+					["focustarget"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
 						},
 					},
-					["raid"] = {
-						["rdebuffs"] = {
-							["font"] = "Arial Narrow",
+					["pettarget"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
 						},
 					},
-					["player"] = {
+					["targettarget"] = {
 						["enable"] = false,
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["arena"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["boss"] = {
 						["health"] = {
 							["frequentUpdates"] = true,
 						},
@@ -125,23 +124,24 @@ ElvDB = {
 							["frequentUpdates"] = true,
 						},
 					},
-					["arena"] = {
-						["health"] = {
-							["frequentUpdates"] = true,
+					["raid"] = {
+						["rdebuffs"] = {
+							["font"] = "Arial Narrow",
 						},
 					},
-					["targettarget"] = {
+					["player"] = {
 						["enable"] = false,
 						["health"] = {
 							["frequentUpdates"] = true,
 						},
 					},
-					["pettarget"] = {
-						["health"] = {
-							["frequentUpdates"] = true,
+					["party"] = {
+						["rdebuffs"] = {
+							["font"] = "Arial Narrow",
 						},
 					},
 				},
+				["font"] = "Arial Narrow",
 			},
 			["datatexts"] = {
 				["font"] = "Arial Narrow",
@@ -152,21 +152,21 @@ ElvDB = {
 			["nameplates"] = {
 				["font"] = "Arial Narrow",
 			},
-			["tooltip"] = {
-				["fontSize"] = 12,
-				["healthBar"] = {
-					["font"] = "Arial Narrow",
-				},
-				["font"] = "Arial Narrow",
-			},
 			["auras"] = {
 				["debuffs"] = {
 					["countFontSize"] = 12,
 					["durationFontSize"] = 12,
 				},
+				["font"] = "Arial Narrow",
 				["buffs"] = {
 					["countFontSize"] = 12,
 					["durationFontSize"] = 12,
+				},
+			},
+			["tooltip"] = {
+				["fontSize"] = 12,
+				["healthBar"] = {
+					["font"] = "Arial Narrow",
 				},
 				["font"] = "Arial Narrow",
 			},
@@ -194,7 +194,7 @@ ElvDB = {
 							["frequentUpdates"] = true,
 						},
 					},
-					["pettarget"] = {
+					["boss"] = {
 						["health"] = {
 							["frequentUpdates"] = true,
 						},
@@ -219,15 +219,12 @@ ElvDB = {
 							["frequentUpdates"] = true,
 						},
 					},
-					["boss"] = {
+					["pettarget"] = {
 						["health"] = {
 							["frequentUpdates"] = true,
 						},
 					},
 				},
-			},
-			["chat"] = {
-				["panelColorConverted"] = true,
 			},
 			["movers"] = {
 				["ElvUF_Raid40Mover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,433",
@@ -235,6 +232,9 @@ ElvDB = {
 				["ElvUF_PartyMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,195",
 				["ElvUF_RaidMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,427",
 				["ElvUF_RaidpetMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,736",
+			},
+			["chat"] = {
+				["panelColorConverted"] = true,
 			},
 		},
 		["Default"] = {
@@ -257,8 +257,8 @@ ElvDB = {
 					["font"] = "Arial Narrow",
 				},
 				["threat"] = {
-					["position"] = "LEFTCHAT",
 					["textOutline"] = "OUTLINE",
+					["position"] = "LEFTCHAT",
 				},
 				["topPanel"] = false,
 				["watchFrameHeight"] = 915,
@@ -272,8 +272,8 @@ ElvDB = {
 				["BossHeaderMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-40,-337",
 				["WatchFrameMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-4,-184",
 				["ElvUF_PartyMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,261,329",
-				["ArenaHeaderMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-142,373",
 				["ElvUF_Raid40Mover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,567",
+				["ArenaHeaderMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-142,373",
 			},
 			["bags"] = {
 				["countFontSize"] = 12,
@@ -294,23 +294,43 @@ ElvDB = {
 					["durationFontSize"] = 12,
 				},
 			},
-			["chat"] = {
-				["font"] = "Arial Narrow",
-				["tapFontSize"] = 12,
-				["panelWidth"] = 440,
+			["tooltip"] = {
 				["fontSize"] = 12,
-				["emotionIcons"] = false,
-				["panelColorConverted"] = true,
-				["panelHeight"] = 220,
-				["editBoxPosition"] = "ABOVE_CHAT",
-				["panelBackdrop"] = "HIDEBOTH",
-				["maxLines"] = 256,
-				["fadeTabsNoBackdrop"] = false,
-				["tabFont"] = "Arial Narrow",
+				["healthBar"] = {
+					["font"] = "Arial Narrow",
+				},
+				["font"] = "Arial Narrow",
 			},
 			["unitframe"] = {
 				["units"] = {
 					["targettargettarget"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["pet"] = {
+						["enable"] = false,
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["focustarget"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["pettarget"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["targettarget"] = {
+						["enable"] = false,
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["arena"] = {
 						["health"] = {
 							["frequentUpdates"] = true,
 						},
@@ -326,34 +346,27 @@ ElvDB = {
 							["height"] = 5,
 						},
 					},
-					["focustarget"] = {
+					["raid40"] = {
+						["rdebuffs"] = {
+							["font"] = "Arial Narrow",
+						},
 						["health"] = {
-							["frequentUpdates"] = true,
+							["text_format"] = "",
 						},
 					},
-					["pet"] = {
+					["focus"] = {
 						["enable"] = false,
 						["health"] = {
 							["frequentUpdates"] = true,
 						},
 					},
-					["party"] = {
-						["healPrediction"] = {
-							["enable"] = true,
-						},
-						["height"] = 46,
-						["buffs"] = {
-							["enable"] = true,
-						},
-						["rdebuffs"] = {
-							["font"] = "Arial Narrow",
-						},
-						["power"] = {
-							["text_format"] = "",
-							["height"] = 4,
+					["target"] = {
+						["enable"] = false,
+						["aurabar"] = {
+							["enable"] = false,
 						},
 						["health"] = {
-							["text_format"] = "",
+							["frequentUpdates"] = true,
 						},
 					},
 					["raid"] = {
@@ -389,43 +402,23 @@ ElvDB = {
 							["enable"] = true,
 						},
 					},
-					["raid40"] = {
+					["party"] = {
+						["healPrediction"] = {
+							["enable"] = true,
+						},
+						["height"] = 46,
+						["buffs"] = {
+							["enable"] = true,
+						},
 						["rdebuffs"] = {
 							["font"] = "Arial Narrow",
 						},
+						["power"] = {
+							["text_format"] = "",
+							["height"] = 4,
+						},
 						["health"] = {
 							["text_format"] = "",
-						},
-					},
-					["focus"] = {
-						["enable"] = false,
-						["health"] = {
-							["frequentUpdates"] = true,
-						},
-					},
-					["target"] = {
-						["enable"] = false,
-						["aurabar"] = {
-							["enable"] = false,
-						},
-						["health"] = {
-							["frequentUpdates"] = true,
-						},
-					},
-					["arena"] = {
-						["health"] = {
-							["frequentUpdates"] = true,
-						},
-					},
-					["targettarget"] = {
-						["enable"] = false,
-						["health"] = {
-							["frequentUpdates"] = true,
-						},
-					},
-					["pettarget"] = {
-						["health"] = {
-							["frequentUpdates"] = true,
 						},
 					},
 				},
@@ -462,10 +455,10 @@ ElvDB = {
 					["goodScale"] = 1,
 				},
 				["plateSize"] = {
-					["friendlyHeight"] = 20,
-					["friendlyWidth"] = 120,
-					["enemyWidth"] = 120,
 					["enemyHeight"] = 20,
+					["enemyWidth"] = 120,
+					["friendlyWidth"] = 120,
+					["friendlyHeight"] = 20,
 				},
 				["units"] = {
 					["ENEMY_NPC"] = {
@@ -484,9 +477,14 @@ ElvDB = {
 							["font"] = "Arial Narrow",
 							["height"] = 5,
 						},
-						["health"] = {
-							["height"] = 7,
-							["width"] = 90,
+						["name"] = {
+							["abbrev"] = true,
+							["font"] = "Arial Narrow",
+							["fontSize"] = 7,
+						},
+						["level"] = {
+							["fontSize"] = 7,
+							["font"] = "Arial Narrow",
 						},
 						["buffs"] = {
 							["countFontSize"] = 7,
@@ -496,14 +494,9 @@ ElvDB = {
 							["countFont"] = "Arial Narrow",
 							["durationFont"] = "Arial Narrow",
 						},
-						["level"] = {
-							["fontSize"] = 7,
-							["font"] = "Arial Narrow",
-						},
-						["name"] = {
-							["abbrev"] = true,
-							["fontSize"] = 7,
-							["font"] = "Arial Narrow",
+						["health"] = {
+							["height"] = 7,
+							["width"] = 90,
 						},
 					},
 					["TARGET"] = {
@@ -539,8 +532,8 @@ ElvDB = {
 							["size"] = 18,
 						},
 						["name"] = {
-							["fontSize"] = 8,
 							["font"] = "Arial Narrow",
+							["fontSize"] = 8,
 						},
 						["level"] = {
 							["enable"] = false,
@@ -565,15 +558,15 @@ ElvDB = {
 							["font"] = "Arial Narrow",
 							["height"] = 5,
 						},
-						["name"] = {
-							["abbrev"] = true,
-							["fontSize"] = 7,
-							["useClassColor"] = false,
-							["font"] = "Arial Narrow",
-						},
 						["health"] = {
 							["height"] = 7,
 							["width"] = 90,
+						},
+						["name"] = {
+							["abbrev"] = true,
+							["font"] = "Arial Narrow",
+							["useClassColor"] = false,
+							["fontSize"] = 7,
 						},
 						["buffs"] = {
 							["countFontSize"] = 7,
@@ -616,20 +609,27 @@ ElvDB = {
 							["size"] = 18,
 						},
 						["name"] = {
-							["fontSize"] = 7,
-							["useClassColor"] = false,
 							["font"] = "Arial Narrow",
+							["useClassColor"] = false,
+							["fontSize"] = 7,
 						},
 					},
 				},
 				["font"] = "Arial Narrow",
 			},
-			["tooltip"] = {
-				["fontSize"] = 12,
-				["healthBar"] = {
-					["font"] = "Arial Narrow",
-				},
+			["chat"] = {
 				["font"] = "Arial Narrow",
+				["tapFontSize"] = 12,
+				["panelWidth"] = 440,
+				["fontSize"] = 12,
+				["emotionIcons"] = false,
+				["panelColorConverted"] = true,
+				["panelHeight"] = 220,
+				["editBoxPosition"] = "ABOVE_CHAT",
+				["panelBackdrop"] = "HIDEBOTH",
+				["maxLines"] = 256,
+				["fadeTabsNoBackdrop"] = false,
+				["tabFont"] = "Arial Narrow",
 			},
 		},
 	},
@@ -662,7 +662,9 @@ ElvPrivateDB = {
 			["install_complete"] = "6.08",
 		},
 		["Lucybank - Al'ar - Season 7"] = {
-			["install_complete"] = "6.08",
+			["actionbar"] = {
+				["enable"] = false,
+			},
 			["bags"] = {
 				["enable"] = false,
 			},
@@ -673,9 +675,7 @@ ElvPrivateDB = {
 					["focus"] = false,
 				},
 			},
-			["actionbar"] = {
-				["enable"] = false,
-			},
+			["install_complete"] = "6.08",
 		},
 	},
 }

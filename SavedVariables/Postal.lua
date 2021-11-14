@@ -1,5 +1,9 @@
 
 Postal3DB = {
+	["profileKeys"] = {
+		["Lucyon - Al'ar - Season 7"] = "Lucyon - Al'ar - Season 7",
+		["Lucybank - Al'ar - Season 7"] = "Lucybank - Al'ar - Season 7",
+	},
 	["global"] = {
 		["BlackBook"] = {
 			["alts"] = {
@@ -7,10 +11,6 @@ Postal3DB = {
 				"Lucyon|Al'ar - Season 7|Alliance|60|DRUID", -- [2]
 			},
 		},
-	},
-	["profileKeys"] = {
-		["Lucyon - Al'ar - Season 7"] = "Lucyon - Al'ar - Season 7",
-		["Lucybank - Al'ar - Season 7"] = "Lucybank - Al'ar - Season 7",
 	},
 	["profiles"] = {
 		["Lucyon - Al'ar - Season 7"] = {

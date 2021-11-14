@@ -15,7 +15,7 @@ ActionBarSaverDB = {
 		},
 		["WARLOCK"] = {
 		},
-		["ROGUE"] = {
+		["HUNTER"] = {
 		},
 		["DRUID"] = {
 			["newchar"] = {
@@ -34,15 +34,15 @@ ActionBarSaverDB = {
 				[22] = "macro|22||delete|Interface\\Icons\\ability_deepwinddunk_dunk|#showtooltip Delete/n/run local f=DeM or CreateFrame(\"Button\",\"DeM\",nil,\"SecureActionButtonTemplate\") f:SetAttribute(\"type\",\"click\") f:SetAttribute(\"clickbutton\",GetMouseFocus())/n/click DeM/n/run DeleteCursorItem();",
 				[11] = "macro|11||roll|Interface\\Icons\\ability_deathknight_brittlebones|#sdm/n/click CA2CharacterAdvancementMainClassButton1/n/click CA2.CharacterAdvancementMain.Main.Tree1.Content.Spells.Button1/n/click DropDownList1Button3/n/click [btn:5]sdh Button5;[btn:4]sdh Button4;[btn:3]sdh MiddleButton;[btn:2]sdh RightButton;sdh",
 				[53] = "spell|4||Criminal Intent||9930872",
-				[57] = "macro|57||book|Interface\\Icons\\ability_monk_effuse|/cast book of ascension",
+				[13] = "spell|8||Incantation of Friendship|Recruit-A-Friend|976240",
 				[55] = "macro|55||13|Interface\\Icons\\INV_Misc_QuestionMark|#showtooltip/n/use 13",
 				[56] = "macro|56||self|Interface\\Icons\\Ability_Ambush|/target player",
-				[13] = "spell|8||Incantation of Friendship|Recruit-A-Friend|976240",
+				[57] = "macro|57||book|Interface\\Icons\\ability_monk_effuse|/cast book of ascension",
 			},
 		},
 		["SHAMAN"] = {
 		},
-		["HUNTER"] = {
+		["ROGUE"] = {
 		},
 	},
 	["spellSubs"] = {

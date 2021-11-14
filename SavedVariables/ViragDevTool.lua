@@ -15,9 +15,9 @@ ViragDevTool_Settings = {
 			["active"] = false,
 		}, -- [1]
 		{
-			["unit"] = "player",
-			["event"] = "UNIT_AURA",
 			["active"] = false,
+			["event"] = "UNIT_AURA",
+			["unit"] = "player",
 		}, -- [2]
 		{
 			["event"] = "CHAT_MSG_CHANNEL",
