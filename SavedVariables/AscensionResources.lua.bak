@@ -1,0 +1,16 @@
+
+AscensionResourcesDB = {
+	["profileKeys"] = {
+		["Lucyon - Al'ar - Season 7"] = "Lucyon - Al'ar - Season 7",
+	},
+	["profiles"] = {
+		["Lucyon - Al'ar - Season 7"] = {
+			["energyShowTotal"] = false,
+			["rageShowTotal"] = false,
+			["rageHeight"] = 10,
+			["energyHeight"] = 10,
+			["width"] = 50,
+			["fontSize"] = 8,
+		},
+	},
+}

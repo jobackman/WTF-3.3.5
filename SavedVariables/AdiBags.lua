@@ -7,26 +7,23 @@ AdiBagsDB = {
 			["profiles"] = {
 				["Default"] = {
 					["overrides"] = {
-						[316955] = "No-Delete#Equipment",
+						[18470] = "No-Delete#Equipment",
 						[33004] = "Consumable#Consumable",
 						[110000] = "Other#Consumable",
 						[12344] = "No-Delete#Equipment",
 						[261150] = "No-Delete#Equipment",
-						[2901] = "Miscellaneous#Miscellaneous",
 						[121422] = "Miscellaneous#Miscellaneous",
 						[24102] = "Consumable#Consumable",
-						[243912] = "No-Delete#Equipment",
-						[18759] = "New#New",
+						[18957] = "LvLing#Equipment",
 						[248623] = "No-Delete#Equipment",
 						[11145] = "Miscellaneous#Miscellaneous",
 						[11184] = "Ungoro Crystals#Quest",
-						[6948] = "Soul shards#Ammunition",
-						[214276] = "No-Delete#Equipment",
-						[243900] = "No-Delete#Equipment",
-						[11185] = "Ungoro Crystals#Quest",
+						[6948] = "Miscellaneous#Miscellaneous",
+						[2901] = "Miscellaneous#Miscellaneous",
+						[800096] = "Other#Consumable",
 						[220782] = "No-Delete#Equipment",
-						[213098] = "No-Delete#Equipment",
-						[216729] = "No-Delete#Equipment",
+						[11185] = "Ungoro Crystals#Quest",
+						[2038287] = "No-Delete#Equipment",
 						[11186] = "Ungoro Crystals#Quest",
 						[46978] = "Miscellaneous#Miscellaneous",
 						[5956] = "Miscellaneous#Miscellaneous",
@@ -36,7 +33,7 @@ AdiBagsDB = {
 				},
 			},
 		},
-		["ItemSets"] = {
+		["DataSource"] = {
 		},
 		["NewItem"] = {
 		},
@@ -53,7 +50,7 @@ AdiBagsDB = {
 				},
 			},
 		},
-		["DataSource"] = {
+		["ItemSets"] = {
 		},
 		["TidyBags"] = {
 		},
@@ -155,10 +152,10 @@ AdiBagsDB = {
 		["Lugge - Magtheridon - Hybrid Risk"] = "Default",
 		["Iucy - Darkmoon - Season IV"] = "Default",
 		["Lucybelf - Wildhammer - Season 6"] = "Default",
-		["Lucyforged - Gul'dan - League 2"] = "Default",
+		["Stensture - Elune - Season III"] = "Default",
 		["Kvinnapang - Wildhammer - Season 6"] = "Default",
 		["Lucyonn - Laughing Skull - High-Risk"] = "Default",
-		["Stensture - Elune - Season III"] = "Default",
+		["Lucyforged - Gul'dan - League 2"] = "Default",
 		["Lucyjudge - Bleeding Hollow - Season V"] = "Default",
 		["Lucyhugge - Bleeding Hollow - Season V"] = "Default",
 		["Lucynelfy - Shadowsong - Season III"] = "Default",

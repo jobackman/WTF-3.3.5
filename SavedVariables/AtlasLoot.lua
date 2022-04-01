@@ -5,10 +5,10 @@ AtlasLootDB = {
 		["Kvinnahej - Wildhammer - Season 6"] = "Kvinnahej - Wildhammer - Season 6",
 		["Lucylucylucy - Wildhammer - Season 6"] = "Lucylucylucy - Wildhammer - Season 6",
 		["Berthilda - Wildhammer - Season 6"] = "Berthilda - Wildhammer - Season 6",
-		["Lucygnome - Wildhammer - Season 6"] = "Lucygnome - Wildhammer - Season 6",
+		["Lucystab - Wildhammer - Season 6"] = "Lucystab - Wildhammer - Season 6",
 		["Lucyforged - Gul'dan - League 2"] = "Lucyforged - Gul'dan - League 2",
 		["Lucytank - Wildhammer - Season 6"] = "Lucytank - Wildhammer - Season 6",
-		["Lucystab - Wildhammer - Season 6"] = "Lucystab - Wildhammer - Season 6",
+		["Lucygnome - Wildhammer - Season 6"] = "Lucygnome - Wildhammer - Season 6",
 		["Lucyon - Gul'dan - League 2"] = "Lucyon - Gul'dan - League 2",
 		["Lucyjudge - Wildhammer - Season 6"] = "Lucyjudge - Wildhammer - Season 6",
 		["Lucynelfy - Wildhammer - Season 6"] = "Lucynelfy - Wildhammer - Season 6",
@@ -27,7 +27,7 @@ AtlasLootDB = {
 		["Berthilda - Wildhammer - Season 6"] = {
 			["AtlasType"] = "Unknown",
 		},
-		["Lucygnome - Wildhammer - Season 6"] = {
+		["Lucystab - Wildhammer - Season 6"] = {
 			["AtlasType"] = "Unknown",
 		},
 		["Lucyforged - Gul'dan - League 2"] = {
@@ -36,7 +36,7 @@ AtlasLootDB = {
 		["Lucytank - Wildhammer - Season 6"] = {
 			["AtlasType"] = "Unknown",
 		},
-		["Lucystab - Wildhammer - Season 6"] = {
+		["Lucygnome - Wildhammer - Season 6"] = {
 			["AtlasType"] = "Unknown",
 		},
 		["Lucyon - Gul'dan - League 2"] = {
@@ -79,19 +79,19 @@ AtlasLootWishList = {
 			["AllowShareWishlist"] = true,
 			["markInTable"] = "own",
 		},
-		["Berthilda"] = {
+		["Lucystab"] = {
 			["AllowShareWishlistInCombat"] = true,
 			["UseDefaultWishlist"] = false,
 			["Mark"] = true,
 			["AllowShareWishlist"] = true,
 			["markInTable"] = "own",
 		},
-		["Lucya"] = {
+		["Lucytank"] = {
 			["AllowShareWishlistInCombat"] = true,
 			["UseDefaultWishlist"] = false,
 			["Mark"] = true,
-			["AllowShareWishlist"] = true,
 			["markInTable"] = "own",
+			["AllowShareWishlist"] = true,
 		},
 		["Lucygnome"] = {
 			["AllowShareWishlistInCombat"] = true,
@@ -107,7 +107,7 @@ AtlasLootWishList = {
 			["markInTable"] = "own",
 			["AllowShareWishlist"] = true,
 		},
-		["Lucystab"] = {
+		["Berthilda"] = {
 			["AllowShareWishlistInCombat"] = true,
 			["UseDefaultWishlist"] = false,
 			["Mark"] = true,
@@ -128,12 +128,12 @@ AtlasLootWishList = {
 			["AllowShareWishlist"] = true,
 			["markInTable"] = "own",
 		},
-		["Lucytank"] = {
+		["Lucya"] = {
 			["AllowShareWishlistInCombat"] = true,
 			["UseDefaultWishlist"] = false,
 			["Mark"] = true,
-			["markInTable"] = "own",
 			["AllowShareWishlist"] = true,
+			["markInTable"] = "own",
 		},
 		["Lucyjudge"] = {
 			["AllowShareWishlistInCombat"] = true,
@@ -164,21 +164,21 @@ AtlasLootWishList = {
 		},
 		["Lucyforged"] = {
 		},
-		["Berthilda"] = {
+		["Lucystab"] = {
 		},
-		["Lucya"] = {
+		["Lucytank"] = {
 		},
 		["Lucygnome"] = {
 		},
 		["Baldybaldbal"] = {
 		},
-		["Lucystab"] = {
+		["Berthilda"] = {
 		},
 		["Kvinnahej"] = {
 		},
 		["Lucybank"] = {
 		},
-		["Lucytank"] = {
+		["Lucya"] = {
 		},
 		["Lucyjudge"] = {
 		},

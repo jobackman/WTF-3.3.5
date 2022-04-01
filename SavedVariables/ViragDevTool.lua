@@ -1,13 +1,17 @@
 
 ViragDevTool_Settings = {
-	["logs"] = {
-	},
+	["isSideBarOpen"] = false,
 	["history"] = {
-		"find LFR", -- [1]
-		"find SLASH", -- [2]
-		"find Data ViragDevTool", -- [3]
-		"startswith Virag", -- [4]
-		"ViragDevTool.settings.history", -- [5]
+		"ActionButton2", -- [1]
+		"ViragDevTool", -- [2]
+		"LucyWA", -- [3]
+		"WeakAuras", -- [4]
+		"WorldFrame", -- [5]
+		"find LFR", -- [6]
+		"find SLASH", -- [7]
+		"find Data ViragDevTool", -- [8]
+		"startswith Virag", -- [9]
+		"ViragDevTool.settings.history", -- [10]
 	},
 	["events"] = {
 		{
@@ -26,5 +30,6 @@ ViragDevTool_Settings = {
 	},
 	["MAX_HISTORY_SIZE"] = 50,
 	["sideBarTabSelected"] = "history",
-	["isSideBarOpen"] = false,
+	["logs"] = {
+	},
 }

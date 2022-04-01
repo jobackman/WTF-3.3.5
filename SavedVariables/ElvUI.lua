@@ -6,8 +6,8 @@ ElvDB = {
 	},
 	["gold"] = {
 		["Al'ar - Season 7"] = {
-			["Lucyon"] = 38144508,
-			["Lucybank"] = 97330,
+			["Lucyon"] = 33428279,
+			["Lucybank"] = 95920,
 		},
 	},
 	["namespaces"] = {
@@ -21,14 +21,6 @@ ElvDB = {
 		},
 	},
 	["global"] = {
-		["general"] = {
-			["AceGUI"] = {
-				["height"] = 714.74,
-				["width"] = 823.47,
-			},
-			["locale"] = "enUS",
-			["UIScale"] = 0.709999978542328,
-		},
 		["nameplates"] = {
 			["filters"] = {
 				["ElvUI_Boss"] = {
@@ -36,6 +28,14 @@ ElvDB = {
 				["ElvUI_Totem"] = {
 				},
 			},
+		},
+		["general"] = {
+			["AceGUI"] = {
+				["height"] = 714.74,
+				["width"] = 823.47,
+			},
+			["locale"] = "enUS",
+			["UIScale"] = 0.709999978542328,
 		},
 	},
 	["profiles"] = {
@@ -76,7 +76,7 @@ ElvDB = {
 							["frequentUpdates"] = true,
 						},
 					},
-					["pet"] = {
+					["pettarget"] = {
 						["health"] = {
 							["frequentUpdates"] = true,
 						},
@@ -86,7 +86,7 @@ ElvDB = {
 							["frequentUpdates"] = true,
 						},
 					},
-					["pettarget"] = {
+					["pet"] = {
 						["health"] = {
 							["frequentUpdates"] = true,
 						},
@@ -102,9 +102,9 @@ ElvDB = {
 							["frequentUpdates"] = true,
 						},
 					},
-					["boss"] = {
-						["health"] = {
-							["frequentUpdates"] = true,
+					["party"] = {
+						["rdebuffs"] = {
+							["font"] = "Arial Narrow",
 						},
 					},
 					["raid40"] = {
@@ -129,15 +129,15 @@ ElvDB = {
 							["font"] = "Arial Narrow",
 						},
 					},
-					["player"] = {
-						["enable"] = false,
+					["boss"] = {
 						["health"] = {
 							["frequentUpdates"] = true,
 						},
 					},
-					["party"] = {
-						["rdebuffs"] = {
-							["font"] = "Arial Narrow",
+					["player"] = {
+						["enable"] = false,
+						["health"] = {
+							["frequentUpdates"] = true,
 						},
 					},
 				},
@@ -308,8 +308,7 @@ ElvDB = {
 							["frequentUpdates"] = true,
 						},
 					},
-					["pet"] = {
-						["enable"] = false,
+					["pettarget"] = {
 						["health"] = {
 							["frequentUpdates"] = true,
 						},
@@ -319,7 +318,8 @@ ElvDB = {
 							["frequentUpdates"] = true,
 						},
 					},
-					["pettarget"] = {
+					["pet"] = {
+						["enable"] = false,
 						["health"] = {
 							["frequentUpdates"] = true,
 						},
@@ -335,15 +335,23 @@ ElvDB = {
 							["frequentUpdates"] = true,
 						},
 					},
-					["boss"] = {
-						["debuffs"] = {
-							["enable"] = false,
+					["party"] = {
+						["healPrediction"] = {
+							["enable"] = true,
 						},
-						["health"] = {
-							["frequentUpdates"] = true,
+						["height"] = 46,
+						["buffs"] = {
+							["enable"] = true,
+						},
+						["rdebuffs"] = {
+							["font"] = "Arial Narrow",
 						},
 						["power"] = {
-							["height"] = 5,
+							["text_format"] = "",
+							["height"] = 4,
+						},
+						["health"] = {
+							["text_format"] = "",
 						},
 					},
 					["raid40"] = {
@@ -386,6 +394,17 @@ ElvDB = {
 							["text_format"] = "",
 						},
 					},
+					["boss"] = {
+						["debuffs"] = {
+							["enable"] = false,
+						},
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+						["power"] = {
+							["height"] = 5,
+						},
+					},
 					["player"] = {
 						["debuffs"] = {
 							["attachTo"] = "BUFFS",
@@ -400,25 +419,6 @@ ElvDB = {
 						["buffs"] = {
 							["attachTo"] = "FRAME",
 							["enable"] = true,
-						},
-					},
-					["party"] = {
-						["healPrediction"] = {
-							["enable"] = true,
-						},
-						["height"] = 46,
-						["buffs"] = {
-							["enable"] = true,
-						},
-						["rdebuffs"] = {
-							["font"] = "Arial Narrow",
-						},
-						["power"] = {
-							["text_format"] = "",
-							["height"] = 4,
-						},
-						["health"] = {
-							["text_format"] = "",
 						},
 					},
 				},

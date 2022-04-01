@@ -52,6 +52,10 @@ ACP_Data = {
 	["collapsed"] = {
 	},
 	["ProtectedAddons"] = {
+		["AscensionUI"] = true,
 		["ACP"] = true,
+		["AscensionHelp"] = true,
+		["AIO_Client"] = true,
+		["!AscensionAddonCompatibility"] = true,
 	},
 }

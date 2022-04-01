@@ -1,0 +1,23 @@
+
+sdm_version = "1.8.3"
+sdm_listFilters = {
+	["true"] = true,
+	["s"] = true,
+	["b"] = true,
+	["false"] = true,
+	["global"] = true,
+	["f"] = true,
+}
+sdm_iconSize = 36
+sdm_mainContents = {
+	0, -- [1]
+}
+sdm_macros = {
+	[0] = {
+		["type"] = "b",
+		["name"] = "healing-touch",
+		["ID"] = 0,
+		["text"] = "/run AIO.Handle(\"CAO\", \"LearnThisTalent\", CAO_Talent_References[17071])\n/run AIO.Handle(\"CAO\", \"LearnThisTalent\", CAO_Talent_References[17071])\n/run AIO.Handle(\"CAO\", \"LearnThisTalent\", CAO_Talent_References[17071])\n/run AIO.Handle(\"CAO\", \"LearnThisTalent\", CAO_Talent_References[17071])\n/run AIO.Handle(\"CAO\", \"LearnThisTalent\", CAO_Talent_References[16847])\n/run AIO.Handle(\"CAO\", \"LearnThisTalent\", CAO_Talent_References[16847])\n/run AIO.Handle(\"CAO\", \"LearnThisTalent\", CAO_Talent_References[16847])\n/run AIO.Handle(\"CAO\", \"LearnThisTalent\", CAO_Talent_References[61346])\n/run AIO.Handle(\"CAO\", \"LearnThisTalent\", CAO_Talent_References[61346])\n/run AIO.Handle(\"CAO\", \"LearnThisTalent\", CAO_Talent_References[61346])\n/run AIO.Handle(\"CAO\", \"LearnThisTalent\", CAO_Talent_References[12840])\n/run AIO.Handle(\"CAO\", \"LearnThisTalent\", CAO_Talent_References[12840])\n/run AIO.Handle(\"CAO\", \"LearnThisTalent\", CAO_Talent_References[12840])\n/run AIO.Handle(\"CAO\", \"LearnThisTalent\", CAO_Talent_References[19560])\n/run AIO.Handle(\"CAO\", \"LearnThisTalent\", CAO_Talent_References[19560])\n/run AIO.Handle(\"CAO\", \"LearnThisTalent\", CAO_Talent_References[818185])\n/run AIO.Handle(\"CAO\", \"LearnThisTalent\", CAO_Talent_References[818185])\n/run AIO.Handle(\"CAO\", \"LearnThisTalent\", CAO_Talent_References[818185])\n/run AIO.Handle(\"CAO\", \"LearnThisTalent\", CAO_Talent_References[818185])\n/run AIO.Handle(\"CAO\", \"LearnThisTalent\", CAO_Talent_References[818185])\n/run AIO.Handle(\"CAO\", \"LearnThisTalent\", CAO_Talent_References[24972])\n/run AIO.Handle(\"CAO\", \"LearnThisTalent\", CAO_Talent_References[24972])\n/run AIO.Handle(\"CAO\", \"LearnThisTalent\", CAO_Talent_References[24972])\n/run AIO.Handle(\"CAO\", \"LearnThisTalent\", CAO_Talent_References[24972])\n/run AIO.Handle(\"CAO\", \"LearnThisTalent\", CAO_Talent_References[24972])\n/run AIO.Handle(\"CAO\", \"LearnThisTalent\", CAO_Talent_References[24946])\n/run AIO.Handle(\"CAO\", \"LearnThisTalent\", CAO_Talent_References[24946])\n/run AIO.Handle(\"CAO\", \"LearnThisTalent\", CAO_Talent_References[24946])\n/run AIO.Handle(\"CAO\", \"LearnThisTalent\", CAO_Talent_References[24946])\n/run AIO.Handle(\"CAO\", \"LearnThisTalent\", CAO_Talent_References[24946])\n/run AIO.Handle(\"CAO\", \"LearnThisTalent\", CAO_Talent_References[33879])\n/run AIO.Handle(\"CAO\", \"LearnThisTalent\", CAO_Talent_References[33879])\n/run AIO.Handle(\"CAO\", \"LearnThisTalent\", CAO_Talent_References[34151])\n/run AIO.Handle(\"CAO\", \"LearnThisTalent\", CAO_Talent_References[34151])\n/run AIO.Handle(\"CAO\", \"LearnThisTalent\", CAO_Talent_References[34151])\n/run AIO.Handle(\"CAO\", \"LearnThisTalent\", CAO_Talent_References[48539])\n/run AIO.Handle(\"CAO\", \"LearnThisTalent\", CAO_Talent_References[48539])\n/run AIO.Handle(\"CAO\", \"LearnThisTalent\", CAO_Talent_References[48539])\n/run AIO.Handle(\"CAO\", \"LearnThisTalent\", CAO_Talent_References[18464])\n/run AIO.Handle(\"CAO\", \"LearnThisTalent\", CAO_Talent_References[18464])\n/run AIO.Handle(\"CAO\", \"LearnThisTalent\", CAO_Talent_References[18464])",
+		["icon"] = 1,
+	},
+}
